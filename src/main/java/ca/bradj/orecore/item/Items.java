@@ -9,6 +9,7 @@ import ca.bradj.orecore.item.copper.CopperBlockInferior;
 import ca.bradj.orecore.item.copper.CopperDust;
 import ca.bradj.orecore.item.copper.CopperIngot;
 import ca.bradj.orecore.item.copper.CopperNugget;
+import ca.bradj.orecore.item.copper.carb.Copper2CarbonateDust;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class Items {
@@ -67,6 +68,7 @@ public class Items {
 		GameRegistry.addSmelting(copperInferior, new ItemStack(copperNugget, 3), 0);
 		GameRegistry.addSmelting(copperDust, new ItemStack(copperIngot), 0);
 		GameRegistry.addRecipe(new ItemStack(copperIngot), new Object[]{"CCC", "CCC", "CCC", 'C', copperNugget});
+		GameRegistry.addShapelessRecipe(new ItemStack(copperNugget, 9), copperIngot);
 	}
 
 	private static <BLOCK extends Block> BLOCK registerBlock(BLOCK block, String name) {

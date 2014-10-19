@@ -1,4 +1,4 @@
-package ca.bradj.orecore.item;
+package ca.bradj.orecore.item.copper.carb;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
