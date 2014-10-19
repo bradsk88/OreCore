@@ -5,3 +5,5 @@ build
 bin
 /.gradle
 /.settings
+/src/main/java/codechicken
+/src/main/java/mekanism
