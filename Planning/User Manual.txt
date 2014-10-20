@@ -50,14 +50,20 @@ Aluminum Nugget:
 I just spilled juice on my keyboard and I felt like documenting it here...
 
 Tin Ore:
--Melts into one tin ingot
+-[Done]Melts into one tin ingot
 -Crushes into two tin dust
 
 Iron-Manganese Ore:
--Mines for 1 iron dust and 1 manganese dust
+[Done]-Mines for 1 iron dust and 1 manganese dust
+
+Iron Dust:
+[Done]-Melts into 1 iron ingot
+
+Iron Nugget:
+[Done]-9 into one iron ingot (9 from one iron ingot)
 
 Osmium Ore:
--Melts into one osmium ingots
+-[Done]Melts into one osmium ingots
 -Crushes into two osmium dust
 
 Magnesium Ore:
