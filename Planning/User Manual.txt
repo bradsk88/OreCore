@@ -21,14 +21,31 @@ The extra items pack is called: ByProducts
 
 This mod provides the following commonly needed ores:
 Copper Ore:
--Melts into one copper ingot
--Crushes into two copper dust and up to three copper2 carbonate dust
+[Done]-Melts into one copper ingot
+[ExternalModResponsibility]Crushes into two copper dust and up to three copper2 carbonate dust
+
+Copper Ore (inferior)
+[Done]-Melts into three copper nuggets
+-Crushes into six copper nuggets and 1 carbonate
+
+Copper Nugget:
+[Done]-Crafts into one ingot (takes nine)
+
+Copper Dust:
+[Done]-Melts into one copper ingot
 
 Bauxite Ore:
--Melts into one aluminum ingot
 -Crushes into one aluminum dust
+-[Done]-Aluminum dust melts into 3 aluminum nuggets
 -Chemically dissolves into two aluminum clusters (ByProducts Mod Only)
 --Aluminum clusters directly melt into ingots (ByProducts)
+
+Aluminum Ingot:
+[Done]-1 into 9 aluminum nuggets
+
+Aluminum Nugget:
+[Done]-9 into one aluminum ingot
+
 
 I just spilled juice on my keyboard and I felt like documenting it here...
 
