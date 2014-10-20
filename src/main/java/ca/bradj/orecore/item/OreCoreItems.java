@@ -20,6 +20,11 @@ import ca.bradj.orecore.item.osmium.OsmiumBlockInferior;
 import ca.bradj.orecore.item.osmium.OsmiumDust;
 import ca.bradj.orecore.item.osmium.OsmiumIngot;
 import ca.bradj.orecore.item.osmium.OsmiumNugget;
+import ca.bradj.orecore.item.tin.TinBlock;
+import ca.bradj.orecore.item.tin.TinBlockInferior;
+import ca.bradj.orecore.item.tin.TinDust;
+import ca.bradj.orecore.item.tin.TinIngot;
+import ca.bradj.orecore.item.tin.TinNugget;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class OreCoreItems {
@@ -107,10 +112,42 @@ public class OreCoreItems {
 	private static final String OSMIUM_DUST_NAME = "Osmium Dust";
 	private static final int OSMIUM_DUST_ID = 4014;
 	
+	// Tin
+
+	private static TinBlock tin;
+	private static final String TIN_NAME = "Tin";
+	private static final int TIN_ORE_ID = 4015;
+	
+
+	private static TinBlockInferior tinInferior;
+	private static final String TIN_INFERIOR_NAME = "Inferior Tin";
+	private static final int TIN_INFERIOR_ORE_ID = 4016;
+	
+
+	private static TinIngot tinIngot;
+	private static final String TIN_INGOT_NAME = "Tin Ingot";
+	private static final int TIN_INGOT_ID = 4017;
+	
+
+	private static TinNugget tinNugget;
+	private static final String TIN_NUGGET_NAME = "Tin Nugget";
+	private static final int TIN_NUGGET_ID = 4018;
+	
+	private static TinDust tinDust;
+	private static final String TIN_DUST_NAME = "Tin Dust";
+	private static final int TIN_DUST_ID = 4019;
+	
+	private static final String TIN_DICT = "oreTin";
+	private static final String TIN_INFERIOR_DICT = "oreTinInferior";
+	private static final String TIN_INGOT_DICT = "ingotTin";
+	private static final String TIN_NUGGET_DICT = "nuggetTin";
+	private static final String TIN_DUST_DICT = "dustTin";
+	
 	public static final void init() {
 		initCopper();
 		initAluminum();
 		initOsmium();
+		initTin();
 	}
 
 	private static void initAluminum() {
@@ -155,6 +192,27 @@ public class OreCoreItems {
 	}
 	
 	private static void initOsmium() {
+		tin = registerBlock(new TinBlock(TIN_ORE_ID), TIN_NAME);
+		tinInferior = registerBlock(new TinBlockInferior(TIN_INFERIOR_ORE_ID), TIN_INFERIOR_NAME);
+		tinIngot = registerItem(new TinIngot(TIN_INGOT_ID), TIN_INGOT_NAME);
+		tinNugget = registerItem(new TinNugget(TIN_NUGGET_ID), TIN_NUGGET_NAME);
+		tinDust = registerItem(new TinDust(TIN_DUST_ID), TIN_DUST_NAME);
+
+		GameRegistry.addRecipe(new ItemStack(tinIngot), new Object[]{"CCC", "CCC", "CCC", 'C', tinNugget});
+		GameRegistry.addShapelessRecipe(new ItemStack(tinNugget, 9), tinIngot);
+		
+		OreDictionary.registerOre(TIN_DICT, tin);
+		OreDictionary.registerOre(TIN_INFERIOR_DICT, tinInferior);
+		OreDictionary.registerOre(TIN_INGOT_DICT, tinIngot);
+		OreDictionary.registerOre(TIN_NUGGET_DICT, tinNugget);
+		OreDictionary.registerOre(TIN_DUST_DICT, tinDust);
+		
+		addSmelting(TIN_DICT, tinIngot, 1);
+		addSmelting(TIN_INFERIOR_DICT, tinNugget, 3);
+		addSmelting(TIN_DUST_DICT, tinIngot, 1);
+	}
+	
+	private static void initTin() {
 		osmium = registerBlock(new OsmiumBlock(OSMIUM_ORE_ID), OSMIUM_NAME);
 		osmiumInferior = registerBlock(new OsmiumBlockInferior(OSMIUM_INFERIOR_ORE_ID), OSMIUM_INFERIOR_NAME);
 		osmiumIngot = registerItem(new OsmiumIngot(OSMIUM_INGOT_ID), OSMIUM_INGOT_NAME);
