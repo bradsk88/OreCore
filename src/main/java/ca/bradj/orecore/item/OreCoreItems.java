@@ -124,11 +124,11 @@ public class OreCoreItems {
 		GameRegistry.addShapelessRecipe(new ItemStack(aluminumNugget, 9), aluminumIngot);
 		
 		OreDictionary.registerOre(BAUXITE_DICT, new ItemStack(bauxite, 1, 1));
-		OreDictionary.registerOre(ALUMINUM_DUST_DICT, new ItemStack(aluminumDust, 1, 1));
-		OreDictionary.registerOre(ALUMINUM_NUGGET_DICT, new ItemStack(aluminumNugget, 1, 1));
-		OreDictionary.registerOre(ALUMINUM_INGOT_DICT, new ItemStack(aluminumIngot, 1, 1));
+		OreDictionary.registerOre(ALUMINUM_DUST_DICT, aluminumDust);
+		OreDictionary.registerOre(ALUMINUM_NUGGET_DICT, aluminumNugget);
+		OreDictionary.registerOre(ALUMINUM_INGOT_DICT, aluminumIngot);
 		
-		addSmelting(ALUMINUM_DUST_NAME, aluminumNugget, 3);
+		addSmelting(ALUMINUM_DUST_DICT, aluminumNugget, 3);
 	}
 
 	private static void initCopper() {
@@ -161,8 +161,8 @@ public class OreCoreItems {
 		osmiumNugget = registerItem(new OsmiumNugget(OSMIUM_NUGGET_ID), OSMIUM_NUGGET_NAME);
 		osmiumDust = registerItem(new OsmiumDust(OSMIUM_DUST_ID), OSMIUM_DUST_NAME);
 
-		GameRegistry.addRecipe(new ItemStack(copperIngot), new Object[]{"CCC", "CCC", "CCC", 'C', copperNugget});
-		GameRegistry.addShapelessRecipe(new ItemStack(copperNugget, 9), copperIngot);
+		GameRegistry.addRecipe(new ItemStack(osmiumIngot), new Object[]{"CCC", "CCC", "CCC", 'C', osmiumNugget});
+		GameRegistry.addShapelessRecipe(new ItemStack(osmiumNugget, 9), osmiumIngot);
 		
 		OreDictionary.registerOre(OSMIUM_DICT, osmium);
 		OreDictionary.registerOre(OSMIUM_INFERIOR_DICT, osmiumInferior);
@@ -170,7 +170,7 @@ public class OreCoreItems {
 		OreDictionary.registerOre(OSMIUM_NUGGET_DICT, osmiumNugget);
 		OreDictionary.registerOre(OSMIUM_DUST_DICT, osmiumDust);
 		
-		addSmelting(OSMIUM_DICT, osmiumIngot, 0);
+		addSmelting(OSMIUM_DICT, osmiumIngot, 1);
 		addSmelting(OSMIUM_INFERIOR_DICT, osmiumNugget, 3);
 		addSmelting(OSMIUM_DUST_DICT, osmiumIngot, 1);
 	}

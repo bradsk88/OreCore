@@ -15,12 +15,11 @@ buildscript {
     }
 }
 
-apply plugin: 'maven'
 apply plugin: 'forge'
 
-version = "1.7.10-0.1"
-group= "ca.bradj.orecore"
-archivesBaseName = "orecore"
+version = "1.7.10-0.1.1"
+group= "ca.bradj.orecore" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "modid"
 
 minecraft {
     version = "1.7.10-10.13.0.1180"
@@ -60,26 +59,5 @@ processResources
     // copy everything else, thats not the mcmod.info
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
-    }
-}
-
-configurations {
-    deployerJars
-}
-
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    deployerJars "org.apache.maven.wagon:wagon-ssh:2.2"
-}
-
-uploadArchives {
-    repositories.mavenDeployer {
-        configuration = configurations.deployerJars
-          repository (url: "http://bradj.ca:8081/nexus/content/repositories/snapshots/") {
-            authentication(userName: "bradsk88", password: "KZz*6VvU4I7@")
-        }
     }
 }

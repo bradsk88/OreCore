@@ -1,13 +1,11 @@
 package ca.bradj.orecore.item.aluminum;
 
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
+import ca.bradj.orecore.item.OreCoreItem;
 
-public class AluminumIngot extends Item {
+public class AluminumIngot extends OreCoreItem {
 
 	public AluminumIngot(int aluminumIngotId) {
-		setCreativeTab(CreativeTabs.tabMaterials);
-		setTextureName("orecore:aluminumIngot");
+		super(aluminumIngotId, "aluminumIngot");
 	}
 	
 }
