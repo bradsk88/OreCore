@@ -26,14 +26,19 @@
 			<location>C:/Users/Brad/Desktop/Forge/jars</location>
 		</link>
 		<link>
+			<name>java</name>
+			<type>2</type>
+			<location>C:/Users/Brad/Desktop/dev/OreCore/src/main/java</location>
+		</link>
+		<link>
 			<name>lib</name>
 			<type>2</type>
 			<location>C:/Users/Brad/Desktop/Forge/lib</location>
 		</link>
 		<link>
-			<name>src</name>
+			<name>resources</name>
 			<type>2</type>
-			<location>C:/Users/Brad/Desktop/Forge/src</location>
+			<location>C:/Users/Brad/Desktop/dev/OreCore/src/main/resources</location>
 		</link>
 	</linkedResources>
 </projectDescription>

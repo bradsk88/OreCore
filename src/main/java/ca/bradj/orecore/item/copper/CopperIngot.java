@@ -1,13 +1,11 @@
 package ca.bradj.orecore.item.copper;
 
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
+import ca.bradj.orecore.item.OreCoreItem;
 
-public class CopperIngot extends Item {
+public class CopperIngot extends OreCoreItem {
 
 	public CopperIngot(int id) {
-		this.setCreativeTab(CreativeTabs.tabMaterials);
-		this.setTextureName("orecore:copperIngot");
+		super(id, "copperIngot");
 	}
 	
 }

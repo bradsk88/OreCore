@@ -2,16 +2,18 @@ package ca.bradj.orecore;
 
 import java.util.logging.Logger;
 
-import org.apache.logging.log4j.core.config.Loggers;
-
-import net.minecraft.init.Blocks;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import ca.bradj.orecore.item.OreCoreItems;
 import cpw.mods.fml.common.Mod;
-import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
+import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 
 @Mod(modid = OreCore.MODID, version = OreCore.VERSION)
 public class OreCore {
@@ -19,6 +21,7 @@ public class OreCore {
 	@SidedProxy(clientSide="ca.bradj.orecore.ClientProxy", serverSide="ca.bradj.orecore.ServerProxy")
     public static CommonProxy proxy;
 	
+	@SuppressWarnings("unused")
 	private static final Logger LOGGER = Logger.getLogger("Minecraft");
 	
 	public static final String MODID = "OreCore";
@@ -27,13 +30,21 @@ public class OreCore {
 	@Instance
 	public static OreCore INSTANCE = new OreCore();
 
+	public static CreativeTabs tabOreCore = new CreativeTabs("tabOreCore") {
+	    @Override
+	    @SideOnly(Side.CLIENT)
+	    public Item getTabIconItem() {
+	        return OreCoreItems.copperIngot;
+	    }
+	};
+	
     /**
      * Run before anything else. Read your config, create blocks, items, etc, and
      * register them with the GameRegistry.
      */
     @EventHandler
     public void preInit(FMLPreInitializationEvent e) {
-        this.proxy.preInit(e);
+        OreCore.proxy.preInit(e);
     }
     
     /**
@@ -41,7 +52,7 @@ public class OreCore {
      */
     @EventHandler
     public void init(FMLInitializationEvent e) {
-        this.proxy.init(e);
+    	OreCore.proxy.init(e);
     }
 
     /**
@@ -49,7 +60,7 @@ public class OreCore {
      */
     @EventHandler
     public void postInit(FMLPostInitializationEvent e) {
-        this.proxy.postInit(e);
+    	OreCore.proxy.postInit(e);
     }
     
 }

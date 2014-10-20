@@ -1,15 +1,13 @@
 package ca.bradj.orecore.item.copper;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
+import ca.bradj.orecore.item.OreBlock;
 
-public class CopperBlockInferior extends Block {
+public class CopperBlockInferior extends OreBlock {
 
 	public CopperBlockInferior(int id) {
-		super(Material.rock);
-		setCreativeTab(CreativeTabs.tabBlock);
-		setBlockTextureName("orecore:copperInferior");
+		super(id, "copperInferior");
+		setHardness(1f);
+		this.setHarvestLevel("pickaxe", 1);
 	}
 	
 }
