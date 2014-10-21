@@ -20,11 +20,11 @@ public class Silver {
 	public static final String SILVER_GRAVEL_DICT = "gravelSilver";
 
 	private static final String SILVER_NAME = "Silver";
-	private static final String SILVER_INFERIOR_NAME = "Inferior Silver";
-	private static final String SILVER_INGOT_NAME = "Silver Ingot";
-	private static final String SILVER_NUGGET_NAME = "Silver Nugget";
-	private static final String SILVER_DUST_NAME = "Silver Dust";
-	private static final String SILVER_GRAVEL_NAME = "Silver Gravel";
+	private static final String SILVER_INFERIOR_NAME = "Inferior.Silver";
+	private static final String SILVER_INGOT_NAME = "Silver.Ingot";
+	private static final String SILVER_NUGGET_NAME = "Silver.Nugget";
+	private static final String SILVER_DUST_NAME = "Silver.Dust";
+	private static final String SILVER_GRAVEL_NAME = "Silver.Gravel";
 	
 	public static final int SILVER_TOP_LEVEL = 50;
 	public static final int SILVER_GRAVEL_TOP_LEVEL = 50;
@@ -53,6 +53,7 @@ public class Silver {
 		OreCoreItems.ingotToNuggetStandard(SILVER_INGOT_DICT, OreCoreItems.silverNugget);
 
 		OreCoreItems.addSmelting(OreCoreItems.silver, OreCoreItems.silverIngot, 1);
+		OreCoreItems.addSmelting(OreCoreItems.silverDust, OreCoreItems.silverIngot, 1);
 		OreCoreItems.addSmelting(OreCoreItems.silverGravel, OreCoreItems.silverIngot, 1);
 		OreCoreItems.addSmelting(OreCoreItems.silverInferior, OreCoreItems.silverNugget, 3);
 	}

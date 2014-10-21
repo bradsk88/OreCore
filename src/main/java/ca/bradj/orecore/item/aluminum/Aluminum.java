@@ -12,10 +12,10 @@ public class Aluminum {
 	private static final String ALUMINUM_NUGGET_DICT = "nuggetAluminum";
 	private static final String ALUMINUM_INGOT_DICT = "ingotAluminum";
 
-	private static final String BAUXITE_NAME = "Bauxite Ore";
-	private static final String ALUMINUM_DUST_NAME = "Aluminum Dust";
-	private static final String ALUMINUM_NUGGET_NAME = "Aluminum Nugget";
-	private static final String ALUMINUM_INGOT_NAME = "Aluminum Ingot";
+	private static final String BAUXITE_NAME = "Bauxite.Ore";
+	private static final String ALUMINUM_DUST_NAME = "Aluminum.Dust";
+	private static final String ALUMINUM_NUGGET_NAME = "Aluminum.Nugget";
+	private static final String ALUMINUM_INGOT_NAME = "Aluminum.Ingot";
 	
 	public static final int BAUXITE_TOP_LEVEL = 50;
 	

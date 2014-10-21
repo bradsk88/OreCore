@@ -7,11 +7,11 @@ import ca.bradj.orecore.item.OreCoreItems;
 public class Tin {
 
 	private static final String TIN_NAME = "Tin";
-	private static final String TIN_INFERIOR_NAME = "Inferior Tin";
-	private static final String TIN_INGOT_NAME = "Tin Ingot";
-	private static final String TIN_NUGGET_NAME = "Tin Nugget";
-	private static final String TIN_DUST_NAME = "Tin Dust";
-	private static final String TIN_GRAVEL_NAME = "Tin Gravel";
+	private static final String TIN_INFERIOR_NAME = "Inferior.Tin";
+	private static final String TIN_INGOT_NAME = "Tin.Ingot";
+	private static final String TIN_NUGGET_NAME = "Tin.Nugget";
+	private static final String TIN_DUST_NAME = "Tin.Dust";
+	private static final String TIN_GRAVEL_NAME = "Tin.Gravel";
 
 	public static final String TIN_DICT = "oreTin";
 	public static final String TIN_INFERIOR_DICT = "oreTinInferior";

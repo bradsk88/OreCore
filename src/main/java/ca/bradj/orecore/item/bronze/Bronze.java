@@ -8,9 +8,9 @@ import ca.bradj.orecore.item.tin.Tin;
 
 public class Bronze {
 
-	private static final String BRONZE_DUST_NAME = "Bronze Dust";
-	private static final String BRONZE_INGOT_NAME = "Bronze Ingot";
-	private static final String BRONZE_NUGGET_NAME = "Bronze Nugget";
+	private static final String BRONZE_DUST_NAME = "Bronze.Dust";
+	private static final String BRONZE_INGOT_NAME = "Bronze.Ingot";
+	private static final String BRONZE_NUGGET_NAME = "Bronze.Nugget";
 
 	public static final String BRONZE_DUST_DICT = "dustBronze";
 	public static final String BRONZE_INGOT_DICT = "ingotBronze";

@@ -12,9 +12,9 @@ public class Steel {
 	private static final String STEEL_NUGGET_DICT = "nuggetSteel";
 	private static final String STEEL_INGOT_DICT = "ingotSteel";
 	
-	private static final String STEEL_DUST_NAME = "Steel Dust";
-	private static final String STEEL_INGOT_NAME = "Steel Ingot";
-	private static final String STEEL_NUGGET_NAME = "Steel Nugget";
+	private static final String STEEL_DUST_NAME = "Steel.Dust";
+	private static final String STEEL_INGOT_NAME = "Steel.Ingot";
+	private static final String STEEL_NUGGET_NAME = "Steel.Nugget";
 
 	public static void init() {
 		OreCoreItems.steelDust = OreCoreItems.registerItem(new SteelDust(IDs.STEEL_DUST_ID), STEEL_DUST_NAME);

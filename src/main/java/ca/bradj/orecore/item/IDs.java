@@ -58,4 +58,7 @@ public class IDs {
 	public static final int COPPER_2_CARBONATE_NUGGET_ID = 4038;
 	public static final int COPPER_2_CARBONATE_INGOT_ID = 4039;
 	
+	public static final int IRON_DUST_ID = 4040;
+	public static final int IRON_NUGGET_ID = 4041;
+	
 }

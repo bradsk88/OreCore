@@ -5,7 +5,7 @@ import ca.bradj.orecore.item.OreCoreItems;
 
 public class IronManganese {
 
-	private static final String I_M_NAME = "Iron Manganese";
+	private static final String I_M_NAME = "Iron.Manganese";
 	
 	public static final int IRON_MANGANESE_TOP_LEVEL = 40;
 	

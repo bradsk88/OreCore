@@ -12,9 +12,9 @@ public class Manganese {
 	public static final String INGOT_DICT = "ingotManganese";
 	public static final String NUGGET_DICT = "nuggetManganese";
 
-	private static final String MANGANESE_DUST_NAME = "Manganese Dust";
-	private static final String MANGANESE_NUGGET_NAME = "Manganese Nugget";
-	private static final String MANGANESE_INGOT_NAME = "Manganese Ingot";
+	private static final String MANGANESE_DUST_NAME = "Manganese.Dust";
+	private static final String MANGANESE_NUGGET_NAME = "Manganese.Nugget";
+	private static final String MANGANESE_INGOT_NAME = "Manganese.Ingot";
 
 	public static void init() {
 		OreCoreItems.manganeseDust = OreCoreItems.registerItem(new ManganeseDust(IDs.MANGANESE_DUST_ID), MANGANESE_DUST_NAME);

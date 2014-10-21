@@ -14,11 +14,11 @@ public class Copper {
 	public static final String COPPER_GRAVEL_DICT = "gravelCopper";
 
 	private static final String COPPER_NAME = "Copper";
-	private static final String COPPER_INFERIOR_NAME = "Inferior Copper";
-	private static final String COPPER_INGOT_NAME = "Copper Ingot";
-	private static final String COPPER_NUGGET_NAME = "Copper Nugget";
-	private static final String COPPER_DUST_NAME = "Copper Dust";
-	private static final String COPPER_GRAVEL_NAME = "Copper Gravel";
+	private static final String COPPER_INFERIOR_NAME = "Inferior.Copper";
+	private static final String COPPER_INGOT_NAME = "Copper.Ingot";
+	private static final String COPPER_NUGGET_NAME = "Copper.Nugget";
+	private static final String COPPER_DUST_NAME = "Copper.Dust";
+	private static final String COPPER_GRAVEL_NAME = "Copper.Gravel";
 	
 	public static final int COPPER_TOP_LEVEL = 50;
 	public static final int COPPER_GRAVEL_TOP_LEVEL = 50;
@@ -47,6 +47,7 @@ public class Copper {
 		OreCoreItems.ingotToNuggetStandard(COPPER_INGOT_DICT, OreCoreItems.copperNugget);
 
 		OreCoreItems.addSmelting(OreCoreItems.copper, OreCoreItems.copperIngot, 1);
+		OreCoreItems.addSmelting(OreCoreItems.copperDust, OreCoreItems.copperIngot, 1);
 		OreCoreItems.addSmelting(OreCoreItems.copperGravel, OreCoreItems.copperIngot, 1);
 		OreCoreItems.addSmelting(OreCoreItems.copperInferior, OreCoreItems.copperNugget, 3);
 	}

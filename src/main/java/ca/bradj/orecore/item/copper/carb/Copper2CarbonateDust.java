@@ -1,15 +1,11 @@
 package ca.bradj.orecore.item.copper.carb;
 
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
+import ca.bradj.orecore.item.OreCoreItem;
 
-public class Copper2CarbonateDust extends Item {
+public class Copper2CarbonateDust extends OreCoreItem {
 
 	public Copper2CarbonateDust(int id) {
-		setTextureName("orecore:copper2CarbonateDust");
-		setCreativeTab(CreativeTabs.tabMaterials);
+		super(id, "copper2CarbonateDust");
 	}
-
-	
 	
 }
