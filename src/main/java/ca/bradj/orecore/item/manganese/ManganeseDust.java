@@ -1,4 +1,4 @@
-package ca.bradj.orecore.item.steel;
+package ca.bradj.orecore.item.manganese;
 
 import ca.bradj.orecore.item.OreCoreItem;
 
