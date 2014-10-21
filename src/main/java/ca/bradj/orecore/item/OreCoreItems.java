@@ -25,6 +25,8 @@ import ca.bradj.orecore.item.copper.CopperIngot;
 import ca.bradj.orecore.item.copper.CopperNugget;
 import ca.bradj.orecore.item.copper.carb.Copper2Carbonate;
 import ca.bradj.orecore.item.copper.carb.Copper2CarbonateDust;
+import ca.bradj.orecore.item.copper.carb.Copper2CarbonateIngot;
+import ca.bradj.orecore.item.copper.carb.Copper2CarbonateNugget;
 import ca.bradj.orecore.item.iron.Iron;
 import ca.bradj.orecore.item.iron.IronDust;
 import ca.bradj.orecore.item.iron.IronNugget;
@@ -73,6 +75,8 @@ public class OreCoreItems {
 	public static CopperGravel copperGravel;
 
 	public static Copper2CarbonateDust copper2CarbonateDust;
+	public static Copper2CarbonateNugget copper2CarbonateNugget;
+	public static Copper2CarbonateIngot copper2CarbonateIngot;
 
 	public static BauxiteOreBlock bauxite;
 	public static AluminumDust aluminumDust;

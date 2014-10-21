@@ -49,7 +49,6 @@ public class Copper {
 		OreCoreItems.addSmelting(OreCoreItems.copper, OreCoreItems.copperIngot, 1);
 		OreCoreItems.addSmelting(OreCoreItems.copperGravel, OreCoreItems.copperIngot, 1);
 		OreCoreItems.addSmelting(OreCoreItems.copperInferior, OreCoreItems.copperNugget, 3);
-		OreCoreItems.addSmelting(OreCoreItems.copperNugget, OreCoreItems.copperIngot, 1);
 	}
 
 }

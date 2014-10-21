@@ -55,7 +55,6 @@ public class Silver {
 		OreCoreItems.addSmelting(OreCoreItems.silver, OreCoreItems.silverIngot, 1);
 		OreCoreItems.addSmelting(OreCoreItems.silverGravel, OreCoreItems.silverIngot, 1);
 		OreCoreItems.addSmelting(OreCoreItems.silverInferior, OreCoreItems.silverNugget, 3);
-		OreCoreItems.addSmelting(OreCoreItems.silverNugget, OreCoreItems.silverIngot, 1);
 	}
 	
 }
