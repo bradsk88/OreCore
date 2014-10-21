@@ -19,6 +19,14 @@ public class Tin {
 	public static final String TIN_NUGGET_DICT = "nuggetTin";
 	public static final String TIN_DUST_DICT = "dustTin";
 	public static final String TIN_GRAVEL_DICT = "gravelTin";
+	
+	public static final int TIN_TOP_LEVEL = 55;
+	public static final int TIN_GRAVEL_TOP_LEVEL = 55;
+	public static final int TIN_INFERIOR_TOP_LEVEL = 70;
+	
+	public static final int TIN_VEIN_SIZE = 4;
+	public static final int TIN_GRAVEL_VEIN_SIZE = 4;
+	public static final int TIN_INFERIOR_VEIN_SIZE = 8; 
 
 	public static void init() {
 		OreCoreItems.tin = OreCoreItems.registerBlock(new TinBlock(IDs.TIN_ORE_ID), TIN_NAME);

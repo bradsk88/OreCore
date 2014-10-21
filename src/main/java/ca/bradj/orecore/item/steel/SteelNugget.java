@@ -1,4 +1,6 @@
-package ca.bradj.orecore.item;
+package ca.bradj.orecore.item.steel;
+
+import ca.bradj.orecore.item.OreCoreItem;
 
 
 public class SteelNugget extends OreCoreItem {

@@ -1,9 +1,11 @@
-package ca.bradj.orecore.item;
+package ca.bradj.orecore.item.iron_manganese;
 
 import java.util.ArrayList;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
+import ca.bradj.orecore.item.OreBlock;
+import ca.bradj.orecore.item.OreCoreItems;
 
 import com.google.common.collect.Lists;
 

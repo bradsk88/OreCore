@@ -1,5 +1,6 @@
 package ca.bradj.orecore.item;
 
+
 /**
  * Centralized locations for all items IDs.
  */
@@ -46,5 +47,6 @@ public class IDs {
 	
 	public static final int COPPER_GRAVEL_ID = 4029;
 	public static final int TIN_GRAVEL_ID = 4030;
+	public static final int IRON_MANGANESE_ID = 4031;
 	
 }

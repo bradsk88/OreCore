@@ -19,6 +19,14 @@ public class Copper {
 	private static final String COPPER_NUGGET_NAME = "Copper Nugget";
 	private static final String COPPER_DUST_NAME = "Copper Dust";
 	private static final String COPPER_GRAVEL_NAME = "Copper Gravel";
+	
+	public static final int COPPER_TOP_LEVEL = 50;
+	public static final int COPPER_GRAVEL_TOP_LEVEL = 50;
+	public static final int COPPER_INFERIOR_TOP_LEVEL = 70;
+	
+	public static final int COPPER_VEIN_SIZE = 6;
+	public static final int COPPER_GRAVEL_VEIN_SIZE = 4;
+	public static final int COPPER_INFERIOR_VEIN_SIZE = 10;
 
 	public static void init() {
 		// Copper

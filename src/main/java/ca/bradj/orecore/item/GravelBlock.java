@@ -1,11 +1,15 @@
 package ca.bradj.orecore.item;
 
-import net.minecraft.block.material.Material;
+import net.minecraft.block.BlockFalling;
+import ca.bradj.orecore.OreCore;
 
-public class GravelBlock extends OreCoreBlock {
+public class GravelBlock extends BlockFalling {
 
 	protected GravelBlock(int id, String name) {
-		super(Material.ground, name);
+		super();
+		setBlockTextureName("orecore:"+name);
+		setCreativeTab(OreCore.tabOreCore);
+		setStepSound(soundTypeGravel);
 	}
 
 }

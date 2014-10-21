@@ -7,7 +7,6 @@ import net.minecraft.item.Item;
 import ca.bradj.orecore.item.OreCoreItems;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
-import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
@@ -26,9 +25,6 @@ public class OreCore {
 	
 	public static final String MODID = "OreCore";
 	public static final String VERSION = "0.1";
-
-	@Instance
-	public static OreCore INSTANCE = new OreCore();
 
 	public static CreativeTabs tabOreCore = new CreativeTabs("tabOreCore") {
 	    @Override

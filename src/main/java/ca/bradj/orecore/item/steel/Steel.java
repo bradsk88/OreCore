@@ -1,15 +1,10 @@
 package ca.bradj.orecore.item.steel;
 
-import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
 import ca.bradj.orecore.item.IDs;
-import ca.bradj.orecore.item.ItemStacks;
 import ca.bradj.orecore.item.OreCoreItems;
-import ca.bradj.orecore.item.SteelNugget;
 import ca.bradj.orecore.item.iron.Iron;
-import ca.bradj.orecore.item.iron.IronDust;
 import ca.bradj.orecore.item.manganese.Manganese;
-import cpw.mods.fml.common.registry.GameRegistry;
 
 public class Steel {
 

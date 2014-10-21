@@ -1,11 +1,9 @@
 package ca.bradj.orecore.item.aluminum;
 
-import ca.bradj.orecore.item.IDs;
-import ca.bradj.orecore.item.OreCoreItems;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
-import net.minecraftforge.oredict.ShapedOreRecipe;
-import cpw.mods.fml.common.registry.GameRegistry;
+import ca.bradj.orecore.item.IDs;
+import ca.bradj.orecore.item.OreCoreItems;
 
 public class Aluminum {
 
@@ -18,7 +16,11 @@ public class Aluminum {
 	private static final String ALUMINUM_DUST_NAME = "Aluminum Dust";
 	private static final String ALUMINUM_NUGGET_NAME = "Aluminum Nugget";
 	private static final String ALUMINUM_INGOT_NAME = "Aluminum Ingot";
-
+	
+	public static final int BAUXITE_TOP_LEVEL = 50;
+	
+	public static final int BAUXITE_VEIN_SIZE = 4;
+	
 	public static void init() {
 
 		OreCoreItems.bauxite = OreCoreItems.registerBlock(new BauxiteOreBlock(IDs.BAUXITE_ID), BAUXITE_NAME);
