@@ -28,5 +28,7 @@ public class Manganese {
 
 		OreCoreItems.nuggetToIngotStandard(NUGGET_DICT, OreCoreItems.manganeseIngot);
 		OreCoreItems.ingotToNuggetStandard(INGOT_DICT, OreCoreItems.manganeseNugget);
+		
+		OreCoreItems.addSmelting(OreCoreItems.manganeseDust, OreCoreItems.manganeseIngot, 1);
 	}
 }

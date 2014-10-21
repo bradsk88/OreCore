@@ -5,12 +5,14 @@ package ca.bradj.orecore.item;
  */
 public class IDs {
 
+	//TODO: Move these into config file -BJ
+	
 	public static final int BAUXITE_ID = 4000;
 	public static final int ALUMINUM_DUST_ID = 4001;
 	public static final int ALUMINUM_NUGGET_ID = 4002;
 	public static final int ALUMINUM_INGOT_ID = 4003;
 	
-	public static final int copperOreId = 4004; // TODO: Pick ID that actually
+	public static final int copperOreId = 4004;
 	public static final int copperInferiorOreId = 4005;
 	public static final int copperNuggetId = 4006;
 	public static final int copperIngotId = 4007;
@@ -39,5 +41,10 @@ public class IDs {
 	public static final int TIN_DUST_ID = 4025;
 	
 	public static final int BRONZE_DUST_ID = 4026;
+	public static final int BRONZE_INGOT_ID = 4027;
+	public static final int BRONZE_NUGGET_ID = 4028;
+	
+	public static final int COPPER_GRAVEL_ID = 4029;
+	public static final int TIN_GRAVEL_ID = 4030;
 	
 }

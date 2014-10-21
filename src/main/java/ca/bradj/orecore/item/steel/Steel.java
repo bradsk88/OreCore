@@ -6,6 +6,8 @@ import ca.bradj.orecore.item.IDs;
 import ca.bradj.orecore.item.ItemStacks;
 import ca.bradj.orecore.item.OreCoreItems;
 import ca.bradj.orecore.item.SteelNugget;
+import ca.bradj.orecore.item.iron.Iron;
+import ca.bradj.orecore.item.iron.IronDust;
 import ca.bradj.orecore.item.manganese.Manganese;
 import cpw.mods.fml.common.registry.GameRegistry;
 
@@ -28,17 +30,12 @@ public class Steel {
 		OreDictionary.registerOre(STEEL_NUGGET_DICT, OreCoreItems.steelNugget);
 		OreDictionary.registerOre(STEEL_INGOT_DICT, OreCoreItems.steelIngot);
 		
-		for (ItemStack i : OreDictionary.getOres(STEEL_DUST_DICT)) {
-			for (ItemStack j : OreDictionary.getOres(Manganese.DUST_DICT)) {
-				GameRegistry.addShapelessRecipe(new ItemStack(OreCoreItems.steelDust, 2), ItemStacks.one(i), ItemStacks.one(j));
-			}
-		}
+		OreCoreItems.addShapelessRecipe(OreCoreItems.steelDust, 2, Iron.IRON_DUST_DICT, Manganese.DUST_DICT);
 		
 		OreCoreItems.nuggetToIngotStandard(STEEL_NUGGET_DICT, OreCoreItems.steelIngot);
 		OreCoreItems.ingotToNuggetStandard(STEEL_INGOT_DICT, OreCoreItems.steelNugget);
 		
-		OreCoreItems.addSmelting(STEEL_DUST_DICT, OreCoreItems.steelIngot, 1);
-		OreCoreItems.addSmelting(Manganese.DUST_DICT, OreCoreItems.manganeseIngot, 1);
+		OreCoreItems.addSmelting(OreCoreItems.steelDust, OreCoreItems.steelIngot, 1);
 	}
 
 }

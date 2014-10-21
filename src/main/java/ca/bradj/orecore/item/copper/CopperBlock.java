@@ -10,4 +10,5 @@ public class CopperBlock extends OreBlock {
 		this.setHarvestLevel("pickaxe", 2);
 	}
 	
+	
 }

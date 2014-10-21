@@ -34,9 +34,9 @@ public class Osmium {
 		OreCoreItems.nuggetToIngotStandard(OSMIUM_NUGGET_DICT, OreCoreItems.osmiumIngot);
 		OreCoreItems.ingotToNuggetStandard(OSMIUM_INGOT_DICT, OreCoreItems.osmiumNugget);
 
-		OreCoreItems.addSmelting(OSMIUM_DICT, OreCoreItems.osmiumIngot, 1);
-		OreCoreItems.addSmelting(OSMIUM_INFERIOR_DICT, OreCoreItems.osmiumNugget, 3);
-		OreCoreItems.addSmelting(OSMIUM_DUST_DICT, OreCoreItems.osmiumIngot, 1);
+		OreCoreItems.addSmelting(OreCoreItems.osmium, OreCoreItems.osmiumIngot, 1);
+		OreCoreItems.addSmelting(OreCoreItems.osmiumInferior, OreCoreItems.osmiumNugget, 3);
+		OreCoreItems.addSmelting(OreCoreItems.osmiumDust, OreCoreItems.osmiumIngot, 1);
 	}
 
 }

@@ -6,9 +6,9 @@ import ca.bradj.orecore.item.OreCoreItems;
 
 public class Iron {
 
-	private static final String IRON_DUST_DICT = "dustIron";
-	private static final String IRON_NUGGET_DICT = "nuggetIron";
-	private static final String IRON_INGOT_DICT = "ingotIron";
+	public static final String IRON_DUST_DICT = "dustIron";
+	public static final String IRON_NUGGET_DICT = "nuggetIron";
+	public static final String IRON_INGOT_DICT = "ingotIron";
 
 	private static final String IRON_DUST_NAME = "Iron Dust";
 	private static final int IRON_DUST_ID = 4022;
@@ -23,7 +23,7 @@ public class Iron {
 		OreDictionary.registerOre(IRON_DUST_DICT, OreCoreItems.ironDust);
 		OreDictionary.registerOre(IRON_NUGGET_DICT, OreCoreItems.ironNugget);
 
-		OreCoreItems.addSmelting(IRON_DUST_DICT, Items.iron_ingot, 1);
+		OreCoreItems.addSmelting(OreCoreItems.ironDust, Items.iron_ingot, 1);
 
 		OreCoreItems.nuggetToIngotStandard(IRON_NUGGET_DICT, Items.iron_ingot);
 		OreCoreItems.ingotToNuggetStandard(IRON_INGOT_DICT, OreCoreItems.ironNugget);

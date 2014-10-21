@@ -4,6 +4,7 @@ import ca.bradj.orecore.item.IDs;
 import ca.bradj.orecore.item.OreCoreItems;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
+import net.minecraftforge.oredict.ShapedOreRecipe;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class Aluminum {
@@ -29,15 +30,11 @@ public class Aluminum {
 		OreDictionary.registerOre(ALUMINUM_DUST_DICT, OreCoreItems.aluminumDust);
 		OreDictionary.registerOre(ALUMINUM_NUGGET_DICT, OreCoreItems.aluminumNugget);
 		OreDictionary.registerOre(ALUMINUM_INGOT_DICT, OreCoreItems.aluminumIngot);
-		
-		for (ItemStack i : OreDictionary.getOres(ALUMINUM_NUGGET_DICT)) {
-			GameRegistry.addRecipe(new ItemStack(OreCoreItems.aluminumIngot), new Object[] { "CCC", "CCC", "CCC", 'C', i });
-		}
-		for (ItemStack i : OreDictionary.getOres(ALUMINUM_INGOT_DICT)) {
-			GameRegistry.addShapelessRecipe(new ItemStack(OreCoreItems.aluminumNugget, 9), i);
-		}
 
-		OreCoreItems.addSmelting(ALUMINUM_DUST_DICT, OreCoreItems.aluminumNugget, 3);
+		OreCoreItems.nuggetToIngotStandard(ALUMINUM_NUGGET_DICT, OreCoreItems.aluminumIngot);
+		OreCoreItems.ingotToNuggetStandard(ALUMINUM_INGOT_DICT, OreCoreItems.aluminumNugget);
+
+		OreCoreItems.addSmelting(OreCoreItems.aluminumDust, OreCoreItems.aluminumNugget, 3);
 	}
 
 }
