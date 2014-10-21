@@ -2,6 +2,7 @@ package ca.bradj.orecore.item.steel;
 
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
+import ca.bradj.orecore.item.IDs;
 import ca.bradj.orecore.item.ItemStacks;
 import ca.bradj.orecore.item.OreCoreItems;
 import ca.bradj.orecore.item.SteelNugget;
@@ -15,18 +16,13 @@ public class Steel {
 	private static final String STEEL_INGOT_DICT = "ingotSteel";
 	
 	private static final String STEEL_DUST_NAME = "Steel Dust";
-	private static final int STEEL_DUST_ID = 4023;
-
 	private static final String STEEL_INGOT_NAME = "Steel Ingot";
-	private static final int STEEL_INGOT_ID = 4024;
-
 	private static final String STEEL_NUGGET_NAME = "Steel Nugget";
-	private static final int STEEL_NUGGET_ID = 4025;
 
 	public static void init() {
-		OreCoreItems.steelDust = OreCoreItems.registerItem(new SteelDust(STEEL_DUST_ID), STEEL_DUST_NAME);
-		OreCoreItems.steelIngot = OreCoreItems.registerItem(new SteelIngot(STEEL_INGOT_ID), STEEL_INGOT_NAME);
-		OreCoreItems.steelNugget = OreCoreItems.registerItem(new SteelNugget(STEEL_NUGGET_ID), STEEL_NUGGET_NAME);
+		OreCoreItems.steelDust = OreCoreItems.registerItem(new SteelDust(IDs.STEEL_DUST_ID), STEEL_DUST_NAME);
+		OreCoreItems.steelIngot = OreCoreItems.registerItem(new SteelIngot(IDs.STEEL_INGOT_ID), STEEL_INGOT_NAME);
+		OreCoreItems.steelNugget = OreCoreItems.registerItem(new SteelNugget(IDs.STEEL_NUGGET_ID), STEEL_NUGGET_NAME);
 
 		OreDictionary.registerOre(STEEL_DUST_DICT, OreCoreItems.steelDust);
 		OreDictionary.registerOre(STEEL_NUGGET_DICT, OreCoreItems.steelNugget);

@@ -10,6 +10,10 @@ import ca.bradj.orecore.item.aluminum.AluminumDust;
 import ca.bradj.orecore.item.aluminum.AluminumIngot;
 import ca.bradj.orecore.item.aluminum.AluminumNugget;
 import ca.bradj.orecore.item.aluminum.BauxiteOreBlock;
+import ca.bradj.orecore.item.bronze.Bronze;
+import ca.bradj.orecore.item.bronze.BronzeDust;
+import ca.bradj.orecore.item.bronze.BronzeIngot;
+import ca.bradj.orecore.item.bronze.BronzeNugget;
 import ca.bradj.orecore.item.copper.Copper;
 import ca.bradj.orecore.item.copper.CopperBlock;
 import ca.bradj.orecore.item.copper.CopperBlockInferior;
@@ -84,11 +88,16 @@ public class OreCoreItems {
 	public static SteelDust steelDust;
 	public static SteelIngot steelIngot;
 	public static SteelNugget steelNugget;
+	
+	public static BronzeDust bronzeDust;
+	public static BronzeIngot bronzeIngot;
+	public static BronzeNugget bronzeNugget;
 
 	// 4029 is next
 
 	public static final void init() {
 		Aluminum.init();
+		Bronze.init();
 		Copper.init();
 		Iron.init();
 		IronManganese.init();

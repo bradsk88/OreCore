@@ -1,6 +1,7 @@
 package ca.bradj.orecore.item.osmium;
 
 import net.minecraftforge.oredict.OreDictionary;
+import ca.bradj.orecore.item.IDs;
 import ca.bradj.orecore.item.OreCoreItems;
 
 public class Osmium {
@@ -12,26 +13,17 @@ public class Osmium {
 	private static final String OSMIUM_DUST_DICT = "dustOsmium";
 
 	private static final String OSMIUM_NAME = "Osmium";
-	private static int OSMIUM_ORE_ID = 4010;
-
-	private static final int OSMIUM_INFERIOR_ORE_ID = 4011;
 	private static final String OSMIUM_INFERIOR_NAME = "Inferior Osmium";
-
-	private static final int OSMIUM_INGOT_ID = 4012;
 	private static final String OSMIUM_INGOT_NAME = "Osmium Ingot";
-
 	private static final String OSMIUM_NUGGET_NAME = "Osmium Nugget";
-	private static final int OSMIUM_NUGGET_ID = 4013;
-
 	private static final String OSMIUM_DUST_NAME = "Osmium Dust";
-	private static final int OSMIUM_DUST_ID = 4014;
 
 	public static void init() {
-		OreCoreItems.osmium = OreCoreItems.registerBlock(new OsmiumBlock(OSMIUM_ORE_ID), OSMIUM_NAME);
-		OreCoreItems.osmiumInferior = OreCoreItems.registerBlock(new OsmiumBlockInferior(OSMIUM_INFERIOR_ORE_ID), OSMIUM_INFERIOR_NAME);
-		OreCoreItems.osmiumIngot = OreCoreItems.registerItem(new OsmiumIngot(OSMIUM_INGOT_ID), OSMIUM_INGOT_NAME);
-		OreCoreItems.osmiumNugget = OreCoreItems.registerItem(new OsmiumNugget(OSMIUM_NUGGET_ID), OSMIUM_NUGGET_NAME);
-		OreCoreItems.osmiumDust = OreCoreItems.registerItem(new OsmiumDust(OSMIUM_DUST_ID), OSMIUM_DUST_NAME);
+		OreCoreItems.osmium = OreCoreItems.registerBlock(new OsmiumBlock(IDs.OSMIUM_ORE_ID), OSMIUM_NAME);
+		OreCoreItems.osmiumInferior = OreCoreItems.registerBlock(new OsmiumBlockInferior(IDs.OSMIUM_INFERIOR_ORE_ID), OSMIUM_INFERIOR_NAME);
+		OreCoreItems.osmiumIngot = OreCoreItems.registerItem(new OsmiumIngot(IDs.OSMIUM_INGOT_ID), OSMIUM_INGOT_NAME);
+		OreCoreItems.osmiumNugget = OreCoreItems.registerItem(new OsmiumNugget(IDs.OSMIUM_NUGGET_ID), OSMIUM_NUGGET_NAME);
+		OreCoreItems.osmiumDust = OreCoreItems.registerItem(new OsmiumDust(IDs.OSMIUM_DUST_ID), OSMIUM_DUST_NAME);
 
 		OreDictionary.registerOre(OSMIUM_DICT, OreCoreItems.osmium);
 		OreDictionary.registerOre(OSMIUM_INFERIOR_DICT, OreCoreItems.osmiumInferior);
