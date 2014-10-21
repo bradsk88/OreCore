@@ -1,12 +1,11 @@
 package ca.bradj.orecore.item;
 
-
 /**
  * Centralized locations for all items IDs.
  */
 public class IDs {
 
-	//TODO: Move these into config file -BJ
+	//TODO: Move these IDs into a config file -BJ
 	
 	public static final int BAUXITE_ID = 4000;
 	public static final int ALUMINUM_DUST_ID = 4001;
@@ -48,5 +47,12 @@ public class IDs {
 	public static final int COPPER_GRAVEL_ID = 4029;
 	public static final int TIN_GRAVEL_ID = 4030;
 	public static final int IRON_MANGANESE_ID = 4031;
+	
+	public static final int SILVER_ORE_ID = 4032;
+	public static final int SILVER_INFERIOR_ORE_ID = 4033;
+	public static final int SILVER_INGOT_ID = 4034;
+	public static final int SILVER_NUGGET_ID = 4035;
+	public static final int SILVER_DUST_ID = 4036;
+	public static final int SILVER_GRAVEL_ID = 4037;
 	
 }

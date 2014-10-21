@@ -40,6 +40,13 @@ import ca.bradj.orecore.item.osmium.OsmiumBlockInferior;
 import ca.bradj.orecore.item.osmium.OsmiumDust;
 import ca.bradj.orecore.item.osmium.OsmiumIngot;
 import ca.bradj.orecore.item.osmium.OsmiumNugget;
+import ca.bradj.orecore.item.silver.Silver;
+import ca.bradj.orecore.item.silver.SilverBlock;
+import ca.bradj.orecore.item.silver.SilverBlockInferior;
+import ca.bradj.orecore.item.silver.SilverDust;
+import ca.bradj.orecore.item.silver.SilverGravel;
+import ca.bradj.orecore.item.silver.SilverIngot;
+import ca.bradj.orecore.item.silver.SilverNugget;
 import ca.bradj.orecore.item.steel.Steel;
 import ca.bradj.orecore.item.steel.SteelDust;
 import ca.bradj.orecore.item.steel.SteelIngot;
@@ -101,6 +108,13 @@ public class OreCoreItems {
 	public static BronzeDust bronzeDust;
 	public static BronzeIngot bronzeIngot;
 	public static BronzeNugget bronzeNugget;
+	
+	public static SilverBlock silver;
+	public static SilverBlockInferior silverInferior;
+	public static SilverIngot silverIngot;
+	public static SilverNugget silverNugget;
+	public static SilverDust silverDust;
+	public static SilverGravel silverGravel;
 
 	// 4029 is next
 
@@ -113,6 +127,7 @@ public class OreCoreItems {
 		IronManganese.init();
 		Manganese.init();
 		Osmium.init();
+		Silver.init();
 		Steel.init();
 		Tin.init();
 	}
