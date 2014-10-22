@@ -3,6 +3,7 @@ package ca.bradj.orecore.item.tin;
 import net.minecraftforge.oredict.OreDictionary;
 import ca.bradj.orecore.item.IDs;
 import ca.bradj.orecore.item.OreCoreItems;
+import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
 
 public class Tin {
 
@@ -31,13 +32,13 @@ public class Tin {
 	public static final int TIN_INFERIOR_VEIN_SIZE = 8; 
 
 	public static void init() {
-		OreCoreItems.tin = OreCoreItems.registerBlock(new TinBlock(IDs.TIN_ORE_ID), TIN_NAME);
-		OreCoreItems.tinInferior = OreCoreItems.registerBlock(new TinBlockInferior(IDs.TIN_INFERIOR_ORE_ID), TIN_INFERIOR_NAME);
-		OreCoreItems.tinIngot = OreCoreItems.registerItem(new TinIngot(IDs.TIN_INGOT_ID), TIN_INGOT_NAME);
-		OreCoreItems.tinNugget = OreCoreItems.registerItem(new TinNugget(IDs.TIN_NUGGET_ID), TIN_NUGGET_NAME);
-		OreCoreItems.tinDust = OreCoreItems.registerItem(new TinDust(IDs.TIN_DUST_ID), TIN_DUST_NAME);
-		OreCoreItems.tinGravel = OreCoreItems.registerBlock(new TinGravel(IDs.TIN_GRAVEL_ID), TIN_GRAVEL_NAME);
-		OreCoreItems.tinBlock = OreCoreItems.registerBlock(new TinPureBlock(IDs.TIN_BLOCK_ID), TIN_BLOCK_NAME);
+		OreCoreItems.tin = OreCoreRegistration.registerBlock(new TinBlock(IDs.TIN_ORE_ID), TIN_NAME);
+		OreCoreItems.tinInferior = OreCoreRegistration.registerBlock(new TinBlockInferior(IDs.TIN_INFERIOR_ORE_ID), TIN_INFERIOR_NAME);
+		OreCoreItems.tinIngot = OreCoreRegistration.registerItem(new TinIngot(IDs.TIN_INGOT_ID), TIN_INGOT_NAME);
+		OreCoreItems.tinNugget = OreCoreRegistration.registerItem(new TinNugget(IDs.TIN_NUGGET_ID), TIN_NUGGET_NAME);
+		OreCoreItems.tinDust = OreCoreRegistration.registerItem(new TinDust(IDs.TIN_DUST_ID), TIN_DUST_NAME);
+		OreCoreItems.tinGravel = OreCoreRegistration.registerBlock(new TinGravel(IDs.TIN_GRAVEL_ID), TIN_GRAVEL_NAME);
+		OreCoreItems.tinBlock = OreCoreRegistration.registerBlock(new TinPureBlock(IDs.TIN_BLOCK_ID), TIN_BLOCK_NAME);
 
 		OreDictionary.registerOre(TIN_DICT, OreCoreItems.tin);
 		OreDictionary.registerOre(TIN_INFERIOR_DICT, OreCoreItems.tinInferior);
@@ -47,15 +48,15 @@ public class Tin {
 		OreDictionary.registerOre(TIN_GRAVEL_DICT, OreCoreItems.tinGravel);
 		OreDictionary.registerOre(TIN_BLOCK_DICT, OreCoreItems.tinBlock);
 
-		OreCoreItems.nuggetToIngotStandard(TIN_NUGGET_DICT, OreCoreItems.tinIngot);
-		OreCoreItems.ingotToNuggetStandard(TIN_INGOT_DICT, OreCoreItems.tinNugget);
-		OreCoreItems.ingotToBlockStandard(TIN_INGOT_DICT, OreCoreItems.tinBlock);
-		OreCoreItems.blockToIngotStandard(TIN_BLOCK_DICT, OreCoreItems.tinIngot);
+		OreCoreRegistration.nuggetToIngotStandard(TIN_NUGGET_DICT, OreCoreItems.tinIngot);
+		OreCoreRegistration.ingotToNuggetStandard(TIN_INGOT_DICT, OreCoreItems.tinNugget);
+		OreCoreRegistration.ingotToBlockStandard(TIN_INGOT_DICT, OreCoreItems.tinBlock);
+		OreCoreRegistration.blockToIngotStandard(TIN_BLOCK_DICT, OreCoreItems.tinIngot);
 
-		OreCoreItems.addSmelting(OreCoreItems.tin, OreCoreItems.tinIngot, 1);
-		OreCoreItems.addSmelting(OreCoreItems.tinGravel, OreCoreItems.tinIngot, 1);
-		OreCoreItems.addSmelting(OreCoreItems.tinInferior, OreCoreItems.tinNugget, 3);
-		OreCoreItems.addSmelting(OreCoreItems.tinDust, OreCoreItems.tinIngot, 1);
+		OreCoreRegistration.addSmelting(OreCoreItems.tin, OreCoreItems.tinIngot, 1);
+		OreCoreRegistration.addSmelting(OreCoreItems.tinGravel, OreCoreItems.tinIngot, 1);
+		OreCoreRegistration.addSmelting(OreCoreItems.tinInferior, OreCoreItems.tinNugget, 3);
+		OreCoreRegistration.addSmelting(OreCoreItems.tinDust, OreCoreItems.tinIngot, 1);
 		
 	}
 

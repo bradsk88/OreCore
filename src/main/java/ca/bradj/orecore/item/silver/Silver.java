@@ -3,6 +3,7 @@ package ca.bradj.orecore.item.silver;
 import net.minecraftforge.oredict.OreDictionary;
 import ca.bradj.orecore.item.IDs;
 import ca.bradj.orecore.item.OreCoreItems;
+import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
 import ca.bradj.orecore.item.silver.SilverBlock;
 import ca.bradj.orecore.item.silver.SilverBlockInferior;
 import ca.bradj.orecore.item.silver.SilverDust;
@@ -38,13 +39,13 @@ public class Silver {
 
 	public static void init() {
 		// Silver
-		OreCoreItems.silver = OreCoreItems.registerBlock(new SilverBlock(IDs.SILVER_ORE_ID), SILVER_NAME);
-		OreCoreItems.silverInferior = OreCoreItems.registerBlock(new SilverBlockInferior(IDs.SILVER_INFERIOR_ORE_ID), SILVER_INFERIOR_NAME);
-		OreCoreItems.silverIngot = OreCoreItems.registerItem(new SilverIngot(IDs.SILVER_INGOT_ID), SILVER_INGOT_NAME);
-		OreCoreItems.silverNugget = OreCoreItems.registerItem(new SilverNugget(IDs.SILVER_NUGGET_ID), SILVER_NUGGET_NAME);
-		OreCoreItems.silverDust = OreCoreItems.registerItem(new SilverDust(IDs.SILVER_DUST_ID), SILVER_DUST_NAME);
-		OreCoreItems.silverGravel = OreCoreItems.registerBlock(new SilverGravel(IDs.SILVER_GRAVEL_ID), SILVER_GRAVEL_NAME);
-		OreCoreItems.silverBlock = OreCoreItems.registerBlock(new SilverPureBlock(IDs.SILVER_BLOCK_ID), SILVER_BLOCK_NAME);
+		OreCoreItems.silver = OreCoreRegistration.registerBlock(new SilverBlock(IDs.SILVER_ORE_ID), SILVER_NAME);
+		OreCoreItems.silverInferior = OreCoreRegistration.registerBlock(new SilverBlockInferior(IDs.SILVER_INFERIOR_ORE_ID), SILVER_INFERIOR_NAME);
+		OreCoreItems.silverIngot = OreCoreRegistration.registerItem(new SilverIngot(IDs.SILVER_INGOT_ID), SILVER_INGOT_NAME);
+		OreCoreItems.silverNugget = OreCoreRegistration.registerItem(new SilverNugget(IDs.SILVER_NUGGET_ID), SILVER_NUGGET_NAME);
+		OreCoreItems.silverDust = OreCoreRegistration.registerItem(new SilverDust(IDs.SILVER_DUST_ID), SILVER_DUST_NAME);
+		OreCoreItems.silverGravel = OreCoreRegistration.registerBlock(new SilverGravel(IDs.SILVER_GRAVEL_ID), SILVER_GRAVEL_NAME);
+		OreCoreItems.silverBlock = OreCoreRegistration.registerBlock(new SilverPureBlock(IDs.SILVER_BLOCK_ID), SILVER_BLOCK_NAME);
 
 		OreDictionary.registerOre(SILVER_DICT, OreCoreItems.silver);
 		OreDictionary.registerOre(SILVER_INFERIOR_DICT, OreCoreItems.silverInferior);
@@ -53,15 +54,15 @@ public class Silver {
 		OreDictionary.registerOre(SILVER_DUST_DICT, OreCoreItems.silverDust);
 		OreDictionary.registerOre(SILVER_BLOCK_DICT, OreCoreItems.silverBlock);
 
-		OreCoreItems.nuggetToIngotStandard(SILVER_NUGGET_DICT, OreCoreItems.silverIngot);
-		OreCoreItems.ingotToNuggetStandard(SILVER_INGOT_DICT, OreCoreItems.silverNugget);
-		OreCoreItems.ingotToBlockStandard(SILVER_INGOT_DICT, OreCoreItems.silverBlock);
-		OreCoreItems.blockToIngotStandard(SILVER_BLOCK_DICT, OreCoreItems.silverIngot);
+		OreCoreRegistration.nuggetToIngotStandard(SILVER_NUGGET_DICT, OreCoreItems.silverIngot);
+		OreCoreRegistration.ingotToNuggetStandard(SILVER_INGOT_DICT, OreCoreItems.silverNugget);
+		OreCoreRegistration.ingotToBlockStandard(SILVER_INGOT_DICT, OreCoreItems.silverBlock);
+		OreCoreRegistration.blockToIngotStandard(SILVER_BLOCK_DICT, OreCoreItems.silverIngot);
 
-		OreCoreItems.addSmelting(OreCoreItems.silver, OreCoreItems.silverIngot, 1);
-		OreCoreItems.addSmelting(OreCoreItems.silverDust, OreCoreItems.silverIngot, 1);
-		OreCoreItems.addSmelting(OreCoreItems.silverGravel, OreCoreItems.silverIngot, 1);
-		OreCoreItems.addSmelting(OreCoreItems.silverInferior, OreCoreItems.silverNugget, 3);
+		OreCoreRegistration.addSmelting(OreCoreItems.silver, OreCoreItems.silverIngot, 1);
+		OreCoreRegistration.addSmelting(OreCoreItems.silverDust, OreCoreItems.silverIngot, 1);
+		OreCoreRegistration.addSmelting(OreCoreItems.silverGravel, OreCoreItems.silverIngot, 1);
+		OreCoreRegistration.addSmelting(OreCoreItems.silverInferior, OreCoreItems.silverNugget, 3);
 	}
 	
 }

@@ -3,6 +3,7 @@ package ca.bradj.orecore.item.copper.carb;
 import net.minecraftforge.oredict.OreDictionary;
 import ca.bradj.orecore.item.IDs;
 import ca.bradj.orecore.item.OreCoreItems;
+import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
 
 public class Copper2Carbonate {
 
@@ -17,22 +18,22 @@ public class Copper2Carbonate {
 	private static final String BLOCK_DICT = "blockCopper2Carbonate";
 
 	public static void init() {
-		OreCoreItems.copper2CarbonateDust = OreCoreItems.registerItem(new Copper2CarbonateDust(IDs.copper2CarbonateDustId), COPPER_2_CARBONATE_DUST_NAME);
-		OreCoreItems.copper2CarbonateNugget = OreCoreItems.registerItem(new Copper2CarbonateNugget(IDs.COPPER_2_CARBONATE_NUGGET_ID), COPPER_2_CARBONATE_NUGGET_NAME);
-		OreCoreItems.copper2CarbonateIngot = OreCoreItems.registerItem(new Copper2CarbonateIngot(IDs.COPPER_2_CARBONATE_INGOT_ID), COPPER_2_CARBONATE_INGOT_NAME);
-		OreCoreItems.copper2CarbonateBlock = OreCoreItems.registerBlock(new Copper2CarbonatePureBlock(IDs.COPPER_2_CARBONATE_BLOCK_ID), COPPER_2_CARBONATE_BLOCK_NAME);
+		OreCoreItems.copper2CarbonateDust = OreCoreRegistration.registerItem(new Copper2CarbonateDust(IDs.copper2CarbonateDustId), COPPER_2_CARBONATE_DUST_NAME);
+		OreCoreItems.copper2CarbonateNugget = OreCoreRegistration.registerItem(new Copper2CarbonateNugget(IDs.COPPER_2_CARBONATE_NUGGET_ID), COPPER_2_CARBONATE_NUGGET_NAME);
+		OreCoreItems.copper2CarbonateIngot = OreCoreRegistration.registerItem(new Copper2CarbonateIngot(IDs.COPPER_2_CARBONATE_INGOT_ID), COPPER_2_CARBONATE_INGOT_NAME);
+		OreCoreItems.copper2CarbonateBlock = OreCoreRegistration.registerBlock(new Copper2CarbonatePureBlock(IDs.COPPER_2_CARBONATE_BLOCK_ID), COPPER_2_CARBONATE_BLOCK_NAME);
 		
 		OreDictionary.registerOre(DUST_DICT, OreCoreItems.copper2CarbonateDust);
 		OreDictionary.registerOre(NUGGET_DICT, OreCoreItems.copper2CarbonateNugget);
 		OreDictionary.registerOre(INGOT_DICT, OreCoreItems.copper2CarbonateIngot);
 		OreDictionary.registerOre(BLOCK_DICT, OreCoreItems.copper2CarbonateBlock);
 
-		OreCoreItems.nuggetToIngotStandard(NUGGET_DICT, OreCoreItems.copper2CarbonateIngot);
-		OreCoreItems.ingotToNuggetStandard(INGOT_DICT, OreCoreItems.copper2CarbonateNugget);
-		OreCoreItems.ingotToBlockStandard(INGOT_DICT, OreCoreItems.copper2CarbonateBlock);
-		OreCoreItems.blockToIngotStandard(BLOCK_DICT, OreCoreItems.copper2CarbonateIngot);
+		OreCoreRegistration.nuggetToIngotStandard(NUGGET_DICT, OreCoreItems.copper2CarbonateIngot);
+		OreCoreRegistration.ingotToNuggetStandard(INGOT_DICT, OreCoreItems.copper2CarbonateNugget);
+		OreCoreRegistration.ingotToBlockStandard(INGOT_DICT, OreCoreItems.copper2CarbonateBlock);
+		OreCoreRegistration.blockToIngotStandard(BLOCK_DICT, OreCoreItems.copper2CarbonateIngot);
 
-		OreCoreItems.addSmelting(OreCoreItems.copper2CarbonateDust, OreCoreItems.copper2CarbonateIngot, 1);
+		OreCoreRegistration.addSmelting(OreCoreItems.copper2CarbonateDust, OreCoreItems.copper2CarbonateIngot, 1);
 	}
 
 }

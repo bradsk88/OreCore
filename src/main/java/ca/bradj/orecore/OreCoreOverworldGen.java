@@ -3,6 +3,7 @@ package ca.bradj.orecore;
 import java.util.Random;
 
 import net.minecraft.block.Block;
+import net.minecraft.init.Blocks;
 import net.minecraft.world.World;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 import ca.bradj.orecore.item.OreCoreItems;
@@ -51,7 +52,7 @@ public class OreCoreOverworldGen {
 			int chunkY = minLayer + random.nextInt(maxLayer - minLayer);
 			int chunkZ = z + random.nextInt(16);
 
-			new WorldGenMinable(ore, veinSize).generate(world, random, chunkX, chunkY, chunkZ);
+			new WorldGenMinable(ore, 0, veinSize, Blocks.stone).generate(world, random, chunkX, chunkY, chunkZ);
 		}
 	}
 

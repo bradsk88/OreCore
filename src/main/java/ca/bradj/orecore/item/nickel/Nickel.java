@@ -3,6 +3,7 @@ package ca.bradj.orecore.item.nickel;
 import net.minecraftforge.oredict.OreDictionary;
 import ca.bradj.orecore.item.IDs;
 import ca.bradj.orecore.item.OreCoreItems;
+import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
 import ca.bradj.orecore.item.nickel.NickelBlock;
 import ca.bradj.orecore.item.nickel.NickelBlockInferior;
 import ca.bradj.orecore.item.nickel.NickelDust;
@@ -38,13 +39,13 @@ public class Nickel {
 
 	public static void init() {
 		// Nickel
-		OreCoreItems.nickel = OreCoreItems.registerBlock(new NickelBlock(IDs.NICKEL_ORE_ID), NICKEL_NAME);
-		OreCoreItems.nickelInferior = OreCoreItems.registerBlock(new NickelBlockInferior(IDs.NICKEL_INFERIOR_ORE_ID), NICKEL_INFERIOR_NAME);
-		OreCoreItems.nickelIngot = OreCoreItems.registerItem(new NickelIngot(IDs.NICKEL_INGOT_ID), NICKEL_INGOT_NAME);
-		OreCoreItems.nickelNugget = OreCoreItems.registerItem(new NickelNugget(IDs.NICKEL_NUGGET_ID), NICKEL_NUGGET_NAME);
-		OreCoreItems.nickelDust = OreCoreItems.registerItem(new NickelDust(IDs.NICKEL_DUST_ID), NICKEL_DUST_NAME);
-		OreCoreItems.nickelGravel = OreCoreItems.registerBlock(new NickelGravel(IDs.NICKEL_GRAVEL_ID), NICKEL_GRAVEL_NAME);
-		OreCoreItems.nickelBlock = OreCoreItems.registerBlock(new NickelPureBlock(IDs.NICKEL_BLOCK_ID), NICKEL_BLOCK_NAME);
+		OreCoreItems.nickel = OreCoreRegistration.registerBlock(new NickelBlock(IDs.NICKEL_ORE_ID), NICKEL_NAME);
+		OreCoreItems.nickelInferior = OreCoreRegistration.registerBlock(new NickelBlockInferior(IDs.NICKEL_INFERIOR_ORE_ID), NICKEL_INFERIOR_NAME);
+		OreCoreItems.nickelIngot = OreCoreRegistration.registerItem(new NickelIngot(IDs.NICKEL_INGOT_ID), NICKEL_INGOT_NAME);
+		OreCoreItems.nickelNugget = OreCoreRegistration.registerItem(new NickelNugget(IDs.NICKEL_NUGGET_ID), NICKEL_NUGGET_NAME);
+		OreCoreItems.nickelDust = OreCoreRegistration.registerItem(new NickelDust(IDs.NICKEL_DUST_ID), NICKEL_DUST_NAME);
+		OreCoreItems.nickelGravel = OreCoreRegistration.registerBlock(new NickelGravel(IDs.NICKEL_GRAVEL_ID), NICKEL_GRAVEL_NAME);
+		OreCoreItems.nickelBlock = OreCoreRegistration.registerBlock(new NickelPureBlock(IDs.NICKEL_BLOCK_ID), NICKEL_BLOCK_NAME);
 
 		OreDictionary.registerOre(NICKEL_DICT, OreCoreItems.nickel);
 		OreDictionary.registerOre(NICKEL_INFERIOR_DICT, OreCoreItems.nickelInferior);
@@ -53,14 +54,14 @@ public class Nickel {
 		OreDictionary.registerOre(NICKEL_DUST_DICT, OreCoreItems.nickelDust);
 		OreDictionary.registerOre(NICKEL_BLOCK_DICT, OreCoreItems.nickelBlock);
 
-		OreCoreItems.nuggetToIngotStandard(NICKEL_NUGGET_DICT, OreCoreItems.nickelIngot);
-		OreCoreItems.ingotToNuggetStandard(NICKEL_INGOT_DICT, OreCoreItems.nickelNugget);
-		OreCoreItems.ingotToBlockStandard(NICKEL_INGOT_DICT, OreCoreItems.nickelBlock);
-		OreCoreItems.blockToIngotStandard(NICKEL_BLOCK_DICT, OreCoreItems.nickelIngot);
+		OreCoreRegistration.nuggetToIngotStandard(NICKEL_NUGGET_DICT, OreCoreItems.nickelIngot);
+		OreCoreRegistration.ingotToNuggetStandard(NICKEL_INGOT_DICT, OreCoreItems.nickelNugget);
+		OreCoreRegistration.ingotToBlockStandard(NICKEL_INGOT_DICT, OreCoreItems.nickelBlock);
+		OreCoreRegistration.blockToIngotStandard(NICKEL_BLOCK_DICT, OreCoreItems.nickelIngot);
 
-		OreCoreItems.addSmelting(OreCoreItems.nickel, OreCoreItems.nickelIngot, 1);
-		OreCoreItems.addSmelting(OreCoreItems.nickelDust, OreCoreItems.nickelIngot, 1);
-		OreCoreItems.addSmelting(OreCoreItems.nickelGravel, OreCoreItems.nickelIngot, 1);
-		OreCoreItems.addSmelting(OreCoreItems.nickelInferior, OreCoreItems.nickelNugget, 3);
+		OreCoreRegistration.addSmelting(OreCoreItems.nickel, OreCoreItems.nickelIngot, 1);
+		OreCoreRegistration.addSmelting(OreCoreItems.nickelDust, OreCoreItems.nickelIngot, 1);
+		OreCoreRegistration.addSmelting(OreCoreItems.nickelGravel, OreCoreItems.nickelIngot, 1);
+		OreCoreRegistration.addSmelting(OreCoreItems.nickelInferior, OreCoreItems.nickelNugget, 3);
 	}
 }

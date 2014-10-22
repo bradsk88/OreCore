@@ -3,6 +3,7 @@ package ca.bradj.orecore.item.copper;
 import net.minecraftforge.oredict.OreDictionary;
 import ca.bradj.orecore.item.IDs;
 import ca.bradj.orecore.item.OreCoreItems;
+import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
 
 public class Copper {
 
@@ -32,13 +33,13 @@ public class Copper {
 
 	public static void init() {
 		// Copper
-		OreCoreItems.copper = OreCoreItems.registerBlock(new CopperBlock(IDs.copperOreId), COPPER_NAME);
-		OreCoreItems.copperInferior = OreCoreItems.registerBlock(new CopperBlockInferior(IDs.copperInferiorOreId), COPPER_INFERIOR_NAME);
-		OreCoreItems.copperIngot = OreCoreItems.registerItem(new CopperIngot(IDs.copperIngotId), COPPER_INGOT_NAME);
-		OreCoreItems.copperNugget = OreCoreItems.registerItem(new CopperNugget(IDs.copperNuggetId), COPPER_NUGGET_NAME);
-		OreCoreItems.copperDust = OreCoreItems.registerItem(new CopperDust(IDs.copperDustId), COPPER_DUST_NAME);
-		OreCoreItems.copperGravel = OreCoreItems.registerBlock(new CopperGravel(IDs.COPPER_GRAVEL_ID), COPPER_GRAVEL_NAME);
-		OreCoreItems.copperBlock = OreCoreItems.registerBlock(new CopperPureBlock(IDs.COPPER_BLOCK_ID), COPPER_BLOCK_NAME);
+		OreCoreItems.copper = OreCoreRegistration.registerBlock(new CopperBlock(IDs.copperOreId), COPPER_NAME);
+		OreCoreItems.copperInferior = OreCoreRegistration.registerBlock(new CopperBlockInferior(IDs.copperInferiorOreId), COPPER_INFERIOR_NAME);
+		OreCoreItems.copperIngot = OreCoreRegistration.registerItem(new CopperIngot(IDs.copperIngotId), COPPER_INGOT_NAME);
+		OreCoreItems.copperNugget = OreCoreRegistration.registerItem(new CopperNugget(IDs.copperNuggetId), COPPER_NUGGET_NAME);
+		OreCoreItems.copperDust = OreCoreRegistration.registerItem(new CopperDust(IDs.copperDustId), COPPER_DUST_NAME);
+		OreCoreItems.copperGravel = OreCoreRegistration.registerBlock(new CopperGravel(IDs.COPPER_GRAVEL_ID), COPPER_GRAVEL_NAME);
+		OreCoreItems.copperBlock = OreCoreRegistration.registerBlock(new CopperPureBlock(IDs.COPPER_BLOCK_ID), COPPER_BLOCK_NAME);
 
 		OreDictionary.registerOre(COPPER_DICT, OreCoreItems.copper);
 		OreDictionary.registerOre(COPPER_INFERIOR_DICT, OreCoreItems.copperInferior);
@@ -47,15 +48,15 @@ public class Copper {
 		OreDictionary.registerOre(COPPER_DUST_DICT, OreCoreItems.copperDust);
 		OreDictionary.registerOre(COPPER_BLOCK_DICT, OreCoreItems.copperBlock);
 
-		OreCoreItems.nuggetToIngotStandard(COPPER_NUGGET_DICT, OreCoreItems.copperIngot);
-		OreCoreItems.ingotToNuggetStandard(COPPER_INGOT_DICT, OreCoreItems.copperNugget);
-		OreCoreItems.ingotToBlockStandard(COPPER_INGOT_DICT, OreCoreItems.copperBlock);
-		OreCoreItems.blockToIngotStandard(COPPER_BLOCK_DICT, OreCoreItems.copperIngot);
+		OreCoreRegistration.nuggetToIngotStandard(COPPER_NUGGET_DICT, OreCoreItems.copperIngot);
+		OreCoreRegistration.ingotToNuggetStandard(COPPER_INGOT_DICT, OreCoreItems.copperNugget);
+		OreCoreRegistration.ingotToBlockStandard(COPPER_INGOT_DICT, OreCoreItems.copperBlock);
+		OreCoreRegistration.blockToIngotStandard(COPPER_BLOCK_DICT, OreCoreItems.copperIngot);
 
-		OreCoreItems.addSmelting(OreCoreItems.copper, OreCoreItems.copperIngot, 1);
-		OreCoreItems.addSmelting(OreCoreItems.copperDust, OreCoreItems.copperIngot, 1);
-		OreCoreItems.addSmelting(OreCoreItems.copperGravel, OreCoreItems.copperIngot, 1);
-		OreCoreItems.addSmelting(OreCoreItems.copperInferior, OreCoreItems.copperNugget, 3);
+		OreCoreRegistration.addSmelting(OreCoreItems.copper, OreCoreItems.copperIngot, 1);
+		OreCoreRegistration.addSmelting(OreCoreItems.copperDust, OreCoreItems.copperIngot, 1);
+		OreCoreRegistration.addSmelting(OreCoreItems.copperGravel, OreCoreItems.copperIngot, 1);
+		OreCoreRegistration.addSmelting(OreCoreItems.copperInferior, OreCoreItems.copperNugget, 3);
 	}
 
 }

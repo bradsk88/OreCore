@@ -3,6 +3,7 @@ package ca.bradj.orecore.item.brass;
 import net.minecraftforge.oredict.OreDictionary;
 import ca.bradj.orecore.item.IDs;
 import ca.bradj.orecore.item.OreCoreItems;
+import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
 import ca.bradj.orecore.item.copper.Copper;
 import ca.bradj.orecore.item.zinc.Zinc;
 
@@ -19,24 +20,24 @@ public class Brass {
 	private static final String BRASS_BLOCK_NAME = "Brass.Block";
 
 	public static void init() {
-		OreCoreItems.brassDust = OreCoreItems.registerItem(new BrassDust(IDs.BRASS_DUST_ID), BRASS_DUST_NAME);
-		OreCoreItems.brassIngot = OreCoreItems.registerItem(new BrassIngot(IDs.BRASS_INGOT_ID), BRASS_INGOT_NAME);
-		OreCoreItems.brassNugget = OreCoreItems.registerItem(new BrassNugget(IDs.BRASS_NUGGET_ID), BRASS_NUGGET_NAME);
-		OreCoreItems.brassBlock = OreCoreItems.registerBlock(new BrassPureBlock(IDs.BRASS_BLOCK_ID), BRASS_BLOCK_NAME);
+		OreCoreItems.brassDust = OreCoreRegistration.registerItem(new BrassDust(IDs.BRASS_DUST_ID), BRASS_DUST_NAME);
+		OreCoreItems.brassIngot = OreCoreRegistration.registerItem(new BrassIngot(IDs.BRASS_INGOT_ID), BRASS_INGOT_NAME);
+		OreCoreItems.brassNugget = OreCoreRegistration.registerItem(new BrassNugget(IDs.BRASS_NUGGET_ID), BRASS_NUGGET_NAME);
+		OreCoreItems.brassBlock = OreCoreRegistration.registerBlock(new BrassPureBlock(IDs.BRASS_BLOCK_ID), BRASS_BLOCK_NAME);
 
 		OreDictionary.registerOre(BRASS_DUST_DICT, OreCoreItems.brassDust);
 		OreDictionary.registerOre(BRASS_NUGGET_DICT, OreCoreItems.brassNugget);
 		OreDictionary.registerOre(BRASS_INGOT_DICT, OreCoreItems.brassIngot);
 		OreDictionary.registerOre(BRASS_BLOCK_DICT, OreCoreItems.brassBlock);
 		
-		OreCoreItems.addShapelessRecipe(OreCoreItems.brassDust, 2, Copper.COPPER_DUST_DICT, Zinc.ZINC_DUST_DICT);
+		OreCoreRegistration.addShapelessRecipe(OreCoreItems.brassDust, 2, Copper.COPPER_DUST_DICT, Zinc.ZINC_DUST_DICT);
 		
-		OreCoreItems.nuggetToIngotStandard(BRASS_NUGGET_DICT, OreCoreItems.brassIngot);
-		OreCoreItems.ingotToNuggetStandard(BRASS_INGOT_DICT, OreCoreItems.brassNugget);
-		OreCoreItems.ingotToBlockStandard(BRASS_INGOT_DICT, OreCoreItems.brassBlock);
-		OreCoreItems.blockToIngotStandard(BRASS_BLOCK_DICT, OreCoreItems.brassIngot);
+		OreCoreRegistration.nuggetToIngotStandard(BRASS_NUGGET_DICT, OreCoreItems.brassIngot);
+		OreCoreRegistration.ingotToNuggetStandard(BRASS_INGOT_DICT, OreCoreItems.brassNugget);
+		OreCoreRegistration.ingotToBlockStandard(BRASS_INGOT_DICT, OreCoreItems.brassBlock);
+		OreCoreRegistration.blockToIngotStandard(BRASS_BLOCK_DICT, OreCoreItems.brassIngot);
 		
-		OreCoreItems.addSmelting(OreCoreItems.brassDust, OreCoreItems.brassIngot, 1);
+		OreCoreRegistration.addSmelting(OreCoreItems.brassDust, OreCoreItems.brassIngot, 1);
 	}
 	
 }

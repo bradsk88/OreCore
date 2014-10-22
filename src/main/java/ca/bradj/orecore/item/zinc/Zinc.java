@@ -3,6 +3,7 @@ package ca.bradj.orecore.item.zinc;
 import net.minecraftforge.oredict.OreDictionary;
 import ca.bradj.orecore.item.IDs;
 import ca.bradj.orecore.item.OreCoreItems;
+import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
 import ca.bradj.orecore.item.zinc.ZincBlock;
 import ca.bradj.orecore.item.zinc.ZincBlockInferior;
 import ca.bradj.orecore.item.zinc.ZincDust;
@@ -38,13 +39,13 @@ public class Zinc {
 
 	public static void init() {
 		// Zinc
-		OreCoreItems.zinc = OreCoreItems.registerBlock(new ZincBlock(IDs.ZINC_ORE_ID), ZINC_NAME);
-		OreCoreItems.zincInferior = OreCoreItems.registerBlock(new ZincBlockInferior(IDs.ZINC_INFERIOR_ORE_ID), ZINC_INFERIOR_NAME);
-		OreCoreItems.zincIngot = OreCoreItems.registerItem(new ZincIngot(IDs.ZINC_INGOT_ID), ZINC_INGOT_NAME);
-		OreCoreItems.zincNugget = OreCoreItems.registerItem(new ZincNugget(IDs.ZINC_NUGGET_ID), ZINC_NUGGET_NAME);
-		OreCoreItems.zincDust = OreCoreItems.registerItem(new ZincDust(IDs.ZINC_DUST_ID), ZINC_DUST_NAME);
-		OreCoreItems.zincGravel = OreCoreItems.registerBlock(new ZincGravel(IDs.ZINC_GRAVEL_ID), ZINC_GRAVEL_NAME);
-		OreCoreItems.zincBlock = OreCoreItems.registerBlock(new ZincPureBlock(IDs.ZINC_BLOCK_ID), ZINC_BLOCK_NAME);
+		OreCoreItems.zinc = OreCoreRegistration.registerBlock(new ZincBlock(IDs.ZINC_ORE_ID), ZINC_NAME);
+		OreCoreItems.zincInferior = OreCoreRegistration.registerBlock(new ZincBlockInferior(IDs.ZINC_INFERIOR_ORE_ID), ZINC_INFERIOR_NAME);
+		OreCoreItems.zincIngot = OreCoreRegistration.registerItem(new ZincIngot(IDs.ZINC_INGOT_ID), ZINC_INGOT_NAME);
+		OreCoreItems.zincNugget = OreCoreRegistration.registerItem(new ZincNugget(IDs.ZINC_NUGGET_ID), ZINC_NUGGET_NAME);
+		OreCoreItems.zincDust = OreCoreRegistration.registerItem(new ZincDust(IDs.ZINC_DUST_ID), ZINC_DUST_NAME);
+		OreCoreItems.zincGravel = OreCoreRegistration.registerBlock(new ZincGravel(IDs.ZINC_GRAVEL_ID), ZINC_GRAVEL_NAME);
+		OreCoreItems.zincBlock = OreCoreRegistration.registerBlock(new ZincPureBlock(IDs.ZINC_BLOCK_ID), ZINC_BLOCK_NAME);
 
 		OreDictionary.registerOre(ZINC_DICT, OreCoreItems.zinc);
 		OreDictionary.registerOre(ZINC_INFERIOR_DICT, OreCoreItems.zincInferior);
@@ -53,14 +54,14 @@ public class Zinc {
 		OreDictionary.registerOre(ZINC_DUST_DICT, OreCoreItems.zincDust);
 		OreDictionary.registerOre(ZINC_BLOCK_DICT, OreCoreItems.zincBlock);
 
-		OreCoreItems.nuggetToIngotStandard(ZINC_NUGGET_DICT, OreCoreItems.zincIngot);
-		OreCoreItems.ingotToNuggetStandard(ZINC_INGOT_DICT, OreCoreItems.zincNugget);
-		OreCoreItems.ingotToBlockStandard(ZINC_INGOT_DICT, OreCoreItems.zincBlock);
-		OreCoreItems.blockToIngotStandard(ZINC_BLOCK_DICT, OreCoreItems.zincIngot);
+		OreCoreRegistration.nuggetToIngotStandard(ZINC_NUGGET_DICT, OreCoreItems.zincIngot);
+		OreCoreRegistration.ingotToNuggetStandard(ZINC_INGOT_DICT, OreCoreItems.zincNugget);
+		OreCoreRegistration.ingotToBlockStandard(ZINC_INGOT_DICT, OreCoreItems.zincBlock);
+		OreCoreRegistration.blockToIngotStandard(ZINC_BLOCK_DICT, OreCoreItems.zincIngot);
 
-		OreCoreItems.addSmelting(OreCoreItems.zinc, OreCoreItems.zincIngot, 1);
-		OreCoreItems.addSmelting(OreCoreItems.zincDust, OreCoreItems.zincIngot, 1);
-		OreCoreItems.addSmelting(OreCoreItems.zincGravel, OreCoreItems.zincIngot, 1);
-		OreCoreItems.addSmelting(OreCoreItems.zincInferior, OreCoreItems.zincNugget, 3);
+		OreCoreRegistration.addSmelting(OreCoreItems.zinc, OreCoreItems.zincIngot, 1);
+		OreCoreRegistration.addSmelting(OreCoreItems.zincDust, OreCoreItems.zincIngot, 1);
+		OreCoreRegistration.addSmelting(OreCoreItems.zincGravel, OreCoreItems.zincIngot, 1);
+		OreCoreRegistration.addSmelting(OreCoreItems.zincInferior, OreCoreItems.zincNugget, 3);
 	}
 }

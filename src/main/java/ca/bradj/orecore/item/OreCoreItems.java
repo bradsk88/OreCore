@@ -152,7 +152,7 @@ public class OreCoreItems {
 	public static BronzeIngot bronzeIngot;
 	public static BronzeNugget bronzeNugget;
 	public static BronzePureBlock bronzeBlock;
-	
+
 	public static SilverBlock silver;
 	public static SilverBlockInferior silverInferior;
 	public static SilverIngot silverIngot;
@@ -165,9 +165,9 @@ public class OreCoreItems {
 	public static BrassIngot brassIngot;
 	public static BrassNugget brassNugget;
 	public static BrassPureBlock brassBlock;
-	
+
 	public static GoldDust goldDust;
-	
+
 	public static NickelBlock nickel;
 	public static NickelBlockInferior nickelInferior;
 	public static NickelIngot nickelIngot;
@@ -175,7 +175,7 @@ public class OreCoreItems {
 	public static NickelDust nickelDust;
 	public static NickelGravel nickelGravel;
 	public static NickelPureBlock nickelBlock;
-	
+
 	public static ZincBlock zinc;
 	public static ZincBlockInferior zincInferior;
 	public static ZincIngot zincIngot;
@@ -183,7 +183,7 @@ public class OreCoreItems {
 	public static ZincDust zincDust;
 	public static ZincGravel zincGravel;
 	public static ZincPureBlock zincBlock;
-	
+
 	// 4029 is next
 
 	public static final void init() {
@@ -204,51 +204,55 @@ public class OreCoreItems {
 		Zinc.init();
 	}
 
-	public static void addSmelting(Item oreIn, Item out, int numOut) {
-		GameRegistry.addSmelting(oreIn, new ItemStack(out, numOut), 0);
-	}
+	public static class OreCoreRegistration {
 
-	public static void addSmelting(Block oreIn, Item out, int numOut) {
-		GameRegistry.addSmelting(oreIn, new ItemStack(out, numOut), 0);
-	}
+		public static void addSmelting(Item oreIn, Item out, int numOut) {
+			GameRegistry.addSmelting(oreIn, new ItemStack(out, numOut), 0);
+		}
 
-	public static <BLOCK extends Block> BLOCK registerBlock(BLOCK block, String name) {
-		GameRegistry.registerBlock(block, name);
-		block.setBlockName(name);
-		return block;
-	}
+		public static void addSmelting(Block oreIn, Item out, int numOut) {
+			GameRegistry.addSmelting(oreIn, new ItemStack(out, numOut), 0);
+		}
 
-	public static <ITEM extends Item> ITEM registerItem(ITEM item, String name) {
-		GameRegistry.registerItem(item, name);
-		item.setUnlocalizedName(name);
-		return item;
-	}
+		public static <BLOCK extends Block> BLOCK registerBlock(BLOCK block, String name) {
+			GameRegistry.registerBlock(block, name);
+			block.setBlockName(name);
+			return block;
+		}
 
-	public static void nuggetToIngotStandard(String nuggetDictString, Item ingotOut) {
-		Preconditions.checkNotNull(ingotOut);
-		Preconditions.checkArgument(nuggetDictString.length() > 0);
-		GameRegistry.addRecipe(new ShapedOreRecipe(ingotOut, true, new Object[] { "CCC", "CCC", "CCC", Character.valueOf('C'), nuggetDictString }));
-	}
-	
+		public static <ITEM extends Item> ITEM registerItem(ITEM item, String name) {
+			GameRegistry.registerItem(item, name);
+			item.setUnlocalizedName(name);
+			return item;
+		}
 
-	public static void ingotToBlockStandard(String ingotDictString, Block blockOut) {
-		Preconditions.checkNotNull(blockOut);
-		Preconditions.checkArgument(ingotDictString.length() > 0);
-		GameRegistry.addRecipe(new ShapedOreRecipe(blockOut, true, new Object[] { "CCC", "CCC", "CCC", Character.valueOf('C'), ingotDictString }));
-	}
+		public static void nuggetToIngotStandard(String nuggetDictString, Item ingotOut) {
+			Preconditions.checkNotNull(ingotOut);
+			Preconditions.checkArgument(nuggetDictString.length() > 0);
+			GameRegistry
+					.addRecipe(new ShapedOreRecipe(ingotOut, true, new Object[] { "CCC", "CCC", "CCC", Character.valueOf('C'), nuggetDictString }));
+		}
 
-	public static void ingotToNuggetStandard(String ingotDictString, Item nuggetOut) {
-		addShapelessRecipe(nuggetOut, 9, ingotDictString);
-	}
-	
-	public static void blockToIngotStandard(String blockDictString, Item ingotOut) {
-		addShapelessRecipe(ingotOut, 9, blockDictString);
-	}
+		public static void ingotToBlockStandard(String ingotDictString, Block blockOut) {
+			Preconditions.checkNotNull(blockOut);
+			Preconditions.checkArgument(ingotDictString.length() > 0);
+			GameRegistry
+					.addRecipe(new ShapedOreRecipe(blockOut, true, new Object[] { "CCC", "CCC", "CCC", Character.valueOf('C'), ingotDictString }));
+		}
 
-	@SuppressWarnings("all")
-	// I know, I know -BJ
-	public static void addShapelessRecipe(Item out, int numOut, String... inDictStrings) {
-		GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(out, numOut), inDictStrings));
+		public static void ingotToNuggetStandard(String ingotDictString, Item nuggetOut) {
+			addShapelessRecipe(nuggetOut, 9, ingotDictString);
+		}
+
+		public static void blockToIngotStandard(String blockDictString, Item ingotOut) {
+			addShapelessRecipe(ingotOut, 9, blockDictString);
+		}
+
+		@SuppressWarnings("all")
+		// I know, I know -BJ
+		public static void addShapelessRecipe(Item out, int numOut, String... inDictStrings) {
+			GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(out, numOut), inDictStrings));
+		}
 	}
 
 }

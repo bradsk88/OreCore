@@ -3,6 +3,7 @@ package ca.bradj.orecore.item.osmium;
 import net.minecraftforge.oredict.OreDictionary;
 import ca.bradj.orecore.item.IDs;
 import ca.bradj.orecore.item.OreCoreItems;
+import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
 
 public class Osmium {
 
@@ -27,12 +28,12 @@ public class Osmium {
 	public static final int OSMIUM_INFERIOR_VEIN_SIZE = 10;
 
 	public static void init() {
-		OreCoreItems.osmium = OreCoreItems.registerBlock(new OsmiumBlock(IDs.OSMIUM_ORE_ID), OSMIUM_NAME);
-		OreCoreItems.osmiumInferior = OreCoreItems.registerBlock(new OsmiumBlockInferior(IDs.OSMIUM_INFERIOR_ORE_ID), OSMIUM_INFERIOR_NAME);
-		OreCoreItems.osmiumIngot = OreCoreItems.registerItem(new OsmiumIngot(IDs.OSMIUM_INGOT_ID), OSMIUM_INGOT_NAME);
-		OreCoreItems.osmiumNugget = OreCoreItems.registerItem(new OsmiumNugget(IDs.OSMIUM_NUGGET_ID), OSMIUM_NUGGET_NAME);
-		OreCoreItems.osmiumDust = OreCoreItems.registerItem(new OsmiumDust(IDs.OSMIUM_DUST_ID), OSMIUM_DUST_NAME);
-		OreCoreItems.osmiumBlock = OreCoreItems.registerBlock(new OsmiumPureBlock(IDs.OSMIUM_BLOCK_ID), OSMIUM_BLOCK_NAME);
+		OreCoreItems.osmium = OreCoreRegistration.registerBlock(new OsmiumBlock(IDs.OSMIUM_ORE_ID), OSMIUM_NAME);
+		OreCoreItems.osmiumInferior = OreCoreRegistration.registerBlock(new OsmiumBlockInferior(IDs.OSMIUM_INFERIOR_ORE_ID), OSMIUM_INFERIOR_NAME);
+		OreCoreItems.osmiumIngot = OreCoreRegistration.registerItem(new OsmiumIngot(IDs.OSMIUM_INGOT_ID), OSMIUM_INGOT_NAME);
+		OreCoreItems.osmiumNugget = OreCoreRegistration.registerItem(new OsmiumNugget(IDs.OSMIUM_NUGGET_ID), OSMIUM_NUGGET_NAME);
+		OreCoreItems.osmiumDust = OreCoreRegistration.registerItem(new OsmiumDust(IDs.OSMIUM_DUST_ID), OSMIUM_DUST_NAME);
+		OreCoreItems.osmiumBlock = OreCoreRegistration.registerBlock(new OsmiumPureBlock(IDs.OSMIUM_BLOCK_ID), OSMIUM_BLOCK_NAME);
 
 		OreDictionary.registerOre(OSMIUM_DICT, OreCoreItems.osmium);
 		OreDictionary.registerOre(OSMIUM_INFERIOR_DICT, OreCoreItems.osmiumInferior);
@@ -41,14 +42,14 @@ public class Osmium {
 		OreDictionary.registerOre(OSMIUM_DUST_DICT, OreCoreItems.osmiumDust);
 		OreDictionary.registerOre(OSMIUM_BLOCK_DICT, OreCoreItems.osmiumBlock);
 
-		OreCoreItems.nuggetToIngotStandard(OSMIUM_NUGGET_DICT, OreCoreItems.osmiumIngot);
-		OreCoreItems.ingotToNuggetStandard(OSMIUM_INGOT_DICT, OreCoreItems.osmiumNugget);
-		OreCoreItems.ingotToBlockStandard(OSMIUM_INGOT_DICT, OreCoreItems.osmiumBlock);
-		OreCoreItems.blockToIngotStandard(OSMIUM_BLOCK_DICT, OreCoreItems.osmiumIngot);
+		OreCoreRegistration.nuggetToIngotStandard(OSMIUM_NUGGET_DICT, OreCoreItems.osmiumIngot);
+		OreCoreRegistration.ingotToNuggetStandard(OSMIUM_INGOT_DICT, OreCoreItems.osmiumNugget);
+		OreCoreRegistration.ingotToBlockStandard(OSMIUM_INGOT_DICT, OreCoreItems.osmiumBlock);
+		OreCoreRegistration.blockToIngotStandard(OSMIUM_BLOCK_DICT, OreCoreItems.osmiumIngot);
 
-		OreCoreItems.addSmelting(OreCoreItems.osmium, OreCoreItems.osmiumIngot, 1);
-		OreCoreItems.addSmelting(OreCoreItems.osmiumInferior, OreCoreItems.osmiumNugget, 3);
-		OreCoreItems.addSmelting(OreCoreItems.osmiumDust, OreCoreItems.osmiumIngot, 1);
+		OreCoreRegistration.addSmelting(OreCoreItems.osmium, OreCoreItems.osmiumIngot, 1);
+		OreCoreRegistration.addSmelting(OreCoreItems.osmiumInferior, OreCoreItems.osmiumNugget, 3);
+		OreCoreRegistration.addSmelting(OreCoreItems.osmiumDust, OreCoreItems.osmiumIngot, 1);
 	}
 
 }
