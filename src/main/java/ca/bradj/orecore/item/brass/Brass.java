@@ -3,12 +3,8 @@ package ca.bradj.orecore.item.brass;
 import net.minecraftforge.oredict.OreDictionary;
 import ca.bradj.orecore.item.IDs;
 import ca.bradj.orecore.item.OreCoreItems;
-import ca.bradj.orecore.item.iron.Iron;
-import ca.bradj.orecore.item.manganese.Manganese;
-import ca.bradj.orecore.item.brass.BrassDust;
-import ca.bradj.orecore.item.brass.BrassIngot;
-import ca.bradj.orecore.item.brass.BrassNugget;
-import ca.bradj.orecore.item.brass.BrassPureBlock;
+import ca.bradj.orecore.item.copper.Copper;
+import ca.bradj.orecore.item.zinc.Zinc;
 
 public class Brass {
 	
@@ -33,7 +29,7 @@ public class Brass {
 		OreDictionary.registerOre(BRASS_INGOT_DICT, OreCoreItems.brassIngot);
 		OreDictionary.registerOre(BRASS_BLOCK_DICT, OreCoreItems.brassBlock);
 		
-		OreCoreItems.addShapelessRecipe(OreCoreItems.brassDust, 2, Iron.IRON_DUST_DICT, Manganese.DUST_DICT);
+		OreCoreItems.addShapelessRecipe(OreCoreItems.brassDust, 2, Copper.COPPER_DUST_DICT, Zinc.ZINC_DUST_DICT);
 		
 		OreCoreItems.nuggetToIngotStandard(BRASS_NUGGET_DICT, OreCoreItems.brassIngot);
 		OreCoreItems.ingotToNuggetStandard(BRASS_INGOT_DICT, OreCoreItems.brassNugget);

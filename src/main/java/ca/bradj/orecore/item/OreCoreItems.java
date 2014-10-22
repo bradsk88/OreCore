@@ -84,6 +84,14 @@ import ca.bradj.orecore.item.tin.TinGravel;
 import ca.bradj.orecore.item.tin.TinIngot;
 import ca.bradj.orecore.item.tin.TinNugget;
 import ca.bradj.orecore.item.tin.TinPureBlock;
+import ca.bradj.orecore.item.zinc.Zinc;
+import ca.bradj.orecore.item.zinc.ZincBlock;
+import ca.bradj.orecore.item.zinc.ZincBlockInferior;
+import ca.bradj.orecore.item.zinc.ZincDust;
+import ca.bradj.orecore.item.zinc.ZincGravel;
+import ca.bradj.orecore.item.zinc.ZincIngot;
+import ca.bradj.orecore.item.zinc.ZincNugget;
+import ca.bradj.orecore.item.zinc.ZincPureBlock;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 /**
@@ -168,6 +176,14 @@ public class OreCoreItems {
 	public static NickelGravel nickelGravel;
 	public static NickelPureBlock nickelBlock;
 	
+	public static ZincBlock zinc;
+	public static ZincBlockInferior zincInferior;
+	public static ZincIngot zincIngot;
+	public static ZincNugget zincNugget;
+	public static ZincDust zincDust;
+	public static ZincGravel zincGravel;
+	public static ZincPureBlock zincBlock;
+	
 	// 4029 is next
 
 	public static final void init() {
@@ -185,6 +201,7 @@ public class OreCoreItems {
 		Silver.init();
 		Steel.init();
 		Tin.init();
+		Zinc.init();
 	}
 
 	public static void addSmelting(Item oreIn, Item out, int numOut) {
