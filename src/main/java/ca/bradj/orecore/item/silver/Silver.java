@@ -18,6 +18,7 @@ public class Silver {
 	public static final String SILVER_INGOT_DICT = "ingotSilver";
 	public static final String SILVER_NUGGET_DICT = "nuggetSilver";
 	public static final String SILVER_GRAVEL_DICT = "gravelSilver";
+	public static final String SILVER_BLOCK_DICT = "blockSilver";
 
 	private static final String SILVER_NAME = "Silver";
 	private static final String SILVER_INFERIOR_NAME = "Inferior.Silver";
@@ -25,6 +26,7 @@ public class Silver {
 	private static final String SILVER_NUGGET_NAME = "Silver.Nugget";
 	private static final String SILVER_DUST_NAME = "Silver.Dust";
 	private static final String SILVER_GRAVEL_NAME = "Silver.Gravel";
+	private static final String SILVER_BLOCK_NAME = "Silver.Block";
 	
 	public static final int SILVER_TOP_LEVEL = 50;
 	public static final int SILVER_GRAVEL_TOP_LEVEL = 50;
@@ -42,15 +44,19 @@ public class Silver {
 		OreCoreItems.silverNugget = OreCoreItems.registerItem(new SilverNugget(IDs.SILVER_NUGGET_ID), SILVER_NUGGET_NAME);
 		OreCoreItems.silverDust = OreCoreItems.registerItem(new SilverDust(IDs.SILVER_DUST_ID), SILVER_DUST_NAME);
 		OreCoreItems.silverGravel = OreCoreItems.registerBlock(new SilverGravel(IDs.SILVER_GRAVEL_ID), SILVER_GRAVEL_NAME);
+		OreCoreItems.silverBlock = OreCoreItems.registerBlock(new SilverPureBlock(IDs.SILVER_BLOCK_ID), SILVER_BLOCK_NAME);
 
 		OreDictionary.registerOre(SILVER_DICT, OreCoreItems.silver);
 		OreDictionary.registerOre(SILVER_INFERIOR_DICT, OreCoreItems.silverInferior);
 		OreDictionary.registerOre(SILVER_INGOT_DICT, OreCoreItems.silverIngot);
 		OreDictionary.registerOre(SILVER_NUGGET_DICT, OreCoreItems.silverNugget);
 		OreDictionary.registerOre(SILVER_DUST_DICT, OreCoreItems.silverDust);
+		OreDictionary.registerOre(SILVER_BLOCK_DICT, OreCoreItems.silverBlock);
 
 		OreCoreItems.nuggetToIngotStandard(SILVER_NUGGET_DICT, OreCoreItems.silverIngot);
 		OreCoreItems.ingotToNuggetStandard(SILVER_INGOT_DICT, OreCoreItems.silverNugget);
+		OreCoreItems.ingotToBlockStandard(SILVER_INGOT_DICT, OreCoreItems.silverBlock);
+		OreCoreItems.blockToIngotStandard(SILVER_BLOCK_DICT, OreCoreItems.silverIngot);
 
 		OreCoreItems.addSmelting(OreCoreItems.silver, OreCoreItems.silverIngot, 1);
 		OreCoreItems.addSmelting(OreCoreItems.silverDust, OreCoreItems.silverIngot, 1);

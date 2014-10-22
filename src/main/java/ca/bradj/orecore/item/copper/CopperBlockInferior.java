@@ -6,7 +6,7 @@ public class CopperBlockInferior extends OreBlock {
 
 	public CopperBlockInferior(int id) {
 		super(id, "copperInferior");
-		setHardness(1f);
+		setHardness(2f);
 		this.setHarvestLevel("pickaxe", 1);
 	}
 	

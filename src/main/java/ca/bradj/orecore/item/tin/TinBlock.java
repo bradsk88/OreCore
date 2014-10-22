@@ -6,7 +6,7 @@ public class TinBlock extends OreBlock {
 
 	public TinBlock(int id) {
 		super(id, "tin");
-		setHardness(1.5f);
+		setHardness(2.5f);
 		this.setHarvestLevel("pickaxe", 2);
 	}
 

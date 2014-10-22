@@ -12,6 +12,7 @@ public class Copper {
 	public static final String COPPER_INGOT_DICT = "ingotCopper";
 	public static final String COPPER_NUGGET_DICT = "nuggetCopper";
 	public static final String COPPER_GRAVEL_DICT = "gravelCopper";
+	private static final String COPPER_BLOCK_DICT = "blockCopper";
 
 	private static final String COPPER_NAME = "Copper";
 	private static final String COPPER_INFERIOR_NAME = "Inferior.Copper";
@@ -19,6 +20,7 @@ public class Copper {
 	private static final String COPPER_NUGGET_NAME = "Copper.Nugget";
 	private static final String COPPER_DUST_NAME = "Copper.Dust";
 	private static final String COPPER_GRAVEL_NAME = "Copper.Gravel";
+	private static final String COPPER_BLOCK_NAME = "Copper.Block";
 	
 	public static final int COPPER_TOP_LEVEL = 50;
 	public static final int COPPER_GRAVEL_TOP_LEVEL = 50;
@@ -36,15 +38,19 @@ public class Copper {
 		OreCoreItems.copperNugget = OreCoreItems.registerItem(new CopperNugget(IDs.copperNuggetId), COPPER_NUGGET_NAME);
 		OreCoreItems.copperDust = OreCoreItems.registerItem(new CopperDust(IDs.copperDustId), COPPER_DUST_NAME);
 		OreCoreItems.copperGravel = OreCoreItems.registerBlock(new CopperGravel(IDs.COPPER_GRAVEL_ID), COPPER_GRAVEL_NAME);
+		OreCoreItems.copperBlock = OreCoreItems.registerBlock(new CopperPureBlock(IDs.COPPER_BLOCK_ID), COPPER_BLOCK_NAME);
 
 		OreDictionary.registerOre(COPPER_DICT, OreCoreItems.copper);
 		OreDictionary.registerOre(COPPER_INFERIOR_DICT, OreCoreItems.copperInferior);
 		OreDictionary.registerOre(COPPER_INGOT_DICT, OreCoreItems.copperIngot);
 		OreDictionary.registerOre(COPPER_NUGGET_DICT, OreCoreItems.copperNugget);
 		OreDictionary.registerOre(COPPER_DUST_DICT, OreCoreItems.copperDust);
+		OreDictionary.registerOre(COPPER_BLOCK_DICT, OreCoreItems.copperBlock);
 
 		OreCoreItems.nuggetToIngotStandard(COPPER_NUGGET_DICT, OreCoreItems.copperIngot);
 		OreCoreItems.ingotToNuggetStandard(COPPER_INGOT_DICT, OreCoreItems.copperNugget);
+		OreCoreItems.ingotToBlockStandard(COPPER_INGOT_DICT, OreCoreItems.copperBlock);
+		OreCoreItems.blockToIngotStandard(COPPER_BLOCK_DICT, OreCoreItems.copperIngot);
 
 		OreCoreItems.addSmelting(OreCoreItems.copper, OreCoreItems.copperIngot, 1);
 		OreCoreItems.addSmelting(OreCoreItems.copperDust, OreCoreItems.copperIngot, 1);

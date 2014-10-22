@@ -12,6 +12,7 @@ public class Tin {
 	private static final String TIN_NUGGET_NAME = "Tin.Nugget";
 	private static final String TIN_DUST_NAME = "Tin.Dust";
 	private static final String TIN_GRAVEL_NAME = "Tin.Gravel";
+	private static final String TIN_BLOCK_NAME = "Tin.Block";
 
 	public static final String TIN_DICT = "oreTin";
 	public static final String TIN_INFERIOR_DICT = "oreTinInferior";
@@ -19,6 +20,7 @@ public class Tin {
 	public static final String TIN_NUGGET_DICT = "nuggetTin";
 	public static final String TIN_DUST_DICT = "dustTin";
 	public static final String TIN_GRAVEL_DICT = "gravelTin";
+	public static final String TIN_BLOCK_DICT = "blockTin";
 	
 	public static final int TIN_TOP_LEVEL = 55;
 	public static final int TIN_GRAVEL_TOP_LEVEL = 55;
@@ -35,6 +37,7 @@ public class Tin {
 		OreCoreItems.tinNugget = OreCoreItems.registerItem(new TinNugget(IDs.TIN_NUGGET_ID), TIN_NUGGET_NAME);
 		OreCoreItems.tinDust = OreCoreItems.registerItem(new TinDust(IDs.TIN_DUST_ID), TIN_DUST_NAME);
 		OreCoreItems.tinGravel = OreCoreItems.registerBlock(new TinGravel(IDs.TIN_GRAVEL_ID), TIN_GRAVEL_NAME);
+		OreCoreItems.tinBlock = OreCoreItems.registerBlock(new TinPureBlock(IDs.TIN_BLOCK_ID), TIN_BLOCK_NAME);
 
 		OreDictionary.registerOre(TIN_DICT, OreCoreItems.tin);
 		OreDictionary.registerOre(TIN_INFERIOR_DICT, OreCoreItems.tinInferior);
@@ -42,9 +45,12 @@ public class Tin {
 		OreDictionary.registerOre(TIN_NUGGET_DICT, OreCoreItems.tinNugget);
 		OreDictionary.registerOre(TIN_DUST_DICT, OreCoreItems.tinDust);
 		OreDictionary.registerOre(TIN_GRAVEL_DICT, OreCoreItems.tinGravel);
+		OreDictionary.registerOre(TIN_BLOCK_DICT, OreCoreItems.tinBlock);
 
 		OreCoreItems.nuggetToIngotStandard(TIN_NUGGET_DICT, OreCoreItems.tinIngot);
 		OreCoreItems.ingotToNuggetStandard(TIN_INGOT_DICT, OreCoreItems.tinNugget);
+		OreCoreItems.ingotToBlockStandard(TIN_INGOT_DICT, OreCoreItems.tinBlock);
+		OreCoreItems.blockToIngotStandard(TIN_BLOCK_DICT, OreCoreItems.tinIngot);
 
 		OreCoreItems.addSmelting(OreCoreItems.tin, OreCoreItems.tinIngot, 1);
 		OreCoreItems.addSmelting(OreCoreItems.tinGravel, OreCoreItems.tinIngot, 1);

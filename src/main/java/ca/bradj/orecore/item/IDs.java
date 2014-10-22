@@ -6,6 +6,7 @@ package ca.bradj.orecore.item;
 public class IDs {
 
 	//TODO: Move these IDs into a config file -BJ
+	//TODO: Reorder these -BJ
 	
 	public static final int BAUXITE_ID = 4000;
 	public static final int ALUMINUM_DUST_ID = 4001;
@@ -60,5 +61,22 @@ public class IDs {
 	
 	public static final int IRON_DUST_ID = 4040;
 	public static final int IRON_NUGGET_ID = 4041;
+	
+	public static final int ALUMINUM_BLOCK_ID = 4042;
+	public static final int BRONZE_BLOCK_ID = 4043;
+	public static final int COPPER_BLOCK_ID = 4044;
+	public static final int COPPER_2_CARBONATE_BLOCK_ID = 4045;
+	public static final int MANGANESE_BLOCK_ID = 4046;
+	public static final int OSMIUM_BLOCK_ID = 4047;
+	public static final int SILVER_BLOCK_ID = 4048;
+	public static final int STEEL_BLOCK_ID = 4049;
+	public static final int TIN_BLOCK_ID = 4050;
+	
+	public static final int BRASS_DUST_ID = 4051;
+	public static final int BRASS_NUGGET_ID = 4052;
+	public static final int BRASS_INGOT_ID = 4053;
+	public static final int BRASS_BLOCK_ID = 4054;
+	
+	public static final int GOLD_DUST_ID = 4055;
 	
 }

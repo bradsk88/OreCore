@@ -6,7 +6,7 @@ public class OsmiumBlock extends OreBlock {
 
 	public OsmiumBlock(int id) {
 		super(id, "osmium");
-		setHardness(1.5f);
+		setHardness(2.5f);
 		this.setHarvestLevel("pickaxe", 2);
 	}
 

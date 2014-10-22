@@ -16,6 +16,7 @@ public class Aluminum {
 	private static final String ALUMINUM_DUST_NAME = "Aluminum.Dust";
 	private static final String ALUMINUM_NUGGET_NAME = "Aluminum.Nugget";
 	private static final String ALUMINUM_INGOT_NAME = "Aluminum.Ingot";
+	private static final String ALUMINUM_BLOCK_NAME = "Aluminum.Block";
 	
 	public static final int BAUXITE_TOP_LEVEL = 50;
 	
@@ -27,14 +28,18 @@ public class Aluminum {
 		OreCoreItems.aluminumIngot = OreCoreItems.registerItem(new AluminumIngot(IDs.ALUMINUM_INGOT_ID), ALUMINUM_INGOT_NAME);
 		OreCoreItems.aluminumDust = OreCoreItems.registerItem(new AluminumDust(IDs.ALUMINUM_DUST_ID), ALUMINUM_DUST_NAME);
 		OreCoreItems.aluminumNugget = OreCoreItems.registerItem(new AluminumNugget(IDs.ALUMINUM_NUGGET_ID), ALUMINUM_NUGGET_NAME);
+		OreCoreItems.aluminumBlock = OreCoreItems.registerBlock(new AluminumPureBlock(IDs.ALUMINUM_BLOCK_ID), ALUMINUM_BLOCK_NAME);
 
 		OreDictionary.registerOre(BAUXITE_DICT, new ItemStack(OreCoreItems.bauxite, 1, 1));
 		OreDictionary.registerOre(ALUMINUM_DUST_DICT, OreCoreItems.aluminumDust);
 		OreDictionary.registerOre(ALUMINUM_NUGGET_DICT, OreCoreItems.aluminumNugget);
 		OreDictionary.registerOre(ALUMINUM_INGOT_DICT, OreCoreItems.aluminumIngot);
+		OreDictionary.registerOre(ALUMINUM_BLOCK_NAME, OreCoreItems.aluminumBlock);
 
 		OreCoreItems.nuggetToIngotStandard(ALUMINUM_NUGGET_DICT, OreCoreItems.aluminumIngot);
 		OreCoreItems.ingotToNuggetStandard(ALUMINUM_INGOT_DICT, OreCoreItems.aluminumNugget);
+		OreCoreItems.ingotToBlockStandard(ALUMINUM_INGOT_DICT, OreCoreItems.aluminumBlock);
+		OreCoreItems.blockToIngotStandard(ALUMINUM_BLOCK_NAME, OreCoreItems.aluminumIngot);
 
 		OreCoreItems.addSmelting(OreCoreItems.aluminumDust, OreCoreItems.aluminumNugget, 3);
 	}

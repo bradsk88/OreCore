@@ -6,7 +6,7 @@ public class TinBlockInferior extends OreBlock {
 
 	public TinBlockInferior(int id) {
 		super(id, "tinInferior");
-		setHardness(1f);
+		setHardness(2f);
 		this.setHarvestLevel("pickaxe", 1);
 	}
 

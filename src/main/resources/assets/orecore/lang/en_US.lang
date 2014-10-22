@@ -4,10 +4,17 @@ tile.Bauxite.Ore.name=Bauxite Ore
 item.Aluminum.Dust.name=Aluminum Dust
 item.Aluminum.Nugget.name=Aluminum Nugget
 item.Aluminum.Ingot.name=Aluminum Ingot
+tile.Aluminum.Block.name=Block of Aluminum
 
 item.Bronze.Dust.name=Bronze Dust
 item.Bronze.Nugget.name=Bronze Nugget
 item.Bronze.Ingot.name=Bronze Ingot
+tile.Bronze.Block.name=Block of Bronze
+
+item.Brass.Dust.name=Brass Dust
+item.Brass.Nugget.name=Brass Nugget
+item.Brass.Ingot.name=Brass Ingot
+tile.Brass.Block.name=Block of Brass
 
 tile.Copper.name=Copper Ore
 tile.Inferior.Copper.name=Inferior Copper Ore
@@ -15,10 +22,12 @@ tile.Copper.Gravel.name=Copper Gravel Ore
 item.Copper.Dust.name=Copper Dust
 item.Copper.Nugget.name=Copper Nugget
 item.Copper.Ingot.name=Copper Ingot
+tile.Copper.Block.name=Block of Copper
 
 item.Copper.II.Carbonate.Dust.name=Copper II Carbonate
 item.Copper.II.Carbonate.Nugget.name=Copper II Carbonate Nugget
 item.Copper.II.Carbonate.Ingot.name=Copper II Carbonate Ingot
+tile.Copper.II.Carbonate.Block.name=Block of Copper II Carbonate
 
 item.Iron.Dust.name=Iron Dust
 item.Iron.Nugget.name=Iron Nugget
@@ -28,12 +37,14 @@ tile.Iron.Manganese=Iron Manganese Ore
 tile.Manganese.Dust.name=Manganese Dust
 item.Manganese.Nugget.name=Manganese Nugget
 item.Manganese.Ingot.name=Manganese Ingot
+tile.Manganese.Block.name=Block of Manganese
 
 tile.Osmium.name=Osmium Ore
 tile.Inferior.Osmium.name=Inferior Osmium Ore
 item.Osmium.Ingot.name=Osmium Ingot
 item.Osmium.Nugget.name=Osmium Nugget
 item.Osmium.Dust.name=Osmium Dust
+tile.Osmium.Block.name=Block of Osmium
 
 tile.Silver.name=Silver Ore
 tile.Inferior.Silver.name=Inferior Silver Ore
@@ -41,10 +52,12 @@ tile.Silver.Gravel.name=Silver Gravel Ore
 item.Silver.Ingot.name=Silver Ingot
 item.Silver.Nugget.name=Silver Nugget
 item.Silver.Dust.name=Silver Dust
+tile.Silver.Block.name=Block of Silver
 
 item.Steel.Dust.name=Steel Dust
 item.Steel.Nugget.name=Steel Nugget
 item.Steel.Ingot.name=Steel Ingot
+tile.Steel.Block.name=Block of Steel
 
 tile.Tin.name=Tin Ore
 tile.Inferior.Tin.name=Inferior Tin Ore
@@ -52,3 +65,4 @@ tile.Tin.Gravel.name=Tin Gravel ORe
 item.Tin.Ingot.name=Tin Ingot
 item.Tin.Nugget.name=Tin Nugget
 item.Tin.Dust.name=Tin Dust
+tile.Tin.Block.name=Block of Tin

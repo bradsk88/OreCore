@@ -11,23 +11,29 @@ public class Bronze {
 	private static final String BRONZE_DUST_NAME = "Bronze.Dust";
 	private static final String BRONZE_INGOT_NAME = "Bronze.Ingot";
 	private static final String BRONZE_NUGGET_NAME = "Bronze.Nugget";
+	private static final String BRONZE_BLOCK_NAME = "Bronze.Block";
 
 	public static final String BRONZE_DUST_DICT = "dustBronze";
 	public static final String BRONZE_INGOT_DICT = "ingotBronze";
 	public static final String BRONZE_NUGGET_DICT = "nuggetBronze";
+	private static final String BRONZE_BLOCK_DICT = "blockBronze";
 
 	public static void init() {
 
 		OreCoreItems.bronzeDust = OreCoreItems.registerItem(new BronzeDust(IDs.BRONZE_DUST_ID), BRONZE_DUST_NAME);
 		OreCoreItems.bronzeIngot = OreCoreItems.registerItem(new BronzeIngot(IDs.BRONZE_INGOT_ID), BRONZE_INGOT_NAME);
 		OreCoreItems.bronzeNugget = OreCoreItems.registerItem(new BronzeNugget(IDs.BRONZE_NUGGET_ID), BRONZE_NUGGET_NAME);
+		OreCoreItems.bronzeBlock = OreCoreItems.registerBlock(new BronzePureBlock(IDs.BRONZE_BLOCK_ID), BRONZE_BLOCK_NAME);
 
 		OreDictionary.registerOre(BRONZE_DUST_DICT, OreCoreItems.bronzeDust);
 		OreDictionary.registerOre(BRONZE_NUGGET_DICT, OreCoreItems.bronzeNugget);
 		OreDictionary.registerOre(BRONZE_INGOT_DICT, OreCoreItems.bronzeIngot);
+		OreDictionary.registerOre(BRONZE_BLOCK_DICT, OreCoreItems.bronzeBlock);
 
 		OreCoreItems.nuggetToIngotStandard(BRONZE_NUGGET_DICT, OreCoreItems.bronzeIngot);
 		OreCoreItems.ingotToNuggetStandard(BRONZE_INGOT_DICT, OreCoreItems.bronzeNugget);
+		OreCoreItems.blockToIngotStandard(BRONZE_BLOCK_DICT, OreCoreItems.bronzeIngot);
+		OreCoreItems.ingotToBlockStandard(BRONZE_INGOT_DICT, OreCoreItems.bronzeBlock);
 
 		OreCoreItems.addSmelting(OreCoreItems.bronzeDust, OreCoreItems.bronzeIngot, 1);
 		OreCoreItems.addShapelessRecipe(OreCoreItems.bronzeDust, 2, Copper.COPPER_DUST_DICT, Tin.TIN_DUST_DICT);
