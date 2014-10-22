@@ -1,5 +1,6 @@
 package ca.bradj.orecore.item;
 
+
 /**
  * Centralized locations for all items IDs.
  */
@@ -78,5 +79,13 @@ public class IDs {
 	public static final int BRASS_BLOCK_ID = 4054;
 	
 	public static final int GOLD_DUST_ID = 4055;
+	
+	public static final int NICKEL_ORE_ID = 4056;
+	public static final int NICKEL_INFERIOR_ORE_ID = 4057;
+	public static final int NICKEL_INGOT_ID = 4058;
+	public static final int NICKEL_NUGGET_ID = 4059;
+	public static final int NICKEL_DUST_ID = 4060;
+	public static final int NICKEL_GRAVEL_ID = 4061;
+	public static final int NICKEL_BLOCK_ID = 4062;
 	
 }

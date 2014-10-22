@@ -48,6 +48,14 @@ import ca.bradj.orecore.item.manganese.ManganeseDust;
 import ca.bradj.orecore.item.manganese.ManganeseIngot;
 import ca.bradj.orecore.item.manganese.ManganeseNugget;
 import ca.bradj.orecore.item.manganese.ManganesePureBlock;
+import ca.bradj.orecore.item.nickel.Nickel;
+import ca.bradj.orecore.item.nickel.NickelBlock;
+import ca.bradj.orecore.item.nickel.NickelBlockInferior;
+import ca.bradj.orecore.item.nickel.NickelDust;
+import ca.bradj.orecore.item.nickel.NickelGravel;
+import ca.bradj.orecore.item.nickel.NickelIngot;
+import ca.bradj.orecore.item.nickel.NickelNugget;
+import ca.bradj.orecore.item.nickel.NickelPureBlock;
 import ca.bradj.orecore.item.osmium.Osmium;
 import ca.bradj.orecore.item.osmium.OsmiumBlock;
 import ca.bradj.orecore.item.osmium.OsmiumBlockInferior;
@@ -152,6 +160,14 @@ public class OreCoreItems {
 	
 	public static GoldDust goldDust;
 	
+	public static NickelBlock nickel;
+	public static NickelBlockInferior nickelInferior;
+	public static NickelIngot nickelIngot;
+	public static NickelNugget nickelNugget;
+	public static NickelDust nickelDust;
+	public static NickelGravel nickelGravel;
+	public static NickelPureBlock nickelBlock;
+	
 	// 4029 is next
 
 	public static final void init() {
@@ -164,6 +180,7 @@ public class OreCoreItems {
 		Iron.init();
 		IronManganese.init();
 		Manganese.init();
+		Nickel.init();
 		Osmium.init();
 		Silver.init();
 		Steel.init();
