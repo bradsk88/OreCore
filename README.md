@@ -17,7 +17,7 @@ pull requests.  If not, I will leave the forks open for those who wish to downlo
 Mekanism https://github.com/bradsk88/Mekanism https://github.com/aidancbrady/Mekanism  
 Tinkers Construct https://github.com/SlimeKnights/TinkersConstruct  
 Mariculture https://github.com/joshiejack/Mariculture  
-Railcraft (not sure if needed) https://github.com/CovertJaguar/Railcraft
+Railcraft (not sure if needed) https://github.com/CovertJaguar/Railcraft  
 Thermal Foundation https://github.com/CoFH/ThermalFoundation
 
 If you would like to use OreCore in your mod, please feel absolutely free.  I would love to list it here and help maintain it, so please let me know if you decide to use it or any of my other mods.
