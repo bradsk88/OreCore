@@ -18,8 +18,8 @@ public class Iron {
 
 	private static final String IRON_DUST_NAME = "Iron.Dust";
 	private static final String IRON_NUGGET_NAME = "Iron.Nugget";
-	private static final String IRON_INFERIOR_NAME = "Inferior.iron";
-	private static final String IRON_GRAVEL_NAME = "iron.Gravel";
+	private static final String IRON_INFERIOR_NAME = "Inferior.Iron";
+	private static final String IRON_GRAVEL_NAME = "Iron.Gravel";
 
 	public static final int IRON_GRAVEL_TOP_LEVEL = 100;
 	public static final int IRON_INFERIOR_TOP_LEVEL = 100;

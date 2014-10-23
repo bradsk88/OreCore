@@ -67,7 +67,7 @@ tile.Inferior.Osmium.name=Inferior Osmium Ore
 item.Osmium.Ingot.name=Osmium Ingot
 item.Osmium.Nugget.name=Osmium Nugget
 item.Osmium.Dust.name=Osmium Dust
-item.Osmium.Gravel.name=Osmium Gravel
+tile.Osmium.Gravel.name=Osmium Gravel
 tile.Osmium.Block.name=Block of Osmium
 
 tile.Silver.name=Silver Ore
@@ -85,15 +85,24 @@ tile.Steel.Block.name=Block of Steel
 
 tile.Tin.name=Tin Ore
 tile.Inferior.Tin.name=Inferior Tin Ore
-tile.Tin.Gravel.name=Tin Gravel ORe
+tile.Tin.Gravel.name=Tin Gravel Ore
 item.Tin.Ingot.name=Tin Ingot
 item.Tin.Nugget.name=Tin Nugget
 item.Tin.Dust.name=Tin Dust
 tile.Tin.Block.name=Block of Tin
 
+tile.Rutile.name=Rutile Ore
+tile.Rutile.Inferior.name=Inferior Rutile Ore
+tile.Ilmenite.name=Ilmenite Ore
+tile.Ilmenite.Inferior.name=Inferior Ilmenite Ore
+item.Titanium.Ingot.name=Titanium Ingot
+item.Titanium.Nugget.name=Titanium Nugget
+item.Titanium.Dust.name=Titanium Dust
+tile.Titanium.Block.name=Block of Titanium
+
 tile.Zinc.name=Zinc Ore
 tile.Inferior.Zinc.name=Inferior Zinc Ore
-tile.Zinc.Gravel.name=Zinc Gravel ORe
+tile.Zinc.Gravel.name=Zinc Gravel Ore
 item.Zinc.Ingot.name=Zinc Ingot
 item.Zinc.Nugget.name=Zinc Nugget
 item.Zinc.Dust.name=Zinc Dust
