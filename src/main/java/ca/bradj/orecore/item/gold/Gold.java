@@ -14,8 +14,8 @@ public class Gold {
 	public static final String GOLD_INFERIOR_DICT = "oregoldInferior";
 
 	private static final String GOLD_DUST_NAME = "Gold.Dust";
-	private static final String GOLD_INFERIOR_NAME = "Inferior.gold";
-	private static final String GOLD_GRAVEL_NAME = "gold.Gravel";
+	private static final String GOLD_INFERIOR_NAME = "Inferior.Gold";
+	private static final String GOLD_GRAVEL_NAME = "Gold.Gravel";
 
 	public static final int GOLD_GRAVEL_TOP_LEVEL = 50;
 	public static final int GOLD_INFERIOR_TOP_LEVEL = 70;

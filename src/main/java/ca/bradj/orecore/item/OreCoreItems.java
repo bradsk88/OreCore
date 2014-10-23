@@ -12,6 +12,7 @@ import ca.bradj.orecore.item.aluminum.AluminumPureBlock;
 import ca.bradj.orecore.item.aluminum.AluminumDust;
 import ca.bradj.orecore.item.aluminum.AluminumIngot;
 import ca.bradj.orecore.item.aluminum.AluminumNugget;
+import ca.bradj.orecore.item.aluminum.BauxiteGravelBlock;
 import ca.bradj.orecore.item.aluminum.BauxiteOreBlock;
 import ca.bradj.orecore.item.brass.Brass;
 import ca.bradj.orecore.item.brass.BrassDust;
@@ -72,6 +73,7 @@ import ca.bradj.orecore.item.osmium.Osmium;
 import ca.bradj.orecore.item.osmium.OsmiumBlock;
 import ca.bradj.orecore.item.osmium.OsmiumBlockInferior;
 import ca.bradj.orecore.item.osmium.OsmiumDust;
+import ca.bradj.orecore.item.osmium.OsmiumGravel;
 import ca.bradj.orecore.item.osmium.OsmiumIngot;
 import ca.bradj.orecore.item.osmium.OsmiumNugget;
 import ca.bradj.orecore.item.osmium.OsmiumPureBlock;
@@ -125,6 +127,7 @@ public class OreCoreItems {
 	public static Copper2CarbonatePureBlock copper2CarbonateBlock;
 
 	public static BauxiteOreBlock bauxite;
+	public static BauxiteGravelBlock bauxiteGravel;
 	public static AluminumDust aluminumDust;
 	public static AluminumNugget aluminumNugget;
 	public static AluminumIngot aluminumIngot;
@@ -134,6 +137,7 @@ public class OreCoreItems {
 	public static OsmiumBlockInferior osmiumInferior;
 	public static OsmiumIngot osmiumIngot;
 	public static OsmiumNugget osmiumNugget;
+	public static OsmiumGravel osmiumGravel;
 	public static OsmiumDust osmiumDust;
 	public static OsmiumPureBlock osmiumBlock;
 

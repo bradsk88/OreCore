@@ -1,6 +1,7 @@
 package ca.bradj.orecore.item;
 
 
+
 /**
  * Centralized locations for all items IDs.
  */
@@ -105,5 +106,8 @@ public class IDs {
 	public static final int LEAD_DUST_ID = 4078;
 	public static final int LEAD_GRAVEL_ID = 4079;
 	public static final int LEAD_BLOCK_ID = 4080;
+	
+	public static final int OSMIUM_GRAVEL_ID = 4081;
+	public static final int BAUXITE_GRAVEL_ID = 4082;
 
 }

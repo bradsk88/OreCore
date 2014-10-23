@@ -1,6 +1,7 @@
 itemGroup.tabOreCore=Ore Core
 
 tile.Bauxite.Ore.name=Bauxite Ore
+tile.Bauxite.Gravel.name=Loose Bauxite Ore
 item.Aluminum.Dust.name=Aluminum Dust
 item.Aluminum.Nugget.name=Aluminum Nugget
 item.Aluminum.Ingot.name=Aluminum Ingot
@@ -29,21 +30,44 @@ item.Copper.II.Carbonate.Nugget.name=Copper II Carbonate Nugget
 item.Copper.II.Carbonate.Ingot.name=Copper II Carbonate Ingot
 tile.Copper.II.Carbonate.Block.name=Block of Copper II Carbonate
 
+tile.Inferior.Gold.name=Inferior Gold Ore
+tile.Gold.Gravel.name=Gold Gravel Ore
+item.Gold.Dust.name=Gold Dust
+
 item.Iron.Dust.name=Iron Dust
 item.Iron.Nugget.name=Iron Nugget
+tile.Inferior.Iron.name=Inferior Iron Ore
+tile.Iron.Gravel.name=Iron Gravel Ore
 
 tile.Iron.Manganese=Iron Manganese Ore
+
+tile.Lead.name=Lead Ore
+tile.Inferior.Lead.name=Inferior Lead Ore
+tile.Lead.Gravel.name=Lead Gravel Ore
+item.Lead.Dust.name=Lead Dust
+item.Lead.Nugget.name=Lead Nugget
+item.Lead.Ingot.name=Lead Ingot
+tile.Lead.Block.name=Block of Lead
 
 tile.Manganese.Dust.name=Manganese Dust
 item.Manganese.Nugget.name=Manganese Nugget
 item.Manganese.Ingot.name=Manganese Ingot
 tile.Manganese.Block.name=Block of Manganese
 
+tile.Nickel.name=Nickel Ore
+tile.Inferior.Nickel.name=Inferior Nickel Ore
+tile.Nickel.Gravel.name=Nickel Gravel Ore
+item.Nickel.Dust.name=Nickel Dust
+item.Nickel.Nugget.name=Nickel Nugget
+item.Nickel.Ingot.name=Nickel Ingot
+tile.Nickel.Block.name=Block of Nickel
+
 tile.Osmium.name=Osmium Ore
 tile.Inferior.Osmium.name=Inferior Osmium Ore
 item.Osmium.Ingot.name=Osmium Ingot
 item.Osmium.Nugget.name=Osmium Nugget
 item.Osmium.Dust.name=Osmium Dust
+item.Osmium.Gravel.name=Osmium Gravel
 tile.Osmium.Block.name=Block of Osmium
 
 tile.Silver.name=Silver Ore
@@ -66,3 +90,11 @@ item.Tin.Ingot.name=Tin Ingot
 item.Tin.Nugget.name=Tin Nugget
 item.Tin.Dust.name=Tin Dust
 tile.Tin.Block.name=Block of Tin
+
+tile.Zinc.name=Zinc Ore
+tile.Inferior.Zinc.name=Inferior Zinc Ore
+tile.Zinc.Gravel.name=Zinc Gravel ORe
+item.Zinc.Ingot.name=Zinc Ingot
+item.Zinc.Nugget.name=Zinc Nugget
+item.Zinc.Dust.name=Zinc Dust
+tile.Zinc.Block.name=Block of Zinc

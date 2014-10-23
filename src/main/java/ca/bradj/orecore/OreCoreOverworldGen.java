@@ -36,47 +36,53 @@ public class OreCoreOverworldGen {
 
 	public void generate() {
 		doGenerateOre(OreCoreItems.bauxite, 0, Aluminum.BAUXITE_TOP_LEVEL, Aluminum.BAUXITE_VEIN_SIZE);
+		doGenerateOre(OreCoreItems.bauxiteGravel, 0, Aluminum.BAUXITE_TOP_LEVEL, Aluminum.BAUXITE_GRAVEL_VEIN_SIZE, OreCoreItems.bauxite);
 		
-		doGenerateOre(OreCoreItems.copper, 0, Copper.COPPER_TOP_LEVEL, Copper.COPPER_VEIN_SIZE);
-		doGenerateOre(OreCoreItems.copperGravel, 0, Copper.COPPER_GRAVEL_TOP_LEVEL, Copper.COPPER_GRAVEL_VEIN_SIZE);
-		doGenerateOre(OreCoreItems.copperInferior, 0, Copper.COPPER_INFERIOR_TOP_LEVEL, Copper.COPPER_INFERIOR_VEIN_SIZE);
-		
-		doGenerateOre(OreCoreItems.goldGravel, 0, Gold.GOLD_GRAVEL_TOP_LEVEL, Gold.GOLD_GRAVEL_VEIN_SIZE);
-		doGenerateOre(OreCoreItems.goldInferior, 0, Gold.GOLD_INFERIOR_TOP_LEVEL, Gold.GOLD_INFERIOR_VEIN_SIZE);
-		
-		doGenerateOre(OreCoreItems.ironGravel, 0, Iron.IRON_GRAVEL_TOP_LEVEL, Iron.IRON_GRAVEL_VEIN_SIZE);
-		doGenerateOre(OreCoreItems.ironInferior, 0, Iron.IRON_INFERIOR_TOP_LEVEL, Iron.IRON_INFERIOR_VEIN_SIZE);
-
-		doGenerateOre(OreCoreItems.ironManganese, 0, IronManganese.IRON_MANGANESE_TOP_LEVEL, IronManganese.IRON_MANGANESE_VEIN_SIZE);
-		
-		doGenerateOre(OreCoreItems.nickel, 0, Nickel.NICKEL_TOP_LEVEL, Nickel.NICKEL_VEIN_SIZE);
-		doGenerateOre(OreCoreItems.nickelGravel, 0, Nickel.NICKEL_GRAVEL_TOP_LEVEL, Nickel.NICKEL_GRAVEL_VEIN_SIZE);
-		doGenerateOre(OreCoreItems.nickelInferior, 0, Nickel.NICKEL_INFERIOR_TOP_LEVEL, Nickel.NICKEL_INFERIOR_VEIN_SIZE);
-
-		doGenerateOre(OreCoreItems.osmium, 0, Osmium.OSMIUM_TOP_LEVEL, Osmium.OSMIUM_VEIN_SIZE);
-		doGenerateOre(OreCoreItems.osmiumInferior, 0, Osmium.OSMIUM_INFERIOR_TOP_LEVEL, Osmium.OSMIUM_INFERIOR_VEIN_SIZE);
-		
-		doGenerateOre(OreCoreItems.silver, 0, Silver.SILVER_TOP_LEVEL, Silver.SILVER_VEIN_SIZE);
-		doGenerateOre(OreCoreItems.silverGravel, 0, Silver.SILVER_GRAVEL_TOP_LEVEL, Silver.SILVER_GRAVEL_VEIN_SIZE);
-		doGenerateOre(OreCoreItems.silverInferior, 0, Silver.SILVER_INFERIOR_TOP_LEVEL, Silver.SILVER_INFERIOR_VEIN_SIZE);
-		
-		doGenerateOre(OreCoreItems.tin, 0, Tin.TIN_TOP_LEVEL, Tin.TIN_VEIN_SIZE);
-		doGenerateOre(OreCoreItems.tinGravel, 0, Tin.TIN_GRAVEL_TOP_LEVEL, Tin.TIN_GRAVEL_VEIN_SIZE);
-		doGenerateOre(OreCoreItems.tinInferior, 0, Tin.TIN_INFERIOR_TOP_LEVEL, Tin.TIN_INFERIOR_VEIN_SIZE);
-		
-		doGenerateOre(OreCoreItems.zinc, 0, Zinc.ZINC_TOP_LEVEL, Zinc.ZINC_VEIN_SIZE);
-		doGenerateOre(OreCoreItems.zincGravel, 0, Zinc.ZINC_GRAVEL_TOP_LEVEL, Zinc.ZINC_GRAVEL_VEIN_SIZE);
-		doGenerateOre(OreCoreItems.zincInferior, 0, Zinc.ZINC_INFERIOR_TOP_LEVEL, Zinc.ZINC_INFERIOR_VEIN_SIZE);
+//		doGenerateOre(OreCoreItems.copper, 0, Copper.COPPER_TOP_LEVEL, Copper.COPPER_VEIN_SIZE);
+//		doGenerateOre(OreCoreItems.copperGravel, 0, Copper.COPPER_GRAVEL_TOP_LEVEL, Copper.COPPER_GRAVEL_VEIN_SIZE);
+//		doGenerateOre(OreCoreItems.copperInferior, 0, Copper.COPPER_INFERIOR_TOP_LEVEL, Copper.COPPER_INFERIOR_VEIN_SIZE);
+//		
+//		doGenerateOre(OreCoreItems.goldGravel, 0, Gold.GOLD_GRAVEL_TOP_LEVEL, Gold.GOLD_GRAVEL_VEIN_SIZE);
+//		doGenerateOre(OreCoreItems.goldInferior, 0, Gold.GOLD_INFERIOR_TOP_LEVEL, Gold.GOLD_INFERIOR_VEIN_SIZE);
+//		
+//		doGenerateOre(OreCoreItems.ironGravel, 0, Iron.IRON_GRAVEL_TOP_LEVEL, Iron.IRON_GRAVEL_VEIN_SIZE);
+//		doGenerateOre(OreCoreItems.ironInferior, 0, Iron.IRON_INFERIOR_TOP_LEVEL, Iron.IRON_INFERIOR_VEIN_SIZE);
+//
+//		doGenerateOre(OreCoreItems.ironManganese, 0, IronManganese.IRON_MANGANESE_TOP_LEVEL, IronManganese.IRON_MANGANESE_VEIN_SIZE);
+//		
+//		doGenerateOre(OreCoreItems.nickel, 0, Nickel.NICKEL_TOP_LEVEL, Nickel.NICKEL_VEIN_SIZE);
+//		doGenerateOre(OreCoreItems.nickelGravel, 0, Nickel.NICKEL_GRAVEL_TOP_LEVEL, Nickel.NICKEL_GRAVEL_VEIN_SIZE);
+//		doGenerateOre(OreCoreItems.nickelInferior, 0, Nickel.NICKEL_INFERIOR_TOP_LEVEL, Nickel.NICKEL_INFERIOR_VEIN_SIZE);
+//
+//		doGenerateOre(OreCoreItems.osmium, 0, Osmium.OSMIUM_TOP_LEVEL, Osmium.OSMIUM_VEIN_SIZE);
+//		doGenerateOre(OreCoreItems.osmiumGravel, 0, Osmium.OSMIUM_GRAVEL_TOP_LEVEL, Osmium.OSMIUM_GRAVEL_VEIN_SIZE);
+//		doGenerateOre(OreCoreItems.osmiumInferior, 0, Osmium.OSMIUM_INFERIOR_TOP_LEVEL, Osmium.OSMIUM_INFERIOR_VEIN_SIZE);
+//		
+//		doGenerateOre(OreCoreItems.silver, 0, Silver.SILVER_TOP_LEVEL, Silver.SILVER_VEIN_SIZE);
+//		doGenerateOre(OreCoreItems.silverGravel, 0, Silver.SILVER_GRAVEL_TOP_LEVEL, Silver.SILVER_GRAVEL_VEIN_SIZE);
+//		doGenerateOre(OreCoreItems.silverInferior, 0, Silver.SILVER_INFERIOR_TOP_LEVEL, Silver.SILVER_INFERIOR_VEIN_SIZE);
+//		
+//		doGenerateOre(OreCoreItems.tin, 0, Tin.TIN_TOP_LEVEL, Tin.TIN_VEIN_SIZE);
+//		doGenerateOre(OreCoreItems.tinGravel, 0, Tin.TIN_GRAVEL_TOP_LEVEL, Tin.TIN_GRAVEL_VEIN_SIZE);
+//		doGenerateOre(OreCoreItems.tinInferior, 0, Tin.TIN_INFERIOR_TOP_LEVEL, Tin.TIN_INFERIOR_VEIN_SIZE);
+//		
+//		doGenerateOre(OreCoreItems.zinc, 0, Zinc.ZINC_TOP_LEVEL, Zinc.ZINC_VEIN_SIZE);
+//		doGenerateOre(OreCoreItems.zincGravel, 0, Zinc.ZINC_GRAVEL_TOP_LEVEL, Zinc.ZINC_GRAVEL_VEIN_SIZE);
+//		doGenerateOre(OreCoreItems.zincInferior, 0, Zinc.ZINC_INFERIOR_TOP_LEVEL, Zinc.ZINC_INFERIOR_VEIN_SIZE);
 	}
 
-	private void doGenerateOre(Block ore, int minLayer, int maxLayer, int veinSize) {
+	private void doGenerateOre(Block ore, int minLayer, int maxLayer, int veinSize, Block destination) {
 		for (int i = 0; i < 25; i++) {
 			int chunkX = x + random.nextInt(16);
 			int chunkY = minLayer + random.nextInt(maxLayer - minLayer);
 			int chunkZ = z + random.nextInt(16);
 
-			new WorldGenMinable(ore, 0, veinSize, Blocks.stone).generate(world, random, chunkX, chunkY, chunkZ);
+			new WorldGenMinable(ore, 0, veinSize, destination).generate(world, random, chunkX, chunkY, chunkZ);
 		}
+	}
+
+	private void doGenerateOre(Block ore, int minLayer, int maxLayer, int veinSize) {
+		doGenerateOre(ore, minLayer, maxLayer, veinSize, Blocks.stone);
 	}
 
 }

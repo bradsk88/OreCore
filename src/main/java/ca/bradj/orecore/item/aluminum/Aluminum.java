@@ -14,6 +14,7 @@ public class Aluminum {
 	private static final String ALUMINUM_INGOT_DICT = "ingotAluminum";
 
 	private static final String BAUXITE_NAME = "Bauxite.Ore";
+	private static final String BAUXITE_GRAVEL_NAME = "Bauxite.Gravel";
 	private static final String ALUMINUM_DUST_NAME = "Aluminum.Dust";
 	private static final String ALUMINUM_NUGGET_NAME = "Aluminum.Nugget";
 	private static final String ALUMINUM_INGOT_NAME = "Aluminum.Ingot";
@@ -22,10 +23,12 @@ public class Aluminum {
 	public static final int BAUXITE_TOP_LEVEL = 50;
 
 	public static final int BAUXITE_VEIN_SIZE = 4;
-
+	public static final int BAUXITE_GRAVEL_VEIN_SIZE = 10;
+	
 	public static void init() {
 
 		OreCoreItems.bauxite = OreCoreRegistration.registerBlock(new BauxiteOreBlock(IDs.BAUXITE_ID), BAUXITE_NAME);
+		OreCoreItems.bauxiteGravel = OreCoreRegistration.registerBlock(new BauxiteGravelBlock(IDs.BAUXITE_GRAVEL_ID), BAUXITE_GRAVEL_NAME);
 		OreCoreItems.aluminumIngot = OreCoreRegistration.registerItem(new AluminumIngot(IDs.ALUMINUM_INGOT_ID), ALUMINUM_INGOT_NAME);
 		OreCoreItems.aluminumDust = OreCoreRegistration.registerItem(new AluminumDust(IDs.ALUMINUM_DUST_ID), ALUMINUM_DUST_NAME);
 		OreCoreItems.aluminumNugget = OreCoreRegistration.registerItem(new AluminumNugget(IDs.ALUMINUM_NUGGET_ID), ALUMINUM_NUGGET_NAME);

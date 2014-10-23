@@ -5,7 +5,7 @@ import ca.bradj.orecore.item.OreBlock;
 public class LeadBlock extends OreBlock {
 
 	public LeadBlock(int id) {
-		super(id, "leadBlock");
+		super(id, "lead");
 		setHardness(3.0f);
 		setHarvestLevel("pickaxe", 2);
 	}

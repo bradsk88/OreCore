@@ -19,12 +19,15 @@ public class Osmium {
 	private static final String OSMIUM_INGOT_NAME = "Osmium.Ingot";
 	private static final String OSMIUM_NUGGET_NAME = "Osmium.Nugget";
 	private static final String OSMIUM_DUST_NAME = "Osmium.Dust";
+	private static final String OSMIUM_GRAVEL_NAME = "Osmium.Gravel";
 	private static final String OSMIUM_BLOCK_NAME = "Osmium.Block";
 
 	public static final int OSMIUM_TOP_LEVEL = 45;
+	public static final int OSMIUM_GRAVEL_TOP_LEVEL = 100;
 	public static final int OSMIUM_INFERIOR_TOP_LEVEL = 55;
 
 	public static final int OSMIUM_VEIN_SIZE = 8;
+	public static final int OSMIUM_GRAVEL_VEIN_SIZE = 2;
 	public static final int OSMIUM_INFERIOR_VEIN_SIZE = 10;
 
 	public static void init() {
@@ -32,6 +35,7 @@ public class Osmium {
 		OreCoreItems.osmiumInferior = OreCoreRegistration.registerBlock(new OsmiumBlockInferior(IDs.OSMIUM_INFERIOR_ORE_ID), OSMIUM_INFERIOR_NAME);
 		OreCoreItems.osmiumIngot = OreCoreRegistration.registerItem(new OsmiumIngot(IDs.OSMIUM_INGOT_ID), OSMIUM_INGOT_NAME);
 		OreCoreItems.osmiumNugget = OreCoreRegistration.registerItem(new OsmiumNugget(IDs.OSMIUM_NUGGET_ID), OSMIUM_NUGGET_NAME);
+		OreCoreItems.osmiumGravel = OreCoreRegistration.registerBlock(new OsmiumGravel(IDs.OSMIUM_GRAVEL_ID), OSMIUM_GRAVEL_NAME);
 		OreCoreItems.osmiumDust = OreCoreRegistration.registerItem(new OsmiumDust(IDs.OSMIUM_DUST_ID), OSMIUM_DUST_NAME);
 		OreCoreItems.osmiumBlock = OreCoreRegistration.registerBlock(new OsmiumPureBlock(IDs.OSMIUM_BLOCK_ID), OSMIUM_BLOCK_NAME);
 
