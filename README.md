@@ -14,8 +14,8 @@ Targeted Mods
 I intend to fork the following mods to replace their ores with mine and hopefully the mod creators will accept my 
 pull requests.  If not, I will leave the forks open for those who wish to download these other mods using my ores.
 
-Mekanism
-Tinkers Construct
-Mariculture
-Railcraft
-Thermal Expansion
+Mekanism  
+Tinkers Construct  
+Mariculture  
+Railcraft  
+Thermal Expansion  
