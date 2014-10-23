@@ -1,26 +1,35 @@
 package ca.bradj.orecore.item.zinc;
 
-import net.minecraftforge.oredict.OreDictionary;
+import net.minecraft.item.Item;
+import ca.bradj.orecore.item.DictionaryNames;
+import ca.bradj.orecore.item.GravelBlock;
 import ca.bradj.orecore.item.IDs;
+import ca.bradj.orecore.item.OreBlock;
 import ca.bradj.orecore.item.OreCoreItems;
 import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
-import ca.bradj.orecore.item.zinc.ZincBlock;
-import ca.bradj.orecore.item.zinc.ZincBlockInferior;
-import ca.bradj.orecore.item.zinc.ZincDust;
-import ca.bradj.orecore.item.zinc.ZincGravel;
-import ca.bradj.orecore.item.zinc.ZincIngot;
-import ca.bradj.orecore.item.zinc.ZincNugget;
-import ca.bradj.orecore.item.zinc.ZincPureBlock;
+import ca.bradj.orecore.item.StandardElement;
+import ca.bradj.orecore.item.StandardElementRegistrations;
 
-public class Zinc {
-	public static final String ZINC_DICT = "oreZinc";
-	public static final String ZINC_INFERIOR_DICT = "oreZincInferior";
-	public static final String ZINC_DUST_DICT = "dustZinc";
-	public static final String ZINC_INGOT_DICT = "ingotZinc";
-	public static final String ZINC_NUGGET_DICT = "nuggetZinc";
-	public static final String ZINC_GRAVEL_DICT = "gravelZinc";
-	private static final String ZINC_BLOCK_DICT = "blockZinc";
+public class Zinc implements StandardElement {
+ 
+	public static final int ZINC_TOP_LEVEL = 50;
+	public static final int ZINC_GRAVEL_TOP_LEVEL = 60;
+	public static final int ZINC_INFERIOR_TOP_LEVEL = 80;
 
+	public static final int ZINC_VEIN_SIZE = 4;
+	public static final int ZINC_GRAVEL_VEIN_SIZE = 4;
+	public static final int ZINC_INFERIOR_VEIN_SIZE = 4;
+
+	public static final DictionaryNames DICT = new DictionaryNames(){{
+		super.ORE = "oreZinc";
+		super.INFERIOR = "oreZincInferior";
+		super.DUST = "dustZinc";
+		super.INGOT = "ingotZinc";
+		super.NUGGET = "nuggetZinc";
+		super.GRAVEL = "gravelZinc";
+		super.PURE_BLOCK = "blockZinc";
+	}};
+	
 	private static final String ZINC_NAME = "Zinc";
 	private static final String ZINC_INFERIOR_NAME = "Inferior.Zinc";
 	private static final String ZINC_INGOT_NAME = "Zinc.Ingot";
@@ -29,16 +38,9 @@ public class Zinc {
 	private static final String ZINC_GRAVEL_NAME = "Zinc.Gravel";
 	private static final String ZINC_BLOCK_NAME = "Zinc.Block";
 
-	public static final int ZINC_TOP_LEVEL = 50;
-	public static final int ZINC_GRAVEL_TOP_LEVEL = 50;
-	public static final int ZINC_INFERIOR_TOP_LEVEL = 70;
-
-	public static final int ZINC_VEIN_SIZE = 6;
-	public static final int ZINC_GRAVEL_VEIN_SIZE = 4;
-	public static final int ZINC_INFERIOR_VEIN_SIZE = 10;
-
-	public static void init() {
-		// Zinc
+	public static void init() { new Zinc().doInit(); }
+	
+	private void doInit() {
 		OreCoreItems.zinc = OreCoreRegistration.registerBlock(new ZincBlock(IDs.ZINC_ORE_ID), ZINC_NAME);
 		OreCoreItems.zincInferior = OreCoreRegistration.registerBlock(new ZincBlockInferior(IDs.ZINC_INFERIOR_ORE_ID), ZINC_INFERIOR_NAME);
 		OreCoreItems.zincIngot = OreCoreRegistration.registerItem(new ZincIngot(IDs.ZINC_INGOT_ID), ZINC_INGOT_NAME);
@@ -47,21 +49,16 @@ public class Zinc {
 		OreCoreItems.zincGravel = OreCoreRegistration.registerBlock(new ZincGravel(IDs.ZINC_GRAVEL_ID), ZINC_GRAVEL_NAME);
 		OreCoreItems.zincBlock = OreCoreRegistration.registerBlock(new ZincPureBlock(IDs.ZINC_BLOCK_ID), ZINC_BLOCK_NAME);
 
-		OreDictionary.registerOre(ZINC_DICT, OreCoreItems.zinc);
-		OreDictionary.registerOre(ZINC_INFERIOR_DICT, OreCoreItems.zincInferior);
-		OreDictionary.registerOre(ZINC_INGOT_DICT, OreCoreItems.zincIngot);
-		OreDictionary.registerOre(ZINC_NUGGET_DICT, OreCoreItems.zincNugget);
-		OreDictionary.registerOre(ZINC_DUST_DICT, OreCoreItems.zincDust);
-		OreDictionary.registerOre(ZINC_BLOCK_DICT, OreCoreItems.zincBlock);
-
-		OreCoreRegistration.nuggetToIngotStandard(ZINC_NUGGET_DICT, OreCoreItems.zincIngot);
-		OreCoreRegistration.ingotToNuggetStandard(ZINC_INGOT_DICT, OreCoreItems.zincNugget);
-		OreCoreRegistration.ingotToBlockStandard(ZINC_INGOT_DICT, OreCoreItems.zincBlock);
-		OreCoreRegistration.blockToIngotStandard(ZINC_BLOCK_DICT, OreCoreItems.zincIngot);
-
-		OreCoreRegistration.addSmelting(OreCoreItems.zinc, OreCoreItems.zincIngot, 1);
-		OreCoreRegistration.addSmelting(OreCoreItems.zincDust, OreCoreItems.zincIngot, 1);
-		OreCoreRegistration.addSmelting(OreCoreItems.zincGravel, OreCoreItems.zincIngot, 1);
-		OreCoreRegistration.addSmelting(OreCoreItems.zincInferior, OreCoreItems.zincNugget, 3);
+		StandardElementRegistrations.initDictionary(this, DICT);
+		StandardElementRegistrations.initRecipes(this, DICT);
 	}
+	
+	//@formatter:off
+	@Override public Item asDust() { return OreCoreItems.zincDust; }
+	@Override public GravelBlock asGravel() { return OreCoreItems.zincGravel; }
+	@Override public OreBlock asInferior() { return OreCoreItems.zincInferior; }
+	@Override public Item asIngot() { return OreCoreItems.zincIngot; }
+	@Override public Item asNugget() { return OreCoreItems.zincNugget; }
+	@Override public OreBlock asOre() { return OreCoreItems.zinc; }
+	@Override public OreBlock asPureBlock() { return OreCoreItems.zincBlock; }
 }

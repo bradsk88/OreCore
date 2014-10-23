@@ -1,26 +1,35 @@
 package ca.bradj.orecore.item.nickel;
 
-import net.minecraftforge.oredict.OreDictionary;
+import net.minecraft.item.Item;
+import ca.bradj.orecore.item.DictionaryNames;
+import ca.bradj.orecore.item.GravelBlock;
 import ca.bradj.orecore.item.IDs;
+import ca.bradj.orecore.item.OreBlock;
 import ca.bradj.orecore.item.OreCoreItems;
 import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
-import ca.bradj.orecore.item.nickel.NickelBlock;
-import ca.bradj.orecore.item.nickel.NickelBlockInferior;
-import ca.bradj.orecore.item.nickel.NickelDust;
-import ca.bradj.orecore.item.nickel.NickelGravel;
-import ca.bradj.orecore.item.nickel.NickelIngot;
-import ca.bradj.orecore.item.nickel.NickelNugget;
-import ca.bradj.orecore.item.nickel.NickelPureBlock;
+import ca.bradj.orecore.item.StandardElement;
+import ca.bradj.orecore.item.StandardElementRegistrations;
 
-public class Nickel {
-	public static final String NICKEL_DICT = "oreNickel";
-	public static final String NICKEL_INFERIOR_DICT = "oreNickelInferior";
-	public static final String NICKEL_DUST_DICT = "dustNickel";
-	public static final String NICKEL_INGOT_DICT = "ingotNickel";
-	public static final String NICKEL_NUGGET_DICT = "nuggetNickel";
-	public static final String NICKEL_GRAVEL_DICT = "gravelNickel";
-	private static final String NICKEL_BLOCK_DICT = "blockNickel";
+public class Nickel implements StandardElement {
+	
+	public static final int NICKEL_TOP_LEVEL = 40;
+	public static final int NICKEL_GRAVEL_TOP_LEVEL = 60;
+	public static final int NICKEL_INFERIOR_TOP_LEVEL = 80;
 
+	public static final int NICKEL_VEIN_SIZE = 4;
+	public static final int NICKEL_GRAVEL_VEIN_SIZE = 4;
+	public static final int NICKEL_INFERIOR_VEIN_SIZE = 4;
+	
+	public static final DictionaryNames DICT = new DictionaryNames(){{
+		super.ORE = "oreNickel";
+		super.INFERIOR = "oreNickelInferior";
+		super.DUST = "dustNickel";
+		super.INGOT = "ingotNickel";
+		super.NUGGET = "nuggetNickel";
+		super.GRAVEL = "gravelNickel";
+		super.PURE_BLOCK = "blockNickel";
+	}};
+	
 	private static final String NICKEL_NAME = "Nickel";
 	private static final String NICKEL_INFERIOR_NAME = "Inferior.Nickel";
 	private static final String NICKEL_INGOT_NAME = "Nickel.Ingot";
@@ -29,16 +38,9 @@ public class Nickel {
 	private static final String NICKEL_GRAVEL_NAME = "Nickel.Gravel";
 	private static final String NICKEL_BLOCK_NAME = "Nickel.Block";
 
-	public static final int NICKEL_TOP_LEVEL = 50;
-	public static final int NICKEL_GRAVEL_TOP_LEVEL = 50;
-	public static final int NICKEL_INFERIOR_TOP_LEVEL = 70;
-
-	public static final int NICKEL_VEIN_SIZE = 6;
-	public static final int NICKEL_GRAVEL_VEIN_SIZE = 4;
-	public static final int NICKEL_INFERIOR_VEIN_SIZE = 10;
-
-	public static void init() {
-		// Nickel
+	public static void init() { new Nickel().doInit(); }
+	
+	private void doInit() {
 		OreCoreItems.nickel = OreCoreRegistration.registerBlock(new NickelBlock(IDs.NICKEL_ORE_ID), NICKEL_NAME);
 		OreCoreItems.nickelInferior = OreCoreRegistration.registerBlock(new NickelBlockInferior(IDs.NICKEL_INFERIOR_ORE_ID), NICKEL_INFERIOR_NAME);
 		OreCoreItems.nickelIngot = OreCoreRegistration.registerItem(new NickelIngot(IDs.NICKEL_INGOT_ID), NICKEL_INGOT_NAME);
@@ -47,21 +49,16 @@ public class Nickel {
 		OreCoreItems.nickelGravel = OreCoreRegistration.registerBlock(new NickelGravel(IDs.NICKEL_GRAVEL_ID), NICKEL_GRAVEL_NAME);
 		OreCoreItems.nickelBlock = OreCoreRegistration.registerBlock(new NickelPureBlock(IDs.NICKEL_BLOCK_ID), NICKEL_BLOCK_NAME);
 
-		OreDictionary.registerOre(NICKEL_DICT, OreCoreItems.nickel);
-		OreDictionary.registerOre(NICKEL_INFERIOR_DICT, OreCoreItems.nickelInferior);
-		OreDictionary.registerOre(NICKEL_INGOT_DICT, OreCoreItems.nickelIngot);
-		OreDictionary.registerOre(NICKEL_NUGGET_DICT, OreCoreItems.nickelNugget);
-		OreDictionary.registerOre(NICKEL_DUST_DICT, OreCoreItems.nickelDust);
-		OreDictionary.registerOre(NICKEL_BLOCK_DICT, OreCoreItems.nickelBlock);
-
-		OreCoreRegistration.nuggetToIngotStandard(NICKEL_NUGGET_DICT, OreCoreItems.nickelIngot);
-		OreCoreRegistration.ingotToNuggetStandard(NICKEL_INGOT_DICT, OreCoreItems.nickelNugget);
-		OreCoreRegistration.ingotToBlockStandard(NICKEL_INGOT_DICT, OreCoreItems.nickelBlock);
-		OreCoreRegistration.blockToIngotStandard(NICKEL_BLOCK_DICT, OreCoreItems.nickelIngot);
-
-		OreCoreRegistration.addSmelting(OreCoreItems.nickel, OreCoreItems.nickelIngot, 1);
-		OreCoreRegistration.addSmelting(OreCoreItems.nickelDust, OreCoreItems.nickelIngot, 1);
-		OreCoreRegistration.addSmelting(OreCoreItems.nickelGravel, OreCoreItems.nickelIngot, 1);
-		OreCoreRegistration.addSmelting(OreCoreItems.nickelInferior, OreCoreItems.nickelNugget, 3);
+		StandardElementRegistrations.initDictionary(this, DICT);
+		StandardElementRegistrations.initRecipes(this, DICT);
 	}
+	
+	//@formatter:off
+	@Override public Item asDust() { return OreCoreItems.nickelDust; }
+	@Override public GravelBlock asGravel() { return OreCoreItems.nickelGravel; }
+	@Override public OreBlock asInferior() { return OreCoreItems.nickelInferior; }
+	@Override public Item asIngot() { return OreCoreItems.nickelIngot; }
+	@Override public Item asNugget() { return OreCoreItems.nickelNugget; }
+	@Override public OreBlock asOre() { return OreCoreItems.nickel; }
+	@Override public OreBlock asPureBlock() { return OreCoreItems.nickelBlock; }
 }

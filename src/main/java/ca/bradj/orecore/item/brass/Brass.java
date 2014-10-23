@@ -30,7 +30,7 @@ public class Brass {
 		OreDictionary.registerOre(BRASS_INGOT_DICT, OreCoreItems.brassIngot);
 		OreDictionary.registerOre(BRASS_BLOCK_DICT, OreCoreItems.brassBlock);
 		
-		OreCoreRegistration.addShapelessRecipe(OreCoreItems.brassDust, 2, Copper.COPPER_DUST_DICT, Zinc.ZINC_DUST_DICT);
+		OreCoreRegistration.addShapelessRecipe(OreCoreItems.brassDust, 2, Copper.DICT.DUST, Zinc.DICT.DUST);
 		
 		OreCoreRegistration.nuggetToIngotStandard(BRASS_NUGGET_DICT, OreCoreItems.brassIngot);
 		OreCoreRegistration.ingotToNuggetStandard(BRASS_INGOT_DICT, OreCoreItems.brassNugget);

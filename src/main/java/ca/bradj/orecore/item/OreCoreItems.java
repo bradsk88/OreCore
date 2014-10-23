@@ -37,12 +37,24 @@ import ca.bradj.orecore.item.copper.carb.Copper2CarbonateDust;
 import ca.bradj.orecore.item.copper.carb.Copper2CarbonateIngot;
 import ca.bradj.orecore.item.copper.carb.Copper2CarbonateNugget;
 import ca.bradj.orecore.item.gold.Gold;
+import ca.bradj.orecore.item.gold.GoldBlockInferior;
 import ca.bradj.orecore.item.gold.GoldDust;
+import ca.bradj.orecore.item.gold.GoldGravel;
 import ca.bradj.orecore.item.iron.Iron;
+import ca.bradj.orecore.item.iron.IronBlockInferior;
 import ca.bradj.orecore.item.iron.IronDust;
+import ca.bradj.orecore.item.iron.IronGravel;
 import ca.bradj.orecore.item.iron.IronNugget;
 import ca.bradj.orecore.item.iron_manganese.IronManganese;
 import ca.bradj.orecore.item.iron_manganese.IronManganeseBlock;
+import ca.bradj.orecore.item.lead.Lead;
+import ca.bradj.orecore.item.lead.LeadBlock;
+import ca.bradj.orecore.item.lead.LeadBlockInferior;
+import ca.bradj.orecore.item.lead.LeadDust;
+import ca.bradj.orecore.item.lead.LeadGravel;
+import ca.bradj.orecore.item.lead.LeadIngot;
+import ca.bradj.orecore.item.lead.LeadNugget;
+import ca.bradj.orecore.item.lead.LeadPureBlock;
 import ca.bradj.orecore.item.manganese.Manganese;
 import ca.bradj.orecore.item.manganese.ManganeseDust;
 import ca.bradj.orecore.item.manganese.ManganeseIngot;
@@ -142,7 +154,9 @@ public class OreCoreItems {
 
 	public static IronDust ironDust;
 	public static IronNugget ironNugget;
-
+	public static IronBlockInferior ironInferior;
+	public static IronGravel ironGravel;
+	
 	public static SteelDust steelDust;
 	public static SteelIngot steelIngot;
 	public static SteelNugget steelNugget;
@@ -167,7 +181,9 @@ public class OreCoreItems {
 	public static BrassPureBlock brassBlock;
 
 	public static GoldDust goldDust;
-
+	public static GoldBlockInferior goldInferior;
+	public static GoldGravel goldGravel;
+	
 	public static NickelBlock nickel;
 	public static NickelBlockInferior nickelInferior;
 	public static NickelIngot nickelIngot;
@@ -183,6 +199,14 @@ public class OreCoreItems {
 	public static ZincDust zincDust;
 	public static ZincGravel zincGravel;
 	public static ZincPureBlock zincBlock;
+	
+	public static LeadBlock lead;
+	public static LeadBlockInferior leadInferior;
+	public static LeadIngot leadIngot;
+	public static LeadNugget leadNugget;
+	public static LeadDust leadDust;
+	public static LeadGravel leadGravel;
+	public static LeadPureBlock leadBlock;
 
 	// 4029 is next
 
@@ -195,6 +219,7 @@ public class OreCoreItems {
 		Gold.init();
 		Iron.init();
 		IronManganese.init();
+		Lead.init();
 		Manganese.init();
 		Nickel.init();
 		Osmium.init();

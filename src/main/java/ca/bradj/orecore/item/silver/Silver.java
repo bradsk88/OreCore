@@ -1,26 +1,35 @@
 package ca.bradj.orecore.item.silver;
 
-import net.minecraftforge.oredict.OreDictionary;
+import net.minecraft.item.Item;
+import ca.bradj.orecore.item.DictionaryNames;
+import ca.bradj.orecore.item.GravelBlock;
 import ca.bradj.orecore.item.IDs;
+import ca.bradj.orecore.item.OreBlock;
 import ca.bradj.orecore.item.OreCoreItems;
 import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
-import ca.bradj.orecore.item.silver.SilverBlock;
-import ca.bradj.orecore.item.silver.SilverBlockInferior;
-import ca.bradj.orecore.item.silver.SilverDust;
-import ca.bradj.orecore.item.silver.SilverGravel;
-import ca.bradj.orecore.item.silver.SilverIngot;
-import ca.bradj.orecore.item.silver.SilverNugget;
+import ca.bradj.orecore.item.StandardElement;
+import ca.bradj.orecore.item.StandardElementRegistrations;
 
-public class Silver {
+public class Silver implements StandardElement {
 	
-	public static final String SILVER_DICT = "oreSilver";
-	public static final String SILVER_INFERIOR_DICT = "oreSilverInferior";
-	public static final String SILVER_DUST_DICT = "dustSilver";
-	public static final String SILVER_INGOT_DICT = "ingotSilver";
-	public static final String SILVER_NUGGET_DICT = "nuggetSilver";
-	public static final String SILVER_GRAVEL_DICT = "gravelSilver";
-	public static final String SILVER_BLOCK_DICT = "blockSilver";
-
+	public static final int SILVER_TOP_LEVEL = 40;
+	public static final int SILVER_GRAVEL_TOP_LEVEL = 45;
+	public static final int SILVER_INFERIOR_TOP_LEVEL = 50;
+	
+	public static final int SILVER_VEIN_SIZE = 4;
+	public static final int SILVER_GRAVEL_VEIN_SIZE = 4;
+	public static final int SILVER_INFERIOR_VEIN_SIZE = 6;
+	
+	public static final DictionaryNames DICT = new DictionaryNames() {{
+		super.ORE = "oreSilver";
+		super.INFERIOR = "oreSilverInferior";
+		super.DUST = "dustSilver";
+		super.INGOT = "ingotSilver";
+		super.NUGGET = "nuggetSilver";
+		super.GRAVEL = "gravelSilver";
+		super.PURE_BLOCK = "blockSilver";
+	}};
+	
 	private static final String SILVER_NAME = "Silver";
 	private static final String SILVER_INFERIOR_NAME = "Inferior.Silver";
 	private static final String SILVER_INGOT_NAME = "Silver.Ingot";
@@ -28,17 +37,12 @@ public class Silver {
 	private static final String SILVER_DUST_NAME = "Silver.Dust";
 	private static final String SILVER_GRAVEL_NAME = "Silver.Gravel";
 	private static final String SILVER_BLOCK_NAME = "Silver.Block";
-	
-	public static final int SILVER_TOP_LEVEL = 50;
-	public static final int SILVER_GRAVEL_TOP_LEVEL = 50;
-	public static final int SILVER_INFERIOR_TOP_LEVEL = 70;
-	
-	public static final int SILVER_VEIN_SIZE = 6;
-	public static final int SILVER_GRAVEL_VEIN_SIZE = 4;
-	public static final int SILVER_INFERIOR_VEIN_SIZE = 10;
 
 	public static void init() {
-		// Silver
+		new Silver().doInit();
+	}
+	
+	public void doInit() {
 		OreCoreItems.silver = OreCoreRegistration.registerBlock(new SilverBlock(IDs.SILVER_ORE_ID), SILVER_NAME);
 		OreCoreItems.silverInferior = OreCoreRegistration.registerBlock(new SilverBlockInferior(IDs.SILVER_INFERIOR_ORE_ID), SILVER_INFERIOR_NAME);
 		OreCoreItems.silverIngot = OreCoreRegistration.registerItem(new SilverIngot(IDs.SILVER_INGOT_ID), SILVER_INGOT_NAME);
@@ -47,22 +51,17 @@ public class Silver {
 		OreCoreItems.silverGravel = OreCoreRegistration.registerBlock(new SilverGravel(IDs.SILVER_GRAVEL_ID), SILVER_GRAVEL_NAME);
 		OreCoreItems.silverBlock = OreCoreRegistration.registerBlock(new SilverPureBlock(IDs.SILVER_BLOCK_ID), SILVER_BLOCK_NAME);
 
-		OreDictionary.registerOre(SILVER_DICT, OreCoreItems.silver);
-		OreDictionary.registerOre(SILVER_INFERIOR_DICT, OreCoreItems.silverInferior);
-		OreDictionary.registerOre(SILVER_INGOT_DICT, OreCoreItems.silverIngot);
-		OreDictionary.registerOre(SILVER_NUGGET_DICT, OreCoreItems.silverNugget);
-		OreDictionary.registerOre(SILVER_DUST_DICT, OreCoreItems.silverDust);
-		OreDictionary.registerOre(SILVER_BLOCK_DICT, OreCoreItems.silverBlock);
-
-		OreCoreRegistration.nuggetToIngotStandard(SILVER_NUGGET_DICT, OreCoreItems.silverIngot);
-		OreCoreRegistration.ingotToNuggetStandard(SILVER_INGOT_DICT, OreCoreItems.silverNugget);
-		OreCoreRegistration.ingotToBlockStandard(SILVER_INGOT_DICT, OreCoreItems.silverBlock);
-		OreCoreRegistration.blockToIngotStandard(SILVER_BLOCK_DICT, OreCoreItems.silverIngot);
-
-		OreCoreRegistration.addSmelting(OreCoreItems.silver, OreCoreItems.silverIngot, 1);
-		OreCoreRegistration.addSmelting(OreCoreItems.silverDust, OreCoreItems.silverIngot, 1);
-		OreCoreRegistration.addSmelting(OreCoreItems.silverGravel, OreCoreItems.silverIngot, 1);
-		OreCoreRegistration.addSmelting(OreCoreItems.silverInferior, OreCoreItems.silverNugget, 3);
+		StandardElementRegistrations.initDictionary(this, DICT);
+		StandardElementRegistrations.initRecipes(this, DICT);
 	}
+	
+	//@formatter:off
+		@Override public Item asDust() { return OreCoreItems.silverDust; }
+		@Override public GravelBlock asGravel() { return OreCoreItems.silverGravel; }
+		@Override public OreBlock asInferior() { return OreCoreItems.silverInferior; }
+		@Override public Item asIngot() { return OreCoreItems.silverIngot; }
+		@Override public Item asNugget() { return OreCoreItems.silverNugget; }
+		@Override public OreBlock asOre() { return OreCoreItems.silver; }
+		@Override public OreBlock asPureBlock() { return OreCoreItems.silverBlock; }
 	
 }

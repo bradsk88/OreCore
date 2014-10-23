@@ -37,7 +37,7 @@ public class Bronze {
 		OreCoreRegistration.ingotToBlockStandard(BRONZE_INGOT_DICT, OreCoreItems.bronzeBlock);
 
 		OreCoreRegistration.addSmelting(OreCoreItems.bronzeDust, OreCoreItems.bronzeIngot, 1);
-		OreCoreRegistration.addShapelessRecipe(OreCoreItems.bronzeDust, 2, Copper.COPPER_DUST_DICT, Tin.TIN_DUST_DICT);
+		OreCoreRegistration.addShapelessRecipe(OreCoreItems.bronzeDust, 2, Copper.DICT.DUST, Tin.DICT.DUST);
 	}
 
 }

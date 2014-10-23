@@ -3,7 +3,7 @@ package ca.bradj.orecore.item;
 import net.minecraft.block.BlockFalling;
 import ca.bradj.orecore.OreCore;
 
-public class GravelBlock extends BlockFalling {
+public abstract class GravelBlock extends BlockFalling {
 
 	protected GravelBlock(int id, String name) {
 		super();
@@ -11,5 +11,5 @@ public class GravelBlock extends BlockFalling {
 		setCreativeTab(OreCore.tabOreCore);
 		setStepSound(soundTypeGravel);
 	}
-
+	
 }
