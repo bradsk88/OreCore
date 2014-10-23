@@ -18,7 +18,7 @@ public class Gold {
 	private static final String GOLD_GRAVEL_NAME = "Gold.Gravel";
 
 	public static final int GOLD_GRAVEL_TOP_LEVEL = 50;
-	public static final int GOLD_INFERIOR_TOP_LEVEL = 70;
+	public static final int GOLD_INFERIOR_TOP_LEVEL = 50;
 
 	public static final int GOLD_GRAVEL_VEIN_SIZE = 4;
 	public static final int GOLD_INFERIOR_VEIN_SIZE = 4;

@@ -21,8 +21,8 @@ public class Iron {
 	private static final String IRON_INFERIOR_NAME = "Inferior.Iron";
 	private static final String IRON_GRAVEL_NAME = "Iron.Gravel";
 
-	public static final int IRON_GRAVEL_TOP_LEVEL = 100;
-	public static final int IRON_INFERIOR_TOP_LEVEL = 100;
+	public static final int IRON_GRAVEL_TOP_LEVEL = 70;
+	public static final int IRON_INFERIOR_TOP_LEVEL = 50;
 
 	public static final int IRON_GRAVEL_VEIN_SIZE = 4;
 	public static final int IRON_INFERIOR_VEIN_SIZE = 6;
