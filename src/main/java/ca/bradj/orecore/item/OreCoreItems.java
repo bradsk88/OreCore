@@ -98,6 +98,15 @@ import ca.bradj.orecore.item.tin.TinGravel;
 import ca.bradj.orecore.item.tin.TinIngot;
 import ca.bradj.orecore.item.tin.TinNugget;
 import ca.bradj.orecore.item.tin.TinPureBlock;
+import ca.bradj.orecore.item.titanium.IlmeniteBlock;
+import ca.bradj.orecore.item.titanium.IlmeniteBlockInferior;
+import ca.bradj.orecore.item.titanium.RutileBlock;
+import ca.bradj.orecore.item.titanium.RutileBlockInferior;
+import ca.bradj.orecore.item.titanium.Titanium;
+import ca.bradj.orecore.item.titanium.TitaniumDust;
+import ca.bradj.orecore.item.titanium.TitaniumIngot;
+import ca.bradj.orecore.item.titanium.TitaniumNugget;
+import ca.bradj.orecore.item.titanium.TitaniumPureBlock;
 import ca.bradj.orecore.item.zinc.Zinc;
 import ca.bradj.orecore.item.zinc.ZincBlock;
 import ca.bradj.orecore.item.zinc.ZincBlockInferior;
@@ -211,6 +220,15 @@ public class OreCoreItems {
 	public static LeadDust leadDust;
 	public static LeadGravel leadGravel;
 	public static LeadPureBlock leadBlock;
+	
+	public static RutileBlock rutile;
+	public static RutileBlockInferior rutileInferior;
+	public static IlmeniteBlock ilmenite;
+	public static IlmeniteBlockInferior ilmeniteInferior;
+	public static TitaniumIngot titaniumIngot;
+	public static TitaniumNugget titaniumNugget;
+	public static TitaniumDust titaniumDust;
+	public static TitaniumPureBlock titaniumBlock;
 
 	// 4029 is next
 
@@ -230,6 +248,7 @@ public class OreCoreItems {
 		Silver.init();
 		Steel.init();
 		Tin.init();
+		Titanium.init();
 		Zinc.init();
 	}
 

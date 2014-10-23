@@ -109,5 +109,16 @@ public class IDs {
 	
 	public static final int OSMIUM_GRAVEL_ID = 4081;
 	public static final int BAUXITE_GRAVEL_ID = 4082;
+	
+	public static final int RUTILE_ORE_ID = 4083;
+	public static final int RUTILE_INFERIOR_ORE_ID = 4084;
+	
+	public static final int ILMENITE_ORE_ID = 4085;
+	public static final int ILMENITE_INFERIOR_ORE_ID = 4086;
+	
+	public static final int TITANIUM_INGOT_ID = 4087;
+	public static final int TITANIUM_NUGGET_ID = 4088;
+	public static final int TITANIUM_DUST_ID = 4089;
+	public static final int TITANIUM_BLOCK_ID = 4090;
 
 }
