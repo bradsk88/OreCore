@@ -1,17 +1,15 @@
 package ca.bradj.orecore.item;
 
-import com.google.common.base.Preconditions;
-
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 import net.minecraftforge.oredict.ShapelessOreRecipe;
 import ca.bradj.orecore.item.aluminum.Aluminum;
-import ca.bradj.orecore.item.aluminum.AluminumPureBlock;
 import ca.bradj.orecore.item.aluminum.AluminumDust;
 import ca.bradj.orecore.item.aluminum.AluminumIngot;
 import ca.bradj.orecore.item.aluminum.AluminumNugget;
+import ca.bradj.orecore.item.aluminum.AluminumPureBlock;
 import ca.bradj.orecore.item.aluminum.BauxiteGravelBlock;
 import ca.bradj.orecore.item.aluminum.BauxiteOreBlock;
 import ca.bradj.orecore.item.brass.Brass;
@@ -20,10 +18,10 @@ import ca.bradj.orecore.item.brass.BrassIngot;
 import ca.bradj.orecore.item.brass.BrassNugget;
 import ca.bradj.orecore.item.brass.BrassPureBlock;
 import ca.bradj.orecore.item.bronze.Bronze;
-import ca.bradj.orecore.item.bronze.BronzePureBlock;
 import ca.bradj.orecore.item.bronze.BronzeDust;
 import ca.bradj.orecore.item.bronze.BronzeIngot;
 import ca.bradj.orecore.item.bronze.BronzeNugget;
+import ca.bradj.orecore.item.bronze.BronzePureBlock;
 import ca.bradj.orecore.item.copper.Copper;
 import ca.bradj.orecore.item.copper.CopperBlock;
 import ca.bradj.orecore.item.copper.CopperBlockInferior;
@@ -33,10 +31,10 @@ import ca.bradj.orecore.item.copper.CopperIngot;
 import ca.bradj.orecore.item.copper.CopperNugget;
 import ca.bradj.orecore.item.copper.CopperPureBlock;
 import ca.bradj.orecore.item.copper.carb.Copper2Carbonate;
-import ca.bradj.orecore.item.copper.carb.Copper2CarbonatePureBlock;
 import ca.bradj.orecore.item.copper.carb.Copper2CarbonateDust;
 import ca.bradj.orecore.item.copper.carb.Copper2CarbonateIngot;
 import ca.bradj.orecore.item.copper.carb.Copper2CarbonateNugget;
+import ca.bradj.orecore.item.copper.carb.Copper2CarbonatePureBlock;
 import ca.bradj.orecore.item.gold.Gold;
 import ca.bradj.orecore.item.gold.GoldBlockInferior;
 import ca.bradj.orecore.item.gold.GoldDust;
@@ -86,10 +84,10 @@ import ca.bradj.orecore.item.silver.SilverIngot;
 import ca.bradj.orecore.item.silver.SilverNugget;
 import ca.bradj.orecore.item.silver.SilverPureBlock;
 import ca.bradj.orecore.item.steel.Steel;
-import ca.bradj.orecore.item.steel.SteelPureBlock;
 import ca.bradj.orecore.item.steel.SteelDust;
 import ca.bradj.orecore.item.steel.SteelIngot;
 import ca.bradj.orecore.item.steel.SteelNugget;
+import ca.bradj.orecore.item.steel.SteelPureBlock;
 import ca.bradj.orecore.item.tin.Tin;
 import ca.bradj.orecore.item.tin.TinBlock;
 import ca.bradj.orecore.item.tin.TinBlockInferior;
@@ -115,6 +113,9 @@ import ca.bradj.orecore.item.zinc.ZincGravel;
 import ca.bradj.orecore.item.zinc.ZincIngot;
 import ca.bradj.orecore.item.zinc.ZincNugget;
 import ca.bradj.orecore.item.zinc.ZincPureBlock;
+
+import com.google.common.base.Preconditions;
+
 import cpw.mods.fml.common.registry.GameRegistry;
 
 /**
