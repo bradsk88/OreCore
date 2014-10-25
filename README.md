@@ -11,7 +11,8 @@ ore.  Mind that, unless configured otherwise (TBD) it may be quite rare to come 
 Releases
 =======
 
-Still in development
+0.1.2
+http://bradj.ca:8081/nexus/content/repositories/releases/ca/bradj/OreCore/1.7.10-0.1.2/OreCore-1.7.10-0.1.2.jar
 
 Ores
 =======
