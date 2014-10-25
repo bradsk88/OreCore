@@ -1,0 +1,111 @@
+#Generated Le Google Translate
+
+itemGroup.tabOreCore = MéineCore
+
+tile.Bauxite.Ore.name = Báicsít Ore
+tile.Bauxite.Gravel.name = Loose Báicsít Ore
+item.Aluminum.Dust.name = Alúmanam Dust
+item.Aluminum.Nugget.name = Alúmanam Nugget
+item.Aluminum.Ingot.name = Alúmanam tinne
+tile.Aluminum.Block.name = Bloc de alúmanam
+
+item.Bronze.Dust.name = Cré-Dust
+item.Bronze.Nugget.name = Cré-Nugget
+item.Bronze.Ingot.name = Cré-tinne
+tile.Bronze.Block.name = Bloc de Chré-umha
+
+item.Brass.Dust.name = Dust Prás
+item.Brass.Nugget.name = Prás Nugget
+item.Brass.Ingot.name = Prás tinne
+tile.Brass.Block.name = Bloc de Prás
+
+tile.Copper.name = Copper Ore
+tile.Inferior.Copper.name = Inferior Copper Ore
+tile.Copper.Gravel.name = Copper méine Gairbhéal
+item.Copper.Dust.name = Dust Copar
+item.Copper.Nugget.name = Copper Nugget
+item.Copper.Ingot.name = Copper tinne
+tile.Copper.Block.name = Bloc de Copper
+
+item.Copper.II.Carbonate.Dust.name = Copper II carbónáit
+item.Copper.II.Carbonate.Nugget.name = Copper II carbónáit Nugget
+item.Copper.II.Carbonate.Ingot.name = Copper II carbónáit tinne
+tile.Copper.II.Carbonate.Block.name = Bloc de Copper II carbónáit
+
+tile.Inferior.Gold.name = Inferior Óir Ore
+tile.Gold.Gravel.name = Óir Gravel Méine
+item.Gold.Dust.name = Óir Dust
+
+item.Iron.Dust.name = Iarann ​​Dust
+item.Iron.Nugget.name = Iarann ​​Nugget
+tile.Inferior.Iron.name = Inferior Iarann ​​Ore
+tile.Iron.Gravel.name = iarainn Ore Gairbhéal
+
+tile.Iron.Manganese = Mangainéis Ore Iarann
+
+tile.Lead.name = Luaidhe Ore
+tile.Inferior.Lead.name = Luaidhe Inferior Méine
+tile.Lead.Gravel.name = Luaidhe méine Gairbhéal
+item.Lead.Dust.name = Dust Luaidhe
+item.Lead.Nugget.name = Luaidhe Nugget
+item.Lead.Ingot.name = Luaidhe tinne
+tile.Lead.Block.name = Bloc Luaidhe
+
+tile.Manganese.Dust.name = Mangainéis Dust
+item.Manganese.Nugget.name = Mangainéis Nugget
+item.Manganese.Ingot.name = Mangainéis tinne
+tile.Manganese.Block.name = Bloc na Mangainéis
+
+tile.Nickel.name = Nicil Ore
+tile.Inferior.Nickel.name = Inferior Nicil Ore
+tile.Nickel.Gravel.name = Nicil méine Gairbhéal
+item.Nickel.Dust.name = Nicil Dust
+item.Nickel.Nugget.name = Nicil Nugget
+item.Nickel.Ingot.name = Nicil tinne
+tile.Nickel.Block.name = Bloc de Nicil
+
+tile.Osmium.name = osmium Méine
+tile.Inferior.Osmium.name = Inferior osmium Méine
+item.Osmium.Ingot.name = osmium tinne
+item.Osmium.Nugget.name = osmium Nugget
+item.Osmium.Dust.name = osmium Dust
+tile.Osmium.Gravel.name = osmium Gravel
+tile.Osmium.Block.name = Bloc de osmium
+
+tile.Silver.name = Silver Ore
+tile.Inferior.Silver.name = Inferior Silver Ore
+tile.Silver.Gravel.name = Silver Ore Gairbhéal
+item.Silver.Ingot.name = Silver tinne
+item.Silver.Nugget.name = Silver Nugget
+item.Silver.Dust.name = Dust Silver
+tile.Silver.Block.name = Bloc de Silver
+
+item.Steel.Dust.name = Cruach Dust
+item.Steel.Nugget.name = Cruach Nugget
+item.Steel.Ingot.name = Cruach tinne
+tile.Steel.Block.name = Bloc na Cruach
+
+tile.Tin.name = Stáin Méine
+tile.Inferior.Tin.name = Inferior Stáin Méine
+tile.Tin.Gravel.name = Stáin Gravel Méine
+item.Tin.Ingot.name = Stáin tinne
+item.Tin.Nugget.name = Stáin Nugget
+item.Tin.Dust.name = Stáin Dust
+tile.Tin.Block.name = Bloc de Stáin
+
+tile.Rutile.name = Rutile Méine
+tile.Rutile.Inferior.name = Inferior Rutile Méine
+tile.Ilmenite.name = Ilmenite Méine
+tile.Ilmenite.Inferior.name = Inferior Ilmenite Méine
+item.Titanium.Ingot.name = Tíotáiniam tinne
+item.Titanium.Nugget.name = Tíotáiniam Nugget
+item.Titanium.Dust.name = Tíotáiniam Dust
+tile.Titanium.Block.name = Bloc de Tíotáiniam
+
+tile.Zinc.name = Sinc Méine
+tile.Inferior.Zinc.name = Inferior Sinc Méine
+tile.Zinc.Gravel.name = Sinc Méine Gairbhéal
+item.Zinc.Ingot.name = Sinc tinne
+item.Zinc.Nugget.name = Sinc Nugget
+item.Zinc.Dust.name = Sinc Dust
+tile.Zinc.Block.name = Bloc de since

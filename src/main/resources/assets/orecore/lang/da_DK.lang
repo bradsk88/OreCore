@@ -1,0 +1,111 @@
+#Generated Med Google Translate
+
+itemGroup.tabOreCore = OreCore
+
+tile.Bauxite.Ore.name = bauxitmalm
+tile.Bauxite.Gravel.name = Loose bauxitmalm
+item.Aluminum.Dust.name = aluminiumsstøv
+item.Aluminum.Nugget.name = Aluminum Nugget
+item.Aluminum.Ingot.name = aluminum barren
+tile.Aluminum.Block.name = blok af aluminium
+
+item.Bronze.Dust.name = Bronze Dust
+item.Bronze.Nugget.name = Bronze Nugget
+item.Bronze.Ingot.name = Bronze Ingot
+tile.Bronze.Block.name = Blok af Bronze
+
+item.Brass.Dust.name = Messing Dust
+item.Brass.Nugget.name = Brass Nugget
+item.Brass.Ingot.name = Brass Ingot
+tile.Brass.Block.name = Block of Brass
+
+tile.Copper.name = Copper Ore
+tile.Inferior.Copper.name = ringere Copper Ore
+tile.Copper.Gravel.name = Kobber Gravel Ore
+item.Copper.Dust.name = Copper Dust
+item.Copper.Nugget.name = Copper Nugget
+item.Copper.Ingot.name = kobberbarre
+tile.Copper.Block.name = blok af kobber
+
+item.Copper.II.Carbonate.Dust.name = Copper II Carbonate
+item.Copper.II.Carbonate.Nugget.name = Copper II Carbonate Nugget
+item.Copper.II.Carbonate.Ingot.name = Copper II Carbonate Ingot
+tile.Copper.II.Carbonate.Block.name = Blok af Copper II Carbonate
+
+tile.Inferior.Gold.name = ringere Gold Ore
+tile.Gold.Gravel.name = Guld Gravel Ore
+item.Gold.Dust.name = Gold Dust
+
+item.Iron.Dust.name = Iron Dust
+item.Iron.Nugget.name = Iron Nugget
+tile.Inferior.Iron.name = ringere Iron Ore
+tile.Iron.Gravel.name = Iron Gravel Ore
+
+tile.Iron.Manganese = Iron Mangan Ore
+
+tile.Lead.name = Lead Ore
+tile.Inferior.Lead.name = Dårligere Lead Ore
+tile.Lead.Gravel.name = Lead Gravel Ore
+item.Lead.Dust.name = Lead Dust
+item.Lead.Nugget.name = Bly Nugget
+item.Lead.Ingot.name = Lead Ingot
+tile.Lead.Block.name = Block of Lead
+
+tile.Manganese.Dust.name = Mangan Dust
+item.Manganese.Nugget.name = Mangan Nugget
+item.Manganese.Ingot.name = Mangan Ingot
+tile.Manganese.Block.name = Blok af Mangan
+
+tile.Nickel.name = Nikkel Ore
+tile.Inferior.Nickel.name = ringere Nikkel Ore
+tile.Nickel.Gravel.name = Nikkel Gravel Ore
+item.Nickel.Dust.name = Nickel Dust
+item.Nickel.Nugget.name = Nickel Nugget
+item.Nickel.Ingot.name = Nikkel Ingot
+tile.Nickel.Block.name = Block Nikkel
+
+tile.Osmium.name = Osmium Ore
+tile.Inferior.Osmium.name = ringere Osmium Ore
+item.Osmium.Ingot.name = Osmium Ingot
+item.Osmium.Nugget.name = Osmium Nugget
+item.Osmium.Dust.name = Osmium Dust
+tile.Osmium.Gravel.name = Osmium Gravel
+tile.Osmium.Block.name = Block af Osmium
+
+tile.Silver.name = Silver Ore
+tile.Inferior.Silver.name = ringere Silver Ore
+tile.Silver.Gravel.name = Sølv Gravel Ore
+item.Silver.Ingot.name = sølv barre
+item.Silver.Nugget.name = Silver Nugget
+item.Silver.Dust.name = Silver Dust
+tile.Silver.Block.name = Blok af Silver
+
+item.Steel.Dust.name = Stål Dust
+item.Steel.Nugget.name = Stål Nugget
+item.Steel.Ingot.name = stål barren
+tile.Steel.Block.name = Block of Steel
+
+tile.Tin.name = Tin Ore
+tile.Inferior.Tin.name = ringere Tin Ore
+tile.Tin.Gravel.name = Tin Gravel Ore
+item.Tin.Ingot.name = Tin Ingot
+item.Tin.Nugget.name = Tin Nugget
+item.Tin.Dust.name = Tin Dust
+tile.Tin.Block.name = Blok af Tin
+
+tile.Rutile.name = Rutil Ore
+tile.Rutile.Inferior.name = ringere Rutil Ore
+tile.Ilmenite.name = Ilmenit Ore
+tile.Ilmenite.Inferior.name = ringere Ilmenit Ore
+item.Titanium.Ingot.name = Titanium Ingot
+item.Titanium.Nugget.name = Titanium Nugget
+item.Titanium.Dust.name = Titanium Dust
+tile.Titanium.Block.name = Blok af Titanium
+
+tile.Zinc.name = Zink Ore
+tile.Inferior.Zinc.name = ringere Zink Ore
+tile.Zinc.Gravel.name = Zink Gravel Ore
+item.Zinc.Ingot.name = Zink Ingot
+item.Zinc.Nugget.name = Zink Nugget
+item.Zinc.Dust.name = Zinkstøv
+tile.Zinc.Block.name = blok af zink

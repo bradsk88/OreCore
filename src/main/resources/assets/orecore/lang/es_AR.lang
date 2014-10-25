@@ -1,0 +1,111 @@
+#Generado con Google Translate
+
+itemGroup.tabOreCore = OreCore
+
+tile.Bauxite.Ore.name = Bauxita mineral
+tile.Bauxite.Gravel.name = Loose Bauxita mineral
+item.Aluminum.Dust.name = Aluminio Polvo
+item.Aluminum.Nugget.name = Aluminio Nugget
+item.Aluminum.Ingot.name = Aluminio Lingote
+tile.Aluminum.Block.name = bloque de aluminio
+
+item.Bronze.Dust.name = Bronce polvo
+item.Bronze.Nugget.name = Bronce Nugget
+item.Bronze.Ingot.name = Bronce Lingote
+tile.Bronze.Block.name = Bloque de Bronce
+
+item.Brass.Dust.name = Polvo de latón
+item.Brass.Nugget.name = Latón Nugget
+item.Brass.Ingot.name = Latón Lingote
+tile.Brass.Block.name = Bloque de Latón
+
+tile.Copper.name = mineral de cobre
+tile.Inferior.Copper.name = Inferior mineral de cobre
+tile.Copper.Gravel.name = Cobre Grava Ore
+item.Copper.Dust.name = Cobre Polvo
+item.Copper.Nugget.name = Cobre Nugget
+item.Copper.Ingot.name = Cobre Lingote
+tile.Copper.Block.name = Bloque de cobre
+
+item.Copper.II.Carbonate.Dust.name = Cobre II Carbonato
+item.Copper.II.Carbonate.Nugget.name = II Cobre Carbonato Nugget
+item.Copper.II.Carbonate.Ingot.name = II Cobre Carbonato Lingote
+tile.Copper.II.Carbonate.Block.name = Bloque de cobre II Carbonato
+
+tile.Inferior.Gold.name = Inferior del mineral del oro
+tile.Gold.Gravel.name = Oro Grava Ore
+item.Gold.Dust.name = polvo de oro
+
+item.Iron.Dust.name = Hierro Polvo
+item.Iron.Nugget.name = Hierro Nugget
+tile.Inferior.Iron.name = Inferior Mineral de Hierro
+tile.Iron.Gravel.name = Hierro Grava Ore
+
+tile.Iron.Manganese = Hierro Mineral de manganeso
+
+tile.Lead.name = mineral de plomo
+tile.Inferior.Lead.name = Plomo Inferior Ore
+tile.Lead.Gravel.name = plomo Ore Grava
+item.Lead.Dust.name = polvo de plomo
+item.Lead.Nugget.name = Plomo Nugget
+item.Lead.Ingot.name = Lingote de plomo
+tile.Lead.Block.name = Bloque de plomo
+
+tile.Manganese.Dust.name = Manganeso polvo
+item.Manganese.Nugget.name = Manganeso Nugget
+item.Manganese.Ingot.name = Manganeso Lingote
+tile.Manganese.Block.name = Bloque de manganeso
+
+tile.Nickel.name = Níquel Mineral
+tile.Inferior.Nickel.name = Inferior Níquel Mineral
+tile.Nickel.Gravel.name = Níquel Grava Ore
+item.Nickel.Dust.name = Níquel Polvo
+item.Nickel.Nugget.name = Níquel Nugget
+item.Nickel.Ingot.name = Níquel Lingote
+tile.Nickel.Block.name = Bloque de Níquel
+
+tile.Osmium.name = osmio Ore
+tile.Inferior.Osmium.name = Inferior osmio Ore
+item.Osmium.Ingot.name = osmio Lingote
+item.Osmium.Nugget.name = osmio Nugget
+item.Osmium.Dust.name = osmio polvo
+tile.Osmium.Gravel.name = osmio Grava
+tile.Osmium.Block.name = Bloque de osmio
+
+tile.Silver.name = Plata Mineral
+tile.Inferior.Silver.name = Inferior Plata Mineral
+tile.Silver.Gravel.name = Plata Mineral de Grava
+item.Silver.Ingot.name = Lingote de Plata
+item.Silver.Nugget.name = Silver Nugget
+item.Silver.Dust.name = polvo de plata
+tile.Silver.Block.name = Bloque de Plata
+
+item.Steel.Dust.name = Steel Dust
+item.Steel.Nugget.name = Acero Nugget
+item.Steel.Ingot.name = Acero Lingote
+tile.Steel.Block.name = Bloque de acero
+
+tile.Tin.name = Estaño Mineral
+tile.Inferior.Tin.name = Inferior Estaño Mineral
+tile.Tin.Gravel.name = Estaño Grava Ore
+item.Tin.Ingot.name = Estaño Lingote
+item.Tin.Nugget.name = Estaño Nugget
+item.Tin.Dust.name = Estaño Polvo
+tile.Tin.Block.name = Bloque de Estaño
+
+tile.Rutile.name = Rutilo Ore
+tile.Rutile.Inferior.name = Inferior Rutilo Ore
+tile.Ilmenite.name = ilmenita Ore
+tile.Ilmenite.Inferior.name = Inferior ilmenita Ore
+item.Titanium.Ingot.name = Titanio Lingote
+item.Titanium.Nugget.name = Titanio Nugget
+item.Titanium.Dust.name = Titanio Polvo
+tile.Titanium.Block.name = Bloque de titanio
+
+tile.Zinc.name = mineral de zinc
+tile.Inferior.Zinc.name = Inferior mineral de zinc
+tile.Zinc.Gravel.name = Zinc Grava Ore
+item.Zinc.Ingot.name = Zinc Lingote
+item.Zinc.Nugget.name = Zinc Nugget
+item.Zinc.Dust.name = Polvo de cinc
+tile.Zinc.Block.name = Bloque de Zinc

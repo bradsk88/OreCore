@@ -1,0 +1,111 @@
+#Generated Kanssa Google Translate
+
+itemGroup.tabOreCore = OreCore
+
+tile.Bauxite.Ore.name = bauksiittimalmista
+tile.Bauxite.Gravel.name = Loose bauksiittimalmista
+item.Aluminum.Dust.name = alumiinipölyn
+item.Aluminum.Nugget.name = Alumiini Nugget
+item.Aluminum.Ingot.name = alumiiniharkon
+tile.Aluminum.Block.name = alumiinikappaleesta
+
+item.Bronze.Dust.name = Pronssi Dust
+item.Bronze.Nugget.name = Pronssi Nugget
+item.Bronze.Ingot.name = Pronssi Harkkojen
+tile.Bronze.Block.name = Block Bronze
+
+item.Brass.Dust.name = Brass Dust
+item.Brass.Nugget.name = Brass Nugget
+item.Brass.Ingot.name = Brass harkko
+tile.Brass.Block.name = Block Brass
+
+tile.Copper.name = Kupari Ore
+tile.Inferior.Copper.name = Huonompi kuparimalmista
+tile.Copper.Gravel.name = Kupari Sora Ore
+item.Copper.Dust.name = Copper Dust
+item.Copper.Nugget.name = Copper Nugget
+item.Copper.Ingot.name = Copper Harkko
+tile.Copper.Block.name = Block Copper
+
+item.Copper.II.Carbonate.Dust.name = Copper II Karbonaatti
+item.Copper.II.Carbonate.Nugget.name = Copper II Karbonaatti Nugget
+item.Copper.II.Carbonate.Ingot.name = Copper II Karbonaatti Harkkojen
+tile.Copper.II.Carbonate.Block.name = Block Copper II Karbonaatti
+
+tile.Inferior.Gold.name = Huonompi Kultamalmi
+tile.Gold.Gravel.name = Gold Sora Ore
+item.Gold.Dust.name = Gold Dust
+
+item.Iron.Dust.name = rautapölyä
+item.Iron.Nugget.name = Iron Nugget
+tile.Inferior.Iron.name = Huonompi Iron Ore
+tile.Iron.Gravel.name = Iron Sora Ore
+
+tile.Iron.Manganese = Iron mangaanimalmi
+
+tile.Lead.name = Lyijymalmi
+tile.Inferior.Lead.name = Huonompi Lyijymalmi
+tile.Lead.Gravel.name = Lead Sora Ore
+item.Lead.Dust.name = lyijypölyltä
+item.Lead.Nugget.name = Lead Nugget
+item.Lead.Ingot.name = Lead Harkko
+tile.Lead.Block.name = Block Lead
+
+tile.Manganese.Dust.name = Mangaani Dust
+item.Manganese.Nugget.name = Mangaani Nugget
+item.Manganese.Ingot.name = Mangaani Harkkojen
+tile.Manganese.Block.name = Block Mangaani
+
+tile.Nickel.name = nikkelimalmin
+tile.Inferior.Nickel.name = Huonompi nikkelimalmin
+tile.Nickel.Gravel.name = Nickel Sora Malmi
+item.Nickel.Dust.name = Nickel Dust
+item.Nickel.Nugget.name = Nickel Nugget
+item.Nickel.Ingot.name = Nickel Harkkojen
+tile.Nickel.Block.name = Block Nickel
+
+tile.Osmium.name = Osmiumin Ore
+tile.Inferior.Osmium.name = Huonompi Osmium Ore
+item.Osmium.Ingot.name = Osmiumin Harkkojen
+item.Osmium.Nugget.name = Osmiumin Nugget
+item.Osmium.Dust.name = Osmiumin Dust
+tile.Osmium.Gravel.name = Osmiumin Sora
+tile.Osmium.Block.name = Block osmiumia
+
+tile.Silver.name = hopeamalmia
+tile.Inferior.Silver.name = Huonompi hopeamalmia
+tile.Silver.Gravel.name = Silver Sora Ore
+item.Silver.Ingot.name = Silver Harkko
+item.Silver.Nugget.name = Silver Nugget
+item.Silver.Dust.name = Silver Dust
+tile.Silver.Block.name = Block Silver
+
+item.Steel.Dust.name = Steel Dust
+item.Steel.Nugget.name = Teräs Nugget
+item.Steel.Ingot.name = Teräs Harkkojen
+tile.Steel.Block.name = Block of Steel
+
+tile.Tin.name = Tin Ore
+tile.Inferior.Tin.name = Huonompi Tin Ore
+tile.Tin.Gravel.name = Tin Gravel Ore
+item.Tin.Ingot.name = Tin Harkko
+item.Tin.Nugget.name = Tin Nugget
+item.Tin.Dust.name = Tin Dust
+tile.Tin.Block.name = Block Tin
+
+tile.Rutile.name = Rutile Ore
+tile.Rutile.Inferior.name = Huonompi Rutile Ore
+tile.Ilmenite.name = Ilmeniitti Ore
+tile.Ilmenite.Inferior.name = Huonompi Ilmeniitti Ore
+item.Titanium.Ingot.name = Titanium Harkko
+item.Titanium.Nugget.name = Titanium Nugget
+item.Titanium.Dust.name = Titanium Dust
+tile.Titanium.Block.name = Block Titanium
+
+tile.Zinc.name = sinkkimalmi
+tile.Inferior.Zinc.name = Huonompi sinkkimalmi
+tile.Zinc.Gravel.name = Zinc Sora Ore
+item.Zinc.Ingot.name = Sinkki Harkko
+item.Zinc.Nugget.name = Sinkki Nugget
+item.Zinc.Dust.name = sinkkipölyn
+tile.Zinc.Block.name = Block sinkkiä

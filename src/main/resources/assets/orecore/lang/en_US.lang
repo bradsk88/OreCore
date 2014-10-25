@@ -1,4 +1,6 @@
-itemGroup.tabOreCore=Ore Core
+#Generated with Google Translate
+
+itemGroup.tabOreCore=OreCore
 
 tile.Bauxite.Ore.name=Bauxite Ore
 tile.Bauxite.Gravel.name=Loose Bauxite Ore

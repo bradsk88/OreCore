@@ -7,9 +7,6 @@ package ca.bradj.orecore.item;
  */
 public class IDs {
 
-	// TODO: Move these IDs into a config file -BJ
-	// TODO: Reorder these -BJ
-
 	public static final int BAUXITE_ID = 4000;
 	public static final int ALUMINUM_DUST_ID = 4001;
 	public static final int ALUMINUM_NUGGET_ID = 4002;
