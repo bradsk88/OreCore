@@ -1,111 +1,111 @@
 #Generated Avec Google Translate
 
-itemGroup.tabOreCore = OreCore
+itemGroup.tabOreCore=OreCore
 
-tile.Bauxite.Ore.name = Bauxite Ore
-tile.Bauxite.Gravel.name = lâche Bauxite Ore
-item.Aluminum.Dust.name = aluminium poussière
-item.Aluminum.Nugget.name = aluminium Nugget
-item.Aluminum.Ingot.name = lingots d'aluminium
-tile.Aluminum.Block.name = bloc d'aluminium
+tile.Bauxite.Ore.name=Bauxite Ore
+tile.Bauxite.Gravel.name=lâche Bauxite Ore
+item.Aluminum.Dust.name=aluminium poussière
+item.Aluminum.Nugget.name=aluminium Nugget
+item.Aluminum.Ingot.name=lingots d'aluminium
+tile.Aluminum.Block.name=bloc d'aluminium
 
-item.Bronze.Dust.name = Bronze poussière
-item.Bronze.Nugget.name = Bronze Nugget
-item.Bronze.Ingot.name = Lingot de bronze
-tile.Bronze.Block.name = Bloc de Bronze
+item.Bronze.Dust.name=Bronze poussière
+item.Bronze.Nugget.name=Bronze Nugget
+item.Bronze.Ingot.name=Lingot de bronze
+tile.Bronze.Block.name=Bloc de Bronze
 
-item.Brass.Dust.name = poussière de laiton
-item.Brass.Nugget.name = Brass Nugget
-item.Brass.Ingot.name = Lingot de laiton
-tile.Brass.Block.name = bloc de laiton
+item.Brass.Dust.name=poussière de laiton
+item.Brass.Nugget.name=Brass Nugget
+item.Brass.Ingot.name=Lingot de laiton
+tile.Brass.Block.name=bloc de laiton
 
-tile.Copper.name = minerai de cuivre
-tile.Inferior.Copper.name = minerai de cuivre de qualité inférieure
-Minerai de Gravel tile.Copper.Gravel.name = cuivre
-item.Copper.Dust.name = cuivre poussière
-item.Copper.Nugget.name = cuivre Nugget
-item.Copper.Ingot.name = Lingot de cuivre
-tile.Copper.Block.name = bloc de cuivre
+tile.Copper.name=minerai de cuivre
+tile.Inferior.Copper.name=minerai de cuivre de qualité inférieure
+Minerai de Gravel tile.Copper.Gravel.name=cuivre
+item.Copper.Dust.name=cuivre poussière
+item.Copper.Nugget.name=cuivre Nugget
+item.Copper.Ingot.name=Lingot de cuivre
+tile.Copper.Block.name=bloc de cuivre
 
-item.Copper.II.Carbonate.Dust.name = carbonate de cuivre II
-item.Copper.II.Carbonate.Nugget.name = cuivre II Carbonate Nugget
-item.Copper.II.Carbonate.Ingot.name = cuivre II Carbonate Lingot
-tile.Copper.II.Carbonate.Block.name = bloc de cuivre II Carbonate
+item.Copper.II.Carbonate.Dust.name=carbonate de cuivre II
+item.Copper.II.Carbonate.Nugget.name=cuivre II Carbonate Nugget
+item.Copper.II.Carbonate.Ingot.name=cuivre II Carbonate Lingot
+tile.Copper.II.Carbonate.Block.name=bloc de cuivre II Carbonate
 
-tile.Inferior.Gold.name = minerai d'or inférieure
-tile.Gold.Gravel.name = minerai d'or de Gravel
-item.Gold.Dust.name = Gold Dust
+tile.Inferior.Gold.name=minerai d'or inférieure
+tile.Gold.Gravel.name=minerai d'or de Gravel
+item.Gold.Dust.name=Gold Dust
 
-item.Iron.Dust.name = Fer poussière
-item.Iron.Nugget.name = Fer Nugget
-tile.Inferior.Iron.name = minerai de fer de qualité inférieure
+item.Iron.Dust.name=Fer poussière
+item.Iron.Nugget.name=Fer Nugget
+tile.Inferior.Iron.name=minerai de fer de qualité inférieure
 Minerai de fer Gravel tile.Iron.Gravel.name =
 
-tile.Iron.Manganese = fer Minerai de manganèse
+tile.Iron.Manganese=fer Minerai de manganèse
 
-tile.Lead.name = minerai de plomb
-tile.Inferior.Lead.name = plomb inférieure Ore
-tile.Lead.Gravel.name = minerai de plomb Gravel
-item.Lead.Dust.name = poussière de plomb
-item.Lead.Nugget.name = Nugget plomb
-item.Lead.Ingot.name = lingot de plomb
-tile.Lead.Block.name = bloc de plomb
+tile.Lead.name=minerai de plomb
+tile.Inferior.Lead.name=plomb inférieure Ore
+tile.Lead.Gravel.name=minerai de plomb Gravel
+item.Lead.Dust.name=poussière de plomb
+item.Lead.Nugget.name=Nugget plomb
+item.Lead.Ingot.name=lingot de plomb
+tile.Lead.Block.name=bloc de plomb
 
-tile.Manganese.Dust.name = poussière de manganèse
-item.Manganese.Nugget.name = Manganèse Nugget
-item.Manganese.Ingot.name = Manganèse Lingot
-tile.Manganese.Block.name = Bloc de manganèse
+tile.Manganese.Dust.name=poussière de manganèse
+item.Manganese.Nugget.name=Manganèse Nugget
+item.Manganese.Ingot.name=Manganèse Lingot
+tile.Manganese.Block.name=Bloc de manganèse
 
-tile.Nickel.name = minerai de nickel
-tile.Inferior.Nickel.name = minerai de nickel inférieure
-Minerai de Gravel tile.Nickel.Gravel.name = Nickel
-item.Nickel.Dust.name = Nickel poussière
-item.Nickel.Nugget.name = Nickel Nugget
-item.Nickel.Ingot.name = Nickel Lingot
-tile.Nickel.Block.name = Bloc de Nickel
+tile.Nickel.name=minerai de nickel
+tile.Inferior.Nickel.name=minerai de nickel inférieure
+Minerai de Gravel tile.Nickel.Gravel.name=Nickel
+item.Nickel.Dust.name=Nickel poussière
+item.Nickel.Nugget.name=Nickel Nugget
+item.Nickel.Ingot.name=Nickel Lingot
+tile.Nickel.Block.name=Bloc de Nickel
 
-tile.Osmium.name = Osmium Ore
-tile.Inferior.Osmium.name = Ore Osmium inférieure
-item.Osmium.Ingot.name = Osmium Lingot
-item.Osmium.Nugget.name = Osmium Nugget
-item.Osmium.Dust.name = Osmium poussière
-tile.Osmium.Gravel.name = Osmium Gravel
-tile.Osmium.Block.name = Bloc de Osmium
+tile.Osmium.name=Osmium Ore
+tile.Inferior.Osmium.name=Ore Osmium inférieure
+item.Osmium.Ingot.name=Osmium Lingot
+item.Osmium.Nugget.name=Osmium Nugget
+item.Osmium.Dust.name=Osmium poussière
+tile.Osmium.Gravel.name=Osmium Gravel
+tile.Osmium.Block.name=Bloc de Osmium
 
-tile.Silver.name = minerai d'argent
-tile.Inferior.Silver.name = minerai d'argent inférieure
-tile.Silver.Gravel.name = Ore Gravel Argent
-item.Silver.Ingot.name = Lingot d'argent
-item.Silver.Nugget.name = Silver Nugget
-item.Silver.Dust.name = Poussière d'argent
-tile.Silver.Block.name = bloc de l'argent
+tile.Silver.name=minerai d'argent
+tile.Inferior.Silver.name=minerai d'argent inférieure
+tile.Silver.Gravel.name=Ore Gravel Argent
+item.Silver.Ingot.name=Lingot d'argent
+item.Silver.Nugget.name=Silver Nugget
+item.Silver.Dust.name=Poussière d'argent
+tile.Silver.Block.name=bloc de l'argent
 
-item.Steel.Dust.name = acier poussière
-item.Steel.Nugget.name = acier Nugget
-item.Steel.Ingot.name = Lingot d'acier
-tile.Steel.Block.name = bloc d'acier
+item.Steel.Dust.name=acier poussière
+item.Steel.Nugget.name=acier Nugget
+item.Steel.Ingot.name=Lingot d'acier
+tile.Steel.Block.name=bloc d'acier
 
-tile.Tin.name = Minerai d'étain
-tile.Inferior.Tin.name = Ore Tin inférieure
-Minerai de Gravel tile.Tin.Gravel.name = Tin
-item.Tin.Ingot.name = lingot d'étain
-item.Tin.Nugget.name = Tin Nugget
-item.Tin.Dust.name = Tin poussière
-tile.Tin.Block.name = Bloc de Tin
+tile.Tin.name=Minerai d'étain
+tile.Inferior.Tin.name=Ore Tin inférieure
+Minerai de Gravel tile.Tin.Gravel.name=Tin
+item.Tin.Ingot.name=lingot d'étain
+item.Tin.Nugget.name=Tin Nugget
+item.Tin.Dust.name=Tin poussière
+tile.Tin.Block.name=Bloc de Tin
 
-tile.Rutile.name = Rutile Ore
-tile.Rutile.Inferior.name = minerai rutile inférieure
-tile.Ilmenite.name = ilménite Ore
-tile.Ilmenite.Inferior.name = minerai d'ilménite inférieure
-item.Titanium.Ingot.name = Titanium Lingot
-item.Titanium.Nugget.name = Titanium Nugget
-item.Titanium.Dust.name = Titanium poussière
-tile.Titanium.Block.name = bloc de titane
+tile.Rutile.name=Rutile Ore
+tile.Rutile.Inferior.name=minerai rutile inférieure
+tile.Ilmenite.name=ilménite Ore
+tile.Ilmenite.Inferior.name=minerai d'ilménite inférieure
+item.Titanium.Ingot.name=Titanium Lingot
+item.Titanium.Nugget.name=Titanium Nugget
+item.Titanium.Dust.name=Titanium poussière
+tile.Titanium.Block.name=bloc de titane
 
-tile.Zinc.name = minerai de zinc
-tile.Inferior.Zinc.name = minerai de zinc inférieure
-Minerai de Gravel tile.Zinc.Gravel.name = Zinc
-item.Zinc.Ingot.name = Zinc Lingot
-item.Zinc.Nugget.name = Zinc Nugget
-item.Zinc.Dust.name = poussière de zinc
-tile.Zinc.Block.name = Bloc de Zinc
+tile.Zinc.name=minerai de zinc
+tile.Inferior.Zinc.name=minerai de zinc inférieure
+Minerai de Gravel tile.Zinc.Gravel.name=Zinc
+item.Zinc.Ingot.name=Zinc Lingot
+item.Zinc.Nugget.name=Zinc Nugget
+item.Zinc.Dust.name=poussière de zinc
+tile.Zinc.Block.name=Bloc de Zinc

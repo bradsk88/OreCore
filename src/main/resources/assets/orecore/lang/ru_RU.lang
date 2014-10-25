@@ -1,111 +1,111 @@
 #Generated С Google Translate
 
-itemGroup.tabOreCore = рудаЯдро
+itemGroup.tabOreCore=рудаЯдро
 
-tile.Bauxite.Ore.name = бокситов
-tile.Bauxite.Gravel.name = Свободный бокситов
-item.Aluminum.Dust.name = алюминиевой пыли
-item.Aluminum.Nugget.name = Алюминий Самородок
-item.Aluminum.Ingot.name = алюминиевого слитка
-tile.Aluminum.Block.name = куска алюминия
+tile.Bauxite.Ore.name=бокситов
+tile.Bauxite.Gravel.name=Свободный бокситов
+item.Aluminum.Dust.name=алюминиевой пыли
+item.Aluminum.Nugget.name=Алюминий Самородок
+item.Aluminum.Ingot.name=алюминиевого слитка
+tile.Aluminum.Block.name=куска алюминия
 
-item.Bronze.Dust.name = Бронзовая пыль
-item.Bronze.Nugget.name = бронзовый Самородок
-item.Bronze.Ingot.name = бронзовый слиток
-tile.Bronze.Block.name = Блок бронзы
+item.Bronze.Dust.name=Бронзовая пыль
+item.Bronze.Nugget.name=бронзовый Самородок
+item.Bronze.Ingot.name=бронзовый слиток
+tile.Bronze.Block.name=Блок бронзы
 
-item.Brass.Dust.name = Brass пыли
-item.Brass.Nugget.name = Brass Самородок
-item.Brass.Ingot.name = Латунь слиток
-tile.Brass.Block.name = Блок Brass
+item.Brass.Dust.name=Brass пыли
+item.Brass.Nugget.name=Brass Самородок
+item.Brass.Ingot.name=Латунь слиток
+tile.Brass.Block.name=Блок Brass
 
-tile.Copper.name = Медная руда
-tile.Inferior.Copper.name = Нижняя Медная руда
-tile.Copper.Gravel.name = Медь Гравий руды
-item.Copper.Dust.name = Copper пыли
-item.Copper.Nugget.name = Copper Самородок
-item.Copper.Ingot.name = Медный слиток
-tile.Copper.Block.name = Блок меди
+tile.Copper.name=Медная руда
+tile.Inferior.Copper.name=Нижняя Медная руда
+tile.Copper.Gravel.name=Медь Гравий руды
+item.Copper.Dust.name=Copper пыли
+item.Copper.Nugget.name=Copper Самородок
+item.Copper.Ingot.name=Медный слиток
+tile.Copper.Block.name=Блок меди
 
-item.Copper.II.Carbonate.Dust.name = Copper II карбонат
-item.Copper.II.Carbonate.Nugget.name = Copper II Карбонатная Самородок
-item.Copper.II.Carbonate.Ingot.name = Copper II Карбонатная слиток
-tile.Copper.II.Carbonate.Block.name = Блок Copper II карбоната
+item.Copper.II.Carbonate.Dust.name=Copper II карбонат
+item.Copper.II.Carbonate.Nugget.name=Copper II Карбонатная Самородок
+item.Copper.II.Carbonate.Ingot.name=Copper II Карбонатная слиток
+tile.Copper.II.Carbonate.Block.name=Блок Copper II карбоната
 
-tile.Inferior.Gold.name = Нижняя Золотая руда
-tile.Gold.Gravel.name = Золото Гравий руды
-item.Gold.Dust.name = Gold Dust
+tile.Inferior.Gold.name=Нижняя Золотая руда
+tile.Gold.Gravel.name=Золото Гравий руды
+item.Gold.Dust.name=Gold Dust
 
-item.Iron.Dust.name = порошка железа
-item.Iron.Nugget.name = Iron Nugget
-tile.Inferior.Iron.name = Нижняя железной руды
-tile.Iron.Gravel.name = Утюг Гравий руды
+item.Iron.Dust.name=порошка железа
+item.Iron.Nugget.name=Iron Nugget
+tile.Inferior.Iron.name=Нижняя железной руды
+tile.Iron.Gravel.name=Утюг Гравий руды
 
-tile.Iron.Manganese = Утюг марганцевой руды
+tile.Iron.Manganese=Утюг марганцевой руды
 
-tile.Lead.name = Свинец руда
-tile.Inferior.Lead.name = Нижняя Ведущий руды
-tile.Lead.Gravel.name = Ведущий Гравий руды
-item.Lead.Dust.name = свинцовой пыли
-item.Lead.Nugget.name = Свинец Самородок
-item.Lead.Ingot.name = Lead слиток
-tile.Lead.Block.name = Блок свинца
+tile.Lead.name=Свинец руда
+tile.Inferior.Lead.name=Нижняя Ведущий руды
+tile.Lead.Gravel.name=Ведущий Гравий руды
+item.Lead.Dust.name=свинцовой пыли
+item.Lead.Nugget.name=Свинец Самородок
+item.Lead.Ingot.name=Lead слиток
+tile.Lead.Block.name=Блок свинца
 
-tile.Manganese.Dust.name = Марганец пыли
-item.Manganese.Nugget.name = Марганец Nugget
-item.Manganese.Ingot.name = Марганец Слиток
-tile.Manganese.Block.name = Блок Марганец
+tile.Manganese.Dust.name=Марганец пыли
+item.Manganese.Nugget.name=Марганец Nugget
+item.Manganese.Ingot.name=Марганец Слиток
+tile.Manganese.Block.name=Блок Марганец
 
-tile.Nickel.name = никелевой руды
-tile.Inferior.Nickel.name = Нижняя никелевой руды
-tile.Nickel.Gravel.name = никель Гравий руды
-item.Nickel.Dust.name = никель пыли
-item.Nickel.Nugget.name = никель Самородок
-item.Nickel.Ingot.name = никель слиток
-tile.Nickel.Block.name = Блок никель
+tile.Nickel.name=никелевой руды
+tile.Inferior.Nickel.name=Нижняя никелевой руды
+tile.Nickel.Gravel.name=никель Гравий руды
+item.Nickel.Dust.name=никель пыли
+item.Nickel.Nugget.name=никель Самородок
+item.Nickel.Ingot.name=никель слиток
+tile.Nickel.Block.name=Блок никель
 
-tile.Osmium.name = осмий руды
-tile.Inferior.Osmium.name = Нижняя осмий руды
-item.Osmium.Ingot.name = осмий слиток
-item.Osmium.Nugget.name = осмий Самородок
-item.Osmium.Dust.name = осмий пыли
-tile.Osmium.Gravel.name = осмий Гравий
-tile.Osmium.Block.name = Блок осмия
+tile.Osmium.name=осмий руды
+tile.Inferior.Osmium.name=Нижняя осмий руды
+item.Osmium.Ingot.name=осмий слиток
+item.Osmium.Nugget.name=осмий Самородок
+item.Osmium.Dust.name=осмий пыли
+tile.Osmium.Gravel.name=осмий Гравий
+tile.Osmium.Block.name=Блок осмия
 
-tile.Silver.name = Silver Ore
-tile.Inferior.Silver.name = Нижняя Silver Ore
-tile.Silver.Gravel.name = Silver Гравий руды
-item.Silver.Ingot.name = Silver слиток
-item.Silver.Nugget.name = Silver Nugget
-item.Silver.Dust.name = Silver Dust
-tile.Silver.Block.name = Блок серебра
+tile.Silver.name=Silver Ore
+tile.Inferior.Silver.name=Нижняя Silver Ore
+tile.Silver.Gravel.name=Silver Гравий руды
+item.Silver.Ingot.name=Silver слиток
+item.Silver.Nugget.name=Silver Nugget
+item.Silver.Dust.name=Silver Dust
+tile.Silver.Block.name=Блок серебра
 
-item.Steel.Dust.name = Steel пыли
-item.Steel.Nugget.name = Steel Самородок
-item.Steel.Ingot.name = стального слитка
-tile.Steel.Block.name = Блок Steel
+item.Steel.Dust.name=Steel пыли
+item.Steel.Nugget.name=Steel Самородок
+item.Steel.Ingot.name=стального слитка
+tile.Steel.Block.name=Блок Steel
 
-tile.Tin.name = Оловянная руда
-tile.Inferior.Tin.name = Нижняя Оловянная руда
-tile.Tin.Gravel.name = Tin Гравий руды
-item.Tin.Ingot.name = Tin Слиток
-item.Tin.Nugget.name = Tin Nugget
-item.Tin.Dust.name = Tin пыли
-tile.Tin.Block.name = Блок олова
+tile.Tin.name=Оловянная руда
+tile.Inferior.Tin.name=Нижняя Оловянная руда
+tile.Tin.Gravel.name=Tin Гравий руды
+item.Tin.Ingot.name=Tin Слиток
+item.Tin.Nugget.name=Tin Nugget
+item.Tin.Dust.name=Tin пыли
+tile.Tin.Block.name=Блок олова
 
-tile.Rutile.name = рутил руды
-tile.Rutile.Inferior.name = Нижняя рутил руды
-tile.Ilmenite.name = руды ильменита
-tile.Ilmenite.Inferior.name = Нижняя руды ильменита
-item.Titanium.Ingot.name = титановый слиток
-item.Titanium.Nugget.name = Titanium Самородок
-item.Titanium.Dust.name = Titanium пыли
-tile.Titanium.Block.name = Блок Titanium
+tile.Rutile.name=рутил руды
+tile.Rutile.Inferior.name=Нижняя рутил руды
+tile.Ilmenite.name=руды ильменита
+tile.Ilmenite.Inferior.name=Нижняя руды ильменита
+item.Titanium.Ingot.name=титановый слиток
+item.Titanium.Nugget.name=Titanium Самородок
+item.Titanium.Dust.name=Titanium пыли
+tile.Titanium.Block.name=Блок Titanium
 
-tile.Zinc.name = цинковой руды
-tile.Inferior.Zinc.name = Нижняя цинковой руды
-tile.Zinc.Gravel.name = Цинк Гравий руды
-item.Zinc.Ingot.name = цинка Слиток
-item.Zinc.Nugget.name = цинк Самородок
-item.Zinc.Dust.name = цинковой пыли
-tile.Zinc.Block.name = Блок цинка
+tile.Zinc.name=цинковой руды
+tile.Inferior.Zinc.name=Нижняя цинковой руды
+tile.Zinc.Gravel.name=Цинк Гравий руды
+item.Zinc.Ingot.name=цинка Слиток
+item.Zinc.Nugget.name=цинк Самородок
+item.Zinc.Dust.name=цинковой пыли
+tile.Zinc.Block.name=Блок цинка

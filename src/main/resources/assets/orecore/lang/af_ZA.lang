@@ -1,111 +1,110 @@
-#Generated Met Google Translate
 
-itemGroup.tabOreCore = OreCore
+itemGroup.tabOreCore=OreCore
 
-tile.Bauxite.Ore.name = bauxiet
-tile.Bauxite.Gravel.name = Los bauxiet
-item.Aluminum.Dust.name = aluminium Stof
-item.Aluminum.Nugget.name = aluminium Nugget
-item.Aluminum.Ingot.name = aluminium INGOT
-tile.Aluminum.Block.name = Blok van aluminium
+tile.Bauxite.Ore.name=bauxiet
+tile.Bauxite.Gravel.name=Los bauxiet
+item.Aluminum.Dust.name=aluminium Stof
+item.Aluminum.Nugget.name=aluminium Nugget
+item.Aluminum.Ingot.name=aluminium Ingot
+tile.Aluminum.Block.name=Blok van aluminium
 
-item.Bronze.Dust.name = Brons Stof
-item.Bronze.Nugget.name = Brons Nugget
-item.Bronze.Ingot.name = Brons INGOT
-tile.Bronze.Block.name = Blok van Brons
+item.Bronze.Dust.name=Brons Stof
+item.Bronze.Nugget.name=Brons Nugget
+item.Bronze.Ingot.name=Brons Ingot
+tile.Bronze.Block.name=Blok van Brons
 
-item.Brass.Dust.name = Brass Stof
-item.Brass.Nugget.name = Brass Nugget
-item.Brass.Ingot.name = Brass INGOT
-tile.Brass.Block.name = Blok van Brass
+item.Brass.Dust.name=Brass Stof
+item.Brass.Nugget.name=Brass Nugget
+item.Brass.Ingot.name=Brass Ingot
+tile.Brass.Block.name=Blok van Brass
 
-tile.Copper.name = koper-
-tile.Inferior.Copper.name = Inferior koper erts
-tile.Copper.Gravel.name = Copper Gravel Ore
-item.Copper.Dust.name = Copper Stof
-item.Copper.Nugget.name = Copper Nugget
-item.Copper.Ingot.name = Copper INGOT
-tile.Copper.Block.name = Blok van koper
+tile.Copper.name=koper-
+tile.Inferior.Copper.name=Inferior koper erts
+tile.Copper.Gravel.name=Copper Gravel Ore
+item.Copper.Dust.name=Copper Stof
+item.Copper.Nugget.name=Copper Nugget
+item.Copper.Ingot.name=Copper Ingot
+tile.Copper.Block.name=Blok van koper
 
-item.Copper.II.Carbonate.Dust.name = Copper II Karbonaatione
-item.Copper.II.Carbonate.Nugget.name = Copper II Karbonaatione Nugget
-item.Copper.II.Carbonate.Ingot.name = Copper II Karbonaatione INGOT
-tile.Copper.II.Carbonate.Block.name = Blok van koper II Karbonaatione
+item.Copper.II.Carbonate.Dust.name=Copper II Karbonaatione
+item.Copper.II.Carbonate.Nugget.name=Copper II Karbonaatione Nugget
+item.Copper.II.Carbonate.Ingot.name=Copper II Karbonaatione Ingot
+tile.Copper.II.Carbonate.Block.name=Blok van koper II Karbonaatione
 
-tile.Inferior.Gold.name = Inferior Gold Ore
-tile.Gold.Gravel.name = Gold Gravel Ore
-item.Gold.Dust.name = Gold Dust
+tile.Inferior.Gold.name=Inferior Gold Ore
+tile.Gold.Gravel.name=Gold Gravel Ore
+item.Gold.Dust.name=Gold Dust
 
-item.Iron.Dust.name = Iron Stof
-item.Iron.Nugget.name = Iron Nugget
-tile.Inferior.Iron.name = Inferior ystererts
-tile.Iron.Gravel.name = Iron Ore Gravel
+item.Iron.Dust.name=Iron Stof
+item.Iron.Nugget.name=Iron Nugget
+tile.Inferior.Iron.name=Inferior ystererts
+tile.Iron.Gravel.name=Iron Ore Gravel
 
-tile.Iron.Manganese = Iron mangaanerts
+tile.Iron.Manganese=Iron mangaanerts
 
-tile.Lead.name = Lood Ore
-tile.Inferior.Lead.name = Inferior Lood Ore
-tile.Lead.Gravel.name = Lood Gravel Ore
-item.Lead.Dust.name = Lood Stof
-item.Lead.Nugget.name = Lei Nugget
-item.Lead.Ingot.name = Lood INGOT
-tile.Lead.Block.name = Blok van Lood
+tile.Lead.name=Lood Ore
+tile.Inferior.Lead.name=Inferior Lood Ore
+tile.Lead.Gravel.name=Lood Gravel Ore
+item.Lead.Dust.name=Lood Stof
+item.Lead.Nugget.name=Lei Nugget
+item.Lead.Ingot.name=Lood Ingot
+tile.Lead.Block.name=Blok van Lood
 
-tile.Manganese.Dust.name = Manganese Stof
-item.Manganese.Nugget.name = Manganese Nugget
-item.Manganese.Ingot.name = Manganese INGOT
-tile.Manganese.Block.name = Blok van Manganese
+tile.Manganese.Dust.name=Manganese Stof
+item.Manganese.Nugget.name=Manganese Nugget
+item.Manganese.Ingot.name=Manganese Ingot
+tile.Manganese.Block.name=Blok van Manganese
 
-tile.Nickel.name = nikkelerts
-tile.Inferior.Nickel.name = Inferior nikkelerts
-tile.Nickel.Gravel.name = Nikkel Gravel Ore
-item.Nickel.Dust.name = Nikkel Stof
-item.Nickel.Nugget.name = Nikkel Nugget
-item.Nickel.Ingot.name = Nikkel INGOT
-tile.Nickel.Block.name = Blok van nikkel
+tile.Nickel.name=nikkelerts
+tile.Inferior.Nickel.name=Inferior nikkelerts
+tile.Nickel.Gravel.name=Nikkel Gravel Ore
+item.Nickel.Dust.name=Nikkel Stof
+item.Nickel.Nugget.name=Nikkel Nugget
+item.Nickel.Ingot.name=Nikkel Ingot
+tile.Nickel.Block.name=Blok van nikkel
 
-tile.Osmium.name = Osmium Ore
-tile.Inferior.Osmium.name = Inferior Osmium Ore
-item.Osmium.Ingot.name = Osmium INGOT
-item.Osmium.Nugget.name = Osmium Nugget
-item.Osmium.Dust.name = Osmium Stof
-tile.Osmium.Gravel.name = Osmium Gravel
-tile.Osmium.Block.name = Blok van Osmium
+tile.Osmium.name=Osmium Ore
+tile.Inferior.Osmium.name=Inferior Osmium Ore
+item.Osmium.Ingot.name=Osmium Ingot
+item.Osmium.Nugget.name=Osmium Nugget
+item.Osmium.Dust.name=Osmium Stof
+tile.Osmium.Gravel.name=Osmium Gravel
+tile.Osmium.Block.name=Blok van Osmium
 
-tile.Silver.name = Silwer Ore
-tile.Inferior.Silver.name = Inferior Silver Ore
-tile.Silver.Gravel.name = Silver Gravel Ore
-item.Silver.Ingot.name = Silwer INGOT
-item.Silver.Nugget.name = Silwer Nugget
-item.Silver.Dust.name = Silwer Stof
-tile.Silver.Block.name = Blok van Silver
+tile.Silver.name=Silwer Ore
+tile.Inferior.Silver.name=Inferior Silver Ore
+tile.Silver.Gravel.name=Silver Gravel Ore
+item.Silver.Ingot.name=Silwer Ingot
+item.Silver.Nugget.name=Silwer Nugget
+item.Silver.Dust.name=Silwer Stof
+tile.Silver.Block.name=Blok van Silver
 
-item.Steel.Dust.name = Steel Dust
-item.Steel.Nugget.name = Steel Nugget
-item.Steel.Ingot.name = staal staaf
-tile.Steel.Block.name = Blok van Staal
+item.Steel.Dust.name=Steel Dust
+item.Steel.Nugget.name=Steel Nugget
+item.Steel.Ingot.name=staal staaf
+tile.Steel.Block.name=Blok van Staal
 
-tile.Tin.name = tin-erts
-tile.Inferior.Tin.name = Inferior tin-erts
-tile.Tin.Gravel.name = Tin Gravel Ore
-item.Tin.Ingot.name = Tin INGOT
-item.Tin.Nugget.name = Tin Nugget
-item.Tin.Dust.name = Tin Stof
-tile.Tin.Block.name = Blok van Tin
+tile.Tin.name=tin-erts
+tile.Inferior.Tin.name=Inferior tin-erts
+tile.Tin.Gravel.name=Tin Gravel Ore
+item.Tin.Ingot.name=Tin Ingot
+item.Tin.Nugget.name=Tin Nugget
+item.Tin.Dust.name=Tin Stof
+tile.Tin.Block.name=Blok van Tin
 
-tile.Rutile.name = rutiel Ore
-tile.Rutile.Inferior.name = Inferior rutiel Ore
-tile.Ilmenite.name = ilmeniet erts
-tile.Ilmenite.Inferior.name = Inferior ilmeniet erts
-item.Titanium.Ingot.name = Titaan INGOT
-item.Titanium.Nugget.name = Titaan Nugget
-item.Titanium.Dust.name = Titaan Stof
-tile.Titanium.Block.name = Blok van Titaan
+tile.Rutile.name=rutiel Ore
+tile.Rutile.Inferior.name=Inferior rutiel Ore
+tile.Ilmenite.name=ilmeniet erts
+tile.Ilmenite.Inferior.name=Inferior ilmeniet erts
+item.Titanium.Ingot.name=Titaan Ingot
+item.Titanium.Nugget.name=Titaan Nugget
+item.Titanium.Dust.name=Titaan Stof
+tile.Titanium.Block.name=Blok van Titaan
 
-tile.Zinc.name = Zinc Ore
-tile.Inferior.Zinc.name = Inferior Zinc Ore
-tile.Zinc.Gravel.name = Zinc Gravel Ore
-item.Zinc.Ingot.name = sink staaf
-item.Zinc.Nugget.name = Zinc Nugget
-item.Zinc.Dust.name = Zinc Stof
-tile.Zinc.Block.name = Blok van sink
+tile.Zinc.name=Zinc Ore
+tile.Inferior.Zinc.name=Inferior Zinc Ore
+tile.Zinc.Gravel.name=Zinc Gravel Ore
+item.Zinc.Ingot.name=sink staaf
+item.Zinc.Nugget.name=Zinc Nugget
+item.Zinc.Dust.name=Zinc Stof
+tile.Zinc.Block.name=Blok van sink

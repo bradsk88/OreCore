@@ -1,111 +1,111 @@
 #Generated Z Google Translate
 
-itemGroup.tabOreCore = RdzeńRud
+itemGroup.tabOreCore=RdzeńRud
 
-tile.Bauxite.Ore.name = rudy boksytu
-tile.Bauxite.Gravel.name = Loose rudy boksytu
-item.Aluminum.Dust.name = aluminium Pył
-item.Aluminum.Nugget.name = aluminium Nugget
-item.Aluminum.Ingot.name = wlewek
-tile.Aluminum.Block.name = bloku aluminium
+tile.Bauxite.Ore.name=rudy boksytu
+tile.Bauxite.Gravel.name=Loose rudy boksytu
+item.Aluminum.Dust.name=aluminium Pył
+item.Aluminum.Nugget.name=aluminium Nugget
+item.Aluminum.Ingot.name=wlewek
+tile.Aluminum.Block.name=bloku aluminium
 
-item.Bronze.Dust.name = Bronze Pył
-item.Bronze.Nugget.name = Bronze Nugget
-item.Bronze.Ingot.name = Bronze wlewki
-tile.Bronze.Block.name = Blok brązu
+item.Bronze.Dust.name=Bronze Pył
+item.Bronze.Nugget.name=Bronze Nugget
+item.Bronze.Ingot.name=Bronze wlewki
+tile.Bronze.Block.name=Blok brązu
 
-item.Brass.Dust.name = Brass Pył
-item.Brass.Nugget.name = Brass Nugget
+item.Brass.Dust.name=Brass Pył
+item.Brass.Nugget.name=Brass Nugget
 item.Brass.Ingot.name mosiądz wlewki
-tile.Brass.Block.name = Blok Brass
+tile.Brass.Block.name=Blok Brass
 
-tile.Copper.name = Rud Miedzi
-tile.Inferior.Copper.name = Inferior Rud Miedzi
-tile.Copper.Gravel.name = rudy miedzi Żwir
-item.Copper.Dust.name = Pył miedziany
-item.Copper.Nugget.name = Copper Nugget
-item.Copper.Ingot.name = wlewki miedzi
-tile.Copper.Block.name = Blok miedzi
+tile.Copper.name=Rud Miedzi
+tile.Inferior.Copper.name=Inferior Rud Miedzi
+tile.Copper.Gravel.name=rudy miedzi Żwir
+item.Copper.Dust.name=Pył miedziany
+item.Copper.Nugget.name=Copper Nugget
+item.Copper.Ingot.name=wlewki miedzi
+tile.Copper.Block.name=Blok miedzi
 
-item.Copper.II.Carbonate.Dust.name = węglan miedzi II
-item.Copper.II.Carbonate.Nugget.name = Copper Nugget węglanowej II
-item.Copper.II.Carbonate.Ingot.name = miedzi wlewki węglanowej II
-tile.Copper.II.Carbonate.Block.name = Zablokuj węglanu miedzi II
+item.Copper.II.Carbonate.Dust.name=węglan miedzi II
+item.Copper.II.Carbonate.Nugget.name=Copper Nugget węglanowej II
+item.Copper.II.Carbonate.Ingot.name=miedzi wlewki węglanowej II
+tile.Copper.II.Carbonate.Block.name=Zablokuj węglanu miedzi II
 
-tile.Inferior.Gold.name = Inferior rudy złota
-tile.Gold.Gravel.name = rudy złota Żwir
-item.Gold.Dust.name = Gold Dust
+tile.Inferior.Gold.name=Inferior rudy złota
+tile.Gold.Gravel.name=rudy złota Żwir
+item.Gold.Dust.name=Gold Dust
 
-item.Iron.Dust.name = Żelazny Pył
-item.Iron.Nugget.name = Żelazny Nugget
-tile.Inferior.Iron.name = Inferior rudy żelaza
-tile.Iron.Gravel.name = rudy żelaza Żwir
+item.Iron.Dust.name=Żelazny Pył
+item.Iron.Nugget.name=Żelazny Nugget
+tile.Inferior.Iron.name=Inferior rudy żelaza
+tile.Iron.Gravel.name=rudy żelaza Żwir
 
-tile.Iron.Manganese = rudy żelaza manganu
+tile.Iron.Manganese=rudy żelaza manganu
 
-tile.Lead.name = rudy ołowiu
-tile.Inferior.Lead.name = Inferior Ruda ołowiu
-tile.Lead.Gravel.name = rudy ołowiu Żwir
-item.Lead.Dust.name = Lead Pył
-item.Lead.Nugget.name = Ołów Nugget
-item.Lead.Ingot.name = Lead wlewki
-tile.Lead.Block.name = Blok Lead
+tile.Lead.name=rudy ołowiu
+tile.Inferior.Lead.name=Inferior Ruda ołowiu
+tile.Lead.Gravel.name=rudy ołowiu Żwir
+item.Lead.Dust.name=Lead Pył
+item.Lead.Nugget.name=Ołów Nugget
+item.Lead.Ingot.name=Lead wlewki
+tile.Lead.Block.name=Blok Lead
 
-tile.Manganese.Dust.name = Mangan Pył
-item.Manganese.Nugget.name = Mangan Nugget
-item.Manganese.Ingot.name = Mangan Ingot
-tile.Manganese.Block.name = Blok mangan
+tile.Manganese.Dust.name=Mangan Pył
+item.Manganese.Nugget.name=Mangan Nugget
+item.Manganese.Ingot.name=Mangan Ingot
+tile.Manganese.Block.name=Blok mangan
 
-tile.Nickel.name = rudy niklu
-tile.Inferior.Nickel.name = Inferior rudy niklu
-tile.Nickel.Gravel.name = rudy niklu Żwir
-item.Nickel.Dust.name = Nickel Pył
-item.Nickel.Nugget.name = Nickel Nugget
-item.Nickel.Ingot.name = Nickel wlewki
-tile.Nickel.Block.name = Blok Nikiel
+tile.Nickel.name=rudy niklu
+tile.Inferior.Nickel.name=Inferior rudy niklu
+tile.Nickel.Gravel.name=rudy niklu Żwir
+item.Nickel.Dust.name=Nickel Pył
+item.Nickel.Nugget.name=Nickel Nugget
+item.Nickel.Ingot.name=Nickel wlewki
+tile.Nickel.Block.name=Blok Nikiel
 
-tile.Osmium.name = Osm Ore
-tile.Inferior.Osmium.name = Inferior Osm Ore
-item.Osmium.Ingot.name = osm wlewki
-item.Osmium.Nugget.name = osm Nugget
-item.Osmium.Dust.name = osm Pył
-tile.Osmium.Gravel.name = Osm Żwir
-tile.Osmium.Block.name = Blok Osm
+tile.Osmium.name=Osm Ore
+tile.Inferior.Osmium.name=Inferior Osm Ore
+item.Osmium.Ingot.name=osm wlewki
+item.Osmium.Nugget.name=osm Nugget
+item.Osmium.Dust.name=osm Pył
+tile.Osmium.Gravel.name=Osm Żwir
+tile.Osmium.Block.name=Blok Osm
 
-tile.Silver.name = rudy srebra
-tile.Inferior.Silver.name = Inferior rudy srebra
-tile.Silver.Gravel.name = rudy srebra Żwir
-item.Silver.Ingot.name = Srebrny wlewki
-item.Silver.Nugget.name = Silver Nugget
-item.Silver.Dust.name = Srebrny Pył
-tile.Silver.Block.name = Zablokuj srebra
+tile.Silver.name=rudy srebra
+tile.Inferior.Silver.name=Inferior rudy srebra
+tile.Silver.Gravel.name=rudy srebra Żwir
+item.Silver.Ingot.name=Srebrny wlewki
+item.Silver.Nugget.name=Silver Nugget
+item.Silver.Dust.name=Srebrny Pył
+tile.Silver.Block.name=Zablokuj srebra
 
-item.Steel.Dust.name = Pył Stali
-item.Steel.Nugget.name = stal Nugget
-item.Steel.Ingot.name = wlewki stalowe
-tile.Steel.Block.name = Blok Stali
+item.Steel.Dust.name=Pył Stali
+item.Steel.Nugget.name=stal Nugget
+item.Steel.Ingot.name=wlewki stalowe
+tile.Steel.Block.name=Blok Stali
 
-tile.Tin.name = Tin Ore
-tile.Inferior.Tin.name = Inferior Tin Ore
-tile.Tin.Gravel.name = rudy cyny Żwir
-item.Tin.Ingot.name = Tin Wlewki
-item.Tin.Nugget.name = Tin Nugget
-item.Tin.Dust.name = Tin Pył
-tile.Tin.Block.name = Blok Tin
+tile.Tin.name=Tin Ore
+tile.Inferior.Tin.name=Inferior Tin Ore
+tile.Tin.Gravel.name=rudy cyny Żwir
+item.Tin.Ingot.name=Tin Wlewki
+item.Tin.Nugget.name=Tin Nugget
+item.Tin.Dust.name=Tin Pył
+tile.Tin.Block.name=Blok Tin
 
-tile.Rutile.name = Rutyl Ore
-tile.Rutile.Inferior.name = Inferior Rutyl Ore
-tile.Ilmenite.name = rudy ilmenitu
-tile.Ilmenite.Inferior.name = Inferior Ilmenit Ore
-item.Titanium.Ingot.name = blok tytanowy
-item.Titanium.Nugget.name = Titanium Nugget
-item.Titanium.Dust.name = Titanium Pył
-tile.Titanium.Block.name = Blok Titanium
+tile.Rutile.name=Rutyl Ore
+tile.Rutile.Inferior.name=Inferior Rutyl Ore
+tile.Ilmenite.name=rudy ilmenitu
+tile.Ilmenite.Inferior.name=Inferior Ilmenit Ore
+item.Titanium.Ingot.name=blok tytanowy
+item.Titanium.Nugget.name=Titanium Nugget
+item.Titanium.Dust.name=Titanium Pył
+tile.Titanium.Block.name=Blok Titanium
 
-tile.Zinc.name = rudy cynku
-tile.Inferior.Zinc.name = Inferior rudy cynku
-Żwir tile.Zinc.Gravel.name = rudy cynku
-item.Zinc.Ingot.name = wlewki cynku
-item.Zinc.Nugget.name = Zinc Nugget
-item.Zinc.Dust.name = Pył cynkowy
-tile.Zinc.Block.name = Zablokuj cynku
+tile.Zinc.name=rudy cynku
+tile.Inferior.Zinc.name=Inferior rudy cynku
+Żwir tile.Zinc.Gravel.name=rudy cynku
+item.Zinc.Ingot.name=wlewki cynku
+item.Zinc.Nugget.name=Zinc Nugget
+item.Zinc.Dust.name=Pył cynkowy
+tile.Zinc.Block.name=Zablokuj cynku

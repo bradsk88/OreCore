@@ -1,111 +1,111 @@
 Mit Google #Generated ‹bersetzen
 
-itemGroup.tabOreCore = OreKern
+itemGroup.tabOreCore=OreKern
 
-tile.Bauxite.Ore.name = Bauxiterz
-tile.Bauxite.Gravel.name = Lose Bauxiterz
-item.Aluminum.Dust.name = Aluminiumstaub
-item.Aluminum.Nugget.name = Aluminium Nugget
-item.Aluminum.Ingot.name = Aluminium-Barren
-tile.Aluminum.Block.name = Aluminiumblock
+tile.Bauxite.Ore.name=Bauxiterz
+tile.Bauxite.Gravel.name=Lose Bauxiterz
+item.Aluminum.Dust.name=Aluminiumstaub
+item.Aluminum.Nugget.name=Aluminium Nugget
+item.Aluminum.Ingot.name=Aluminium-Barren
+tile.Aluminum.Block.name=Aluminiumblock
 
-item.Bronze.Dust.name = Bronze Staub
-item.Bronze.Nugget.name = Bronze Nugget
-item.Bronze.Ingot.name = Bronze Barren
-tile.Bronze.Block.name = Block of Bronze
+item.Bronze.Dust.name=Bronze Staub
+item.Bronze.Nugget.name=Bronze Nugget
+item.Bronze.Ingot.name=Bronze Barren
+tile.Bronze.Block.name=Block of Bronze
 
-item.Brass.Dust.name = Messing Staub
-item.Brass.Nugget.name = Messing Nugget
-item.Brass.Ingot.name = Messing Barren
-tile.Brass.Block.name = Messingblock
+item.Brass.Dust.name=Messing Staub
+item.Brass.Nugget.name=Messing Nugget
+item.Brass.Ingot.name=Messing Barren
+tile.Brass.Block.name=Messingblock
 
-tile.Copper.name = Kupfererz
-tile.Inferior.Copper.name = M‰ﬂig Kupfererz
-tile.Copper.Gravel.name = Copper Gravel Ore
-item.Copper.Dust.name = Kupferstaub
-item.Copper.Nugget.name = Kupfer Nugget
-item.Copper.Ingot.name = Kupferbarren
-tile.Copper.Block.name = Kupferblock
+tile.Copper.name=Kupfererz
+tile.Inferior.Copper.name=M‰ﬂig Kupfererz
+tile.Copper.Gravel.name=Copper Gravel Ore
+item.Copper.Dust.name=Kupferstaub
+item.Copper.Nugget.name=Kupfer Nugget
+item.Copper.Ingot.name=Kupferbarren
+tile.Copper.Block.name=Kupferblock
 
-item.Copper.II.Carbonate.Dust.name = Kupfer II Carbonate
-item.Copper.II.Carbonate.Nugget.name = Kupfer II Carbonate Nugget
-item.Copper.II.Carbonate.Ingot.name = Kupfer II Carbonate Ingot
-tile.Copper.II.Carbonate.Block.name = Kupferblock II Carbonate
+item.Copper.II.Carbonate.Dust.name=Kupfer II Carbonate
+item.Copper.II.Carbonate.Nugget.name=Kupfer II Carbonate Nugget
+item.Copper.II.Carbonate.Ingot.name=Kupfer II Carbonate Ingot
+tile.Copper.II.Carbonate.Block.name=Kupferblock II Carbonate
 
-tile.Inferior.Gold.name = M‰ﬂig Golderz
-tile.Gold.Gravel.name = Gold Gravel Ore
-item.Gold.Dust.name = Gold Dust
+tile.Inferior.Gold.name=M‰ﬂig Golderz
+tile.Gold.Gravel.name=Gold Gravel Ore
+item.Gold.Dust.name=Gold Dust
 
-item.Iron.Dust.name = Eisenstaub
-item.Iron.Nugget.name = Eisen Nugget
-tile.Inferior.Iron.name = M‰ﬂig Iron Ore
-tile.Iron.Gravel.name = Eisen Gravel Ore
+item.Iron.Dust.name=Eisenstaub
+item.Iron.Nugget.name=Eisen Nugget
+tile.Inferior.Iron.name=M‰ﬂig Iron Ore
+tile.Iron.Gravel.name=Eisen Gravel Ore
 
-tile.Iron.Manganese = Eisen Mangan Ore
+tile.Iron.Manganese=Eisen Mangan Ore
 
-tile.Lead.name = Bleierz
-tile.Inferior.Lead.name = M‰ﬂig Bleierz
-tile.Lead.Gravel.name = Blei Gravel Ore
-item.Lead.Dust.name = Blei Staub
-item.Lead.Nugget.name = Blei Nugget
-item.Lead.Ingot.name = Blei-Barren
-tile.Lead.Block.name = Bleiblock
+tile.Lead.name=Bleierz
+tile.Inferior.Lead.name=M‰ﬂig Bleierz
+tile.Lead.Gravel.name=Blei Gravel Ore
+item.Lead.Dust.name=Blei Staub
+item.Lead.Nugget.name=Blei Nugget
+item.Lead.Ingot.name=Blei-Barren
+tile.Lead.Block.name=Bleiblock
 
-tile.Manganese.Dust.name = Manganstaub
-item.Manganese.Nugget.name = Mangan Nugget
-item.Manganese.Ingot.name = Mangan Ingot
-tile.Manganese.Block.name = Satz von Mangan
+tile.Manganese.Dust.name=Manganstaub
+item.Manganese.Nugget.name=Mangan Nugget
+item.Manganese.Ingot.name=Mangan Ingot
+tile.Manganese.Block.name=Satz von Mangan
 
-tile.Nickel.name = Nickel Ore
-tile.Inferior.Nickel.name = M‰ﬂig Nickel Ore
-tile.Nickel.Gravel.name = Nickel Gravel Ore
-item.Nickel.Dust.name = Nickelstaub
-item.Nickel.Nugget.name = Nickel Nugget
-item.Nickel.Ingot.name = Nickel Barren
-tile.Nickel.Block.name = Satz von Nickel
+tile.Nickel.name=Nickel Ore
+tile.Inferior.Nickel.name=M‰ﬂig Nickel Ore
+tile.Nickel.Gravel.name=Nickel Gravel Ore
+item.Nickel.Dust.name=Nickelstaub
+item.Nickel.Nugget.name=Nickel Nugget
+item.Nickel.Ingot.name=Nickel Barren
+tile.Nickel.Block.name=Satz von Nickel
 
-tile.Osmium.name = Osmium Ore
-tile.Inferior.Osmium.name = M‰ﬂig Osmium Ore
-item.Osmium.Ingot.name = Osmium Ingot
-item.Osmium.Nugget.name = Osmium Nugget
-item.Osmium.Dust.name = Osmium Staub
-tile.Osmium.Gravel.name = Osmium Gravel
-tile.Osmium.Block.name = Satz von Osmium
+tile.Osmium.name=Osmium Ore
+tile.Inferior.Osmium.name=M‰ﬂig Osmium Ore
+item.Osmium.Ingot.name=Osmium Ingot
+item.Osmium.Nugget.name=Osmium Nugget
+item.Osmium.Dust.name=Osmium Staub
+tile.Osmium.Gravel.name=Osmium Gravel
+tile.Osmium.Block.name=Satz von Osmium
 
-tile.Silver.name = Silbererz
-tile.Inferior.Silver.name = M‰ﬂig Silbererz
-tile.Silver.Gravel.name = Silber Gravel Ore
-item.Silver.Ingot.name = Silberbarren
-item.Silver.Nugget.name = Silver Nugget
-item.Silver.Dust.name = Silver Dust
-tile.Silver.Block.name = Satz von Silver
+tile.Silver.name=Silbererz
+tile.Inferior.Silver.name=M‰ﬂig Silbererz
+tile.Silver.Gravel.name=Silber Gravel Ore
+item.Silver.Ingot.name=Silberbarren
+item.Silver.Nugget.name=Silver Nugget
+item.Silver.Dust.name=Silver Dust
+tile.Silver.Block.name=Satz von Silver
 
-item.Steel.Dust.name = Stahl Staub
-item.Steel.Nugget.name = Stahl Nugget
-item.Steel.Ingot.name = Stahlbarren
-tile.Steel.Block.name = Block aus Stahl
+item.Steel.Dust.name=Stahl Staub
+item.Steel.Nugget.name=Stahl Nugget
+item.Steel.Ingot.name=Stahlbarren
+tile.Steel.Block.name=Block aus Stahl
 
-tile.Tin.name = Zinnerz
-tile.Inferior.Tin.name = M‰ﬂig Zinnerz
-tile.Tin.Gravel.name = Tin Gravel Ore
-item.Tin.Ingot.name = Tin Ingot
-item.Tin.Nugget.name = Tin Nugget
-item.Tin.Dust.name = Zinnstaub
-tile.Tin.Block.name = Block of Tin
+tile.Tin.name=Zinnerz
+tile.Inferior.Tin.name=M‰ﬂig Zinnerz
+tile.Tin.Gravel.name=Tin Gravel Ore
+item.Tin.Ingot.name=Tin Ingot
+item.Tin.Nugget.name=Tin Nugget
+item.Tin.Dust.name=Zinnstaub
+tile.Tin.Block.name=Block of Tin
 
-tile.Rutile.name = Rutilerz
-tile.Rutile.Inferior.name = M‰ﬂig Rutilerz
-tile.Ilmenite.name = Ilmeniterz
-tile.Ilmenite.Inferior.name = M‰ﬂig Ilmeniterz
-item.Titanium.Ingot.name = Titanrohblock
-item.Titanium.Nugget.name = Titanium Nugget
-item.Titanium.Dust.name = Titanium Staub
-tile.Titanium.Block.name = Block of Titanium
+tile.Rutile.name=Rutilerz
+tile.Rutile.Inferior.name=M‰ﬂig Rutilerz
+tile.Ilmenite.name=Ilmeniterz
+tile.Ilmenite.Inferior.name=M‰ﬂig Ilmeniterz
+item.Titanium.Ingot.name=Titanrohblock
+item.Titanium.Nugget.name=Titanium Nugget
+item.Titanium.Dust.name=Titanium Staub
+tile.Titanium.Block.name=Block of Titanium
 
-tile.Zinc.name = Zinkerz
-tile.Inferior.Zinc.name = M‰ﬂig Zinkerz
-tile.Zinc.Gravel.name = Zink Gravel Ore
-item.Zinc.Ingot.name = Zink-Barren
-item.Zinc.Nugget.name = Zink Nugget
-item.Zinc.Dust.name = Zinkstaub
-tile.Zinc.Block.name = Block of Zinc
+tile.Zinc.name=Zinkerz
+tile.Inferior.Zinc.name=M‰ﬂig Zinkerz
+tile.Zinc.Gravel.name=Zink Gravel Ore
+item.Zinc.Ingot.name=Zink-Barren
+item.Zinc.Nugget.name=Zink Nugget
+item.Zinc.Dust.name=Zinkstaub
+tile.Zinc.Block.name=Block of Zinc

@@ -1,111 +1,111 @@
 #Generated Med Google Translate
 
-itemGroup.tabOreCore = OreKärna
+itemGroup.tabOreCore=OreKärna
 
-tile.Bauxite.Ore.name = Bauxite Ore
-tile.Bauxite.Gravel.name = Löst Bauxite Ore
-item.Aluminum.Dust.name = Aluminum Damm
-item.Aluminum.Nugget.name = Aluminum Nugget
-item.Aluminum.Ingot.name = Aluminium göt
-tile.Aluminum.Block.name = block av aluminium
+tile.Bauxite.Ore.name=Bauxite Ore
+tile.Bauxite.Gravel.name=Löst Bauxite Ore
+item.Aluminum.Dust.name=Aluminum Damm
+item.Aluminum.Nugget.name=Aluminum Nugget
+item.Aluminum.Ingot.name=Aluminium göt
+tile.Aluminum.Block.name=block av aluminium
 
-item.Bronze.Dust.name = Brons Damm
-item.Bronze.Nugget.name = Brons Nugget
-item.Bronze.Ingot.name = Brons Göt
-tile.Bronze.Block.name = Block av brons
+item.Bronze.Dust.name=Brons Damm
+item.Bronze.Nugget.name=Brons Nugget
+item.Bronze.Ingot.name=Brons Göt
+tile.Bronze.Block.name=Block av brons
 
-item.Brass.Dust.name = Mässing Damm
-item.Brass.Nugget.name = Mässing Nugget
-item.Brass.Ingot.name = Mässing Göt
-tile.Brass.Block.name = Block av mässing
+item.Brass.Dust.name=Mässing Damm
+item.Brass.Nugget.name=Mässing Nugget
+item.Brass.Ingot.name=Mässing Göt
+tile.Brass.Block.name=Block av mässing
 
-tile.Copper.name = Copper Ore
-tile.Inferior.Copper.name = Inferior Copper Ore
-tile.Copper.Gravel.name = Koppar Grus Ore
-item.Copper.Dust.name = Koppar Dust
-item.Copper.Nugget.name = Koppar Nugget
-item.Copper.Ingot.name = Koppar Göt
-tile.Copper.Block.name = Block av koppar
+tile.Copper.name=Copper Ore
+tile.Inferior.Copper.name=Inferior Copper Ore
+tile.Copper.Gravel.name=Koppar Grus Ore
+item.Copper.Dust.name=Koppar Dust
+item.Copper.Nugget.name=Koppar Nugget
+item.Copper.Ingot.name=Koppar Göt
+tile.Copper.Block.name=Block av koppar
 
-item.Copper.II.Carbonate.Dust.name = Koppar II Karbonat
-item.Copper.II.Carbonate.Nugget.name = Koppar II Karbonat Nugget
-item.Copper.II.Carbonate.Ingot.name = Koppar II Karbonat Göt
-tile.Copper.II.Carbonate.Block.name = Block av koppar II Carbonate
+item.Copper.II.Carbonate.Dust.name=Koppar II Karbonat
+item.Copper.II.Carbonate.Nugget.name=Koppar II Karbonat Nugget
+item.Copper.II.Carbonate.Ingot.name=Koppar II Karbonat Göt
+tile.Copper.II.Carbonate.Block.name=Block av koppar II Carbonate
 
-tile.Inferior.Gold.name = Sämre Gold Ore
-tile.Gold.Gravel.name = Guld Grus Ore
-item.Gold.Dust.name = Gold Dust
+tile.Inferior.Gold.name=Sämre Gold Ore
+tile.Gold.Gravel.name=Guld Grus Ore
+item.Gold.Dust.name=Gold Dust
 
-item.Iron.Dust.name = järnstoft
-item.Iron.Nugget.name = Järn Nugget
-tile.Inferior.Iron.name = Sämre Iron Ore
-tile.Iron.Gravel.name = Järn Grus Ore
+item.Iron.Dust.name=järnstoft
+item.Iron.Nugget.name=Järn Nugget
+tile.Inferior.Iron.name=Sämre Iron Ore
+tile.Iron.Gravel.name=Järn Grus Ore
 
-tile.Iron.Manganese = Järn manganmalm
+tile.Iron.Manganese=Järn manganmalm
 
-tile.Lead.name = Bly Ore
-tile.Inferior.Lead.name = Sämre Bly Ore
-tile.Lead.Gravel.name = Lead Grus Ore
-item.Lead.Dust.name = Lead Dust
-item.Lead.Nugget.name = Lead Nugget
-item.Lead.Ingot.name = Bly Göt
-tile.Lead.Block.name = Block of Lead
+tile.Lead.name=Bly Ore
+tile.Inferior.Lead.name=Sämre Bly Ore
+tile.Lead.Gravel.name=Lead Grus Ore
+item.Lead.Dust.name=Lead Dust
+item.Lead.Nugget.name=Lead Nugget
+item.Lead.Ingot.name=Bly Göt
+tile.Lead.Block.name=Block of Lead
 
-tile.Manganese.Dust.name = Mangan Damm
-item.Manganese.Nugget.name = Mangan Nugget
-item.Manganese.Ingot.name = Mangan Göt
-tile.Manganese.Block.name = Block av mangan
+tile.Manganese.Dust.name=Mangan Damm
+item.Manganese.Nugget.name=Mangan Nugget
+item.Manganese.Ingot.name=Mangan Göt
+tile.Manganese.Block.name=Block av mangan
 
-tile.Nickel.name = nickelmalm
-tile.Inferior.Nickel.name = Inferior nickelmalm
-tile.Nickel.Gravel.name = Nickel Grus Ore
-item.Nickel.Dust.name = Nickel Damm
-item.Nickel.Nugget.name = Nickel Nugget
-item.Nickel.Ingot.name = Nickel Göt
-tile.Nickel.Block.name = Block av Nickel
+tile.Nickel.name=nickelmalm
+tile.Inferior.Nickel.name=Inferior nickelmalm
+tile.Nickel.Gravel.name=Nickel Grus Ore
+item.Nickel.Dust.name=Nickel Damm
+item.Nickel.Nugget.name=Nickel Nugget
+item.Nickel.Ingot.name=Nickel Göt
+tile.Nickel.Block.name=Block av Nickel
 
-tile.Osmium.name = Osmium Ore
-tile.Inferior.Osmium.name = Inferior Osmium Ore
-item.Osmium.Ingot.name = Osmium Göt
-item.Osmium.Nugget.name = Osmium Nugget
-item.Osmium.Dust.name = Osmium Damm
-tile.Osmium.Gravel.name = Osmium Grus
-tile.Osmium.Block.name = Block av Osmium
+tile.Osmium.name=Osmium Ore
+tile.Inferior.Osmium.name=Inferior Osmium Ore
+item.Osmium.Ingot.name=Osmium Göt
+item.Osmium.Nugget.name=Osmium Nugget
+item.Osmium.Dust.name=Osmium Damm
+tile.Osmium.Gravel.name=Osmium Grus
+tile.Osmium.Block.name=Block av Osmium
 
-tile.Silver.name = silvermalm
-tile.Inferior.Silver.name = Inferior silvermalm
-tile.Silver.Gravel.name = Silver Grus Ore
-item.Silver.Ingot.name = silver göt
-item.Silver.Nugget.name = Silver Nugget
-item.Silver.Dust.name = Silver Dust
-tile.Silver.Block.name = Block av Silver
+tile.Silver.name=silvermalm
+tile.Inferior.Silver.name=Inferior silvermalm
+tile.Silver.Gravel.name=Silver Grus Ore
+item.Silver.Ingot.name=silver göt
+item.Silver.Nugget.name=Silver Nugget
+item.Silver.Dust.name=Silver Dust
+tile.Silver.Block.name=Block av Silver
 
-item.Steel.Dust.name = Stål Damm
-item.Steel.Nugget.name = Stål Nugget
-item.Steel.Ingot.name = stålgöt
-tile.Steel.Block.name = Block of Steel
+item.Steel.Dust.name=Stål Damm
+item.Steel.Nugget.name=Stål Nugget
+item.Steel.Ingot.name=stålgöt
+tile.Steel.Block.name=Block of Steel
 
-tile.Tin.name = Tin Ore
-tile.Inferior.Tin.name = Sämre Tin Ore
-tile.Tin.Gravel.name = Tin Grus Ore
-item.Tin.Ingot.name = Tin Göt
-item.Tin.Nugget.name = Tin Nugget
-item.Tin.Dust.name = Tin Damm
-tile.Tin.Block.name = Block av Tin
+tile.Tin.name=Tin Ore
+tile.Inferior.Tin.name=Sämre Tin Ore
+tile.Tin.Gravel.name=Tin Grus Ore
+item.Tin.Ingot.name=Tin Göt
+item.Tin.Nugget.name=Tin Nugget
+item.Tin.Dust.name=Tin Damm
+tile.Tin.Block.name=Block av Tin
 
-tile.Rutile.name = Rutil Ore
-tile.Rutile.Inferior.name = Inferior Rutil Ore
-tile.Ilmenite.name = ilmenitmalm
-tile.Ilmenite.Inferior.name = Inferior ilmenitmalm
-item.Titanium.Ingot.name = Titanium Göt
-item.Titanium.Nugget.name = Titanium Nugget
-item.Titanium.Dust.name = Titanium Damm
-tile.Titanium.Block.name = Block av Titanium
+tile.Rutile.name=Rutil Ore
+tile.Rutile.Inferior.name=Inferior Rutil Ore
+tile.Ilmenite.name=ilmenitmalm
+tile.Ilmenite.Inferior.name=Inferior ilmenitmalm
+item.Titanium.Ingot.name=Titanium Göt
+item.Titanium.Nugget.name=Titanium Nugget
+item.Titanium.Dust.name=Titanium Damm
+tile.Titanium.Block.name=Block av Titanium
 
-tile.Zinc.name = Zinc Ore
-tile.Inferior.Zinc.name = Sämre Zinc Ore
-tile.Zinc.Gravel.name = Zink Grus Ore
-item.Zinc.Ingot.name = Zink Göt
-item.Zinc.Nugget.name = Zink Nugget
-item.Zinc.Dust.name = Zink Dust
-tile.Zinc.Block.name = Block av zink
+tile.Zinc.name=Zinc Ore
+tile.Inferior.Zinc.name=Sämre Zinc Ore
+tile.Zinc.Gravel.name=Zink Grus Ore
+item.Zinc.Ingot.name=Zink Göt
+item.Zinc.Nugget.name=Zink Nugget
+item.Zinc.Dust.name=Zink Dust
+tile.Zinc.Block.name=Block av zink

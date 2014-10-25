@@ -1,111 +1,111 @@
 구글 #Generated 번역
 
-itemGroup.tabOreCore = 광석 코어
+itemGroup.tabOreCore=광석 코어
 
-tile.Bauxite.Ore.name = 보크 사이트 광석
-tile.Bauxite.Gravel.name = 느슨한 보크 사이트 광석
+tile.Bauxite.Ore.name=보크 사이트 광석
+tile.Bauxite.Gravel.name=느슨한 보크 사이트 광석
 item.Aluminum.Dust.name 알루미늄 먼지를 =
 item.Aluminum.Nugget.name 알루미늄 덩어리를 =
 item.Aluminum.Ingot.name 알루미늄 잉곳을 =
-알루미늄의 tile.Aluminum.Block.name = 블록
+알루미늄의 tile.Aluminum.Block.name=블록
 
 item.Bronze.Dust.name 청동 먼지 =
 item.Bronze.Nugget.name 청동 덩어리를 =
 item.Bronze.Ingot.name 청동 잉곳을 =
-청동의 tile.Bronze.Block.name = 블록
+청동의 tile.Bronze.Block.name=블록
 
 item.Brass.Dust.name는 황동 먼지 =
 item.Brass.Nugget.name는 황동 덩어리를 =
 item.Brass.Ingot.name은 황동 잉곳을 =
-황동의 tile.Brass.Block.name = 블록
+황동의 tile.Brass.Block.name=블록
 
-tile.Copper.name = 구리 광석
-tile.Inferior.Copper.name = 열등한 구리 광석
-tile.Copper.Gravel.name = 구리 자갈 광석
+tile.Copper.name=구리 광석
+tile.Inferior.Copper.name=열등한 구리 광석
+tile.Copper.Gravel.name=구리 자갈 광석
 item.Copper.Dust.name 구리 먼지 =
 item.Copper.Nugget.name 구리 덩어리를 =
 item.Copper.Ingot.name 구리 잉곳을 =
-구리의 tile.Copper.Block.name = 블록
+구리의 tile.Copper.Block.name=블록
 
 item.Copper.II.Carbonate.Dust.name 구리 II 탄산을 =
 item.Copper.II.Carbonate.Nugget.name 구리 II 탄산 너겟을 =
 item.Copper.II.Carbonate.Ingot.name 구리 II 탄산 잉곳을 =
-구리 II 탄산 tile.Copper.II.Carbonate.Block.name = 블록
+구리 II 탄산 tile.Copper.II.Carbonate.Block.name=블록
 
-tile.Inferior.Gold.name = 열등한 금 광석
-tile.Gold.Gravel.name = 골드 자갈 광석
+tile.Inferior.Gold.name=열등한 금 광석
+tile.Gold.Gravel.name=골드 자갈 광석
 item.Gold.Dust.name 골드 먼지 =
 
 item.Iron.Dust.name 철 먼지를 =
 item.Iron.Nugget.name 철 덩어리를 =
-tile.Inferior.Iron.name = 열등한 철광석
-tile.Iron.Gravel.name = 철 자갈 광석
+tile.Inferior.Iron.name=열등한 철광석
+tile.Iron.Gravel.name=철 자갈 광석
 
-tile.Iron.Manganese = 철 망간 광석
+tile.Iron.Manganese=철 망간 광석
 
-tile.Lead.name = 납 광석
-tile.Inferior.Lead.name = 열등한 납 광석
-tile.Lead.Gravel.name = 리드 자갈 광석
+tile.Lead.name=납 광석
+tile.Inferior.Lead.name=열등한 납 광석
+tile.Lead.Gravel.name=리드 자갈 광석
 item.Lead.Dust.name 납 먼지를 =
-item.Lead.Nugget.name는 = 너겟 리드
+item.Lead.Nugget.name는=너겟 리드
 item.Lead.Ingot.name는 리드 잉곳을 =
-리드의 tile.Lead.Block.name = 블록
+리드의 tile.Lead.Block.name=블록
 
-tile.Manganese.Dust.name = 망간 먼지
-item.Manganese.Nugget.name = 망간 덩어리
-item.Manganese.Ingot.name = 망간 괴
-망간의 tile.Manganese.Block.name = 블록
+tile.Manganese.Dust.name=망간 먼지
+item.Manganese.Nugget.name=망간 덩어리
+item.Manganese.Ingot.name=망간 괴
+망간의 tile.Manganese.Block.name=블록
 
-tile.Nickel.name = 니켈 광석
-tile.Inferior.Nickel.name = 열등한 니켈 광석
-tile.Nickel.Gravel.name = 니켈 자갈 광석
+tile.Nickel.name=니켈 광석
+tile.Inferior.Nickel.name=열등한 니켈 광석
+tile.Nickel.Gravel.name=니켈 자갈 광석
 item.Nickel.Dust.name 니켈 먼지 =
 item.Nickel.Nugget.name 니켈 덩어리를 =
 item.Nickel.Ingot.name 니켈 잉곳을 =
-니켈의 tile.Nickel.Block.name = 블록
+니켈의 tile.Nickel.Block.name=블록
 
-tile.Osmium.name = 오스뮴 광석
-tile.Inferior.Osmium.name = 열등한 오스뮴 광석
+tile.Osmium.name=오스뮴 광석
+tile.Inferior.Osmium.name=열등한 오스뮴 광석
 item.Osmium.Ingot.name는 오스뮴 잉곳을 =
 item.Osmium.Nugget.name는 오스뮴 너겟을 =
 item.Osmium.Dust.name는 오스뮴 먼지 =
-tile.Osmium.Gravel.name = 오스뮴 자갈
-오스뮴의 tile.Osmium.Block.name = 블록
+tile.Osmium.Gravel.name=오스뮴 자갈
+오스뮴의 tile.Osmium.Block.name=블록
 
-tile.Silver.name = 실버 광석
-tile.Inferior.Silver.name = 열등한 실버 광석
-tile.Silver.Gravel.name = 실버 자갈 광석
+tile.Silver.name=실버 광석
+tile.Inferior.Silver.name=열등한 실버 광석
+tile.Silver.Gravel.name=실버 자갈 광석
 item.Silver.Ingot.name 실버 잉곳을 =
 item.Silver.Nugget.name 실버 너겟을 =
 item.Silver.Dust.name 실버 먼지 =
-실버의 tile.Silver.Block.name = 블록
+실버의 tile.Silver.Block.name=블록
 
 item.Steel.Dust.name 철강 먼지 =
 item.Steel.Nugget.name 강철 덩어리를 =
 item.Steel.Ingot.name 철강 잉곳을 =
-강철의 tile.Steel.Block.name = 블록
+강철의 tile.Steel.Block.name=블록
 
-tile.Tin.name = 주석 광석
-tile.Inferior.Tin.name = 열등한 주석 광석
-tile.Tin.Gravel.name = 주석 자갈 광석
-item.Tin.Ingot.name = 주석 잉곳
-item.Tin.Nugget.name = 주석 덩어리
-item.Tin.Dust.name = 주석 먼지
-주석의 tile.Tin.Block.name = 블록
+tile.Tin.name=주석 광석
+tile.Inferior.Tin.name=열등한 주석 광석
+tile.Tin.Gravel.name=주석 자갈 광석
+item.Tin.Ingot.name=주석 잉곳
+item.Tin.Nugget.name=주석 덩어리
+item.Tin.Dust.name=주석 먼지
+주석의 tile.Tin.Block.name=블록
 
-tile.Rutile.name = 금홍석 광석
-tile.Rutile.Inferior.name = 열등한 금홍석 광석
-tile.Ilmenite.name = 티탄 철광 광석
-tile.Ilmenite.Inferior.name = 열등한 티탄 철광 광석
+tile.Rutile.name=금홍석 광석
+tile.Rutile.Inferior.name=열등한 금홍석 광석
+tile.Ilmenite.name=티탄 철광 광석
+tile.Ilmenite.Inferior.name=열등한 티탄 철광 광석
 item.Titanium.Ingot.name 티타늄 잉곳을 =
 item.Titanium.Nugget.name 티타늄 덩어리를 =
 item.Titanium.Dust.name 티타늄 먼지 =
-티타늄의 tile.Titanium.Block.name = 블록
+티타늄의 tile.Titanium.Block.name=블록
 
-tile.Zinc.name = 아연 광석
-tile.Inferior.Zinc.name = 열등한 아연 광석
-tile.Zinc.Gravel.name = 아연 자갈 광석
+tile.Zinc.name=아연 광석
+tile.Inferior.Zinc.name=열등한 아연 광석
+tile.Zinc.Gravel.name=아연 자갈 광석
 item.Zinc.Ingot.name 아연 잉곳을 =
 item.Zinc.Nugget.name 아연 덩어리를 =
 item.Zinc.Dust.name 아연 먼지를 =
-아연의 tile.Zinc.Block.name = 블록
+아연의 tile.Zinc.Block.name=블록
