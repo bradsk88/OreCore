@@ -18,3 +18,5 @@
 /config/forgeChunkLoading.cfg
 /crash-reports
 /src/main/resources/assets/orecore/textures/items/Thumbs.db
+/build.gradle.mine
+/usernamecache.json
