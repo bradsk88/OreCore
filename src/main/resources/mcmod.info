@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "OreCore",
+  "name": "OreCore",
+  "description": "Adds more ores.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["bradsk88"],
+  "credits": "Brad Johnson (bradsk88)",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

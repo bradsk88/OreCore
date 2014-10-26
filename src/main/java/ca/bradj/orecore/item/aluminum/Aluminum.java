@@ -31,7 +31,7 @@ public class Aluminum {
 
 	public static final int BAUXITE_VEIN_SIZE = 4;
 	public static final int BAUXITE_GRAVEL_VEIN_SIZE = 10;
-	
+
 	public static void init() {
 
 		OreCoreItems.bauxite = OreCoreRegistration.registerBlock(new BauxiteOreBlock(IDs.BAUXITE_ID), BAUXITE_NAME);
@@ -44,32 +44,34 @@ public class Aluminum {
 		OreDictionary.registerOre(BAUXITE_DICT, new ItemStack(OreCoreItems.bauxite, 1));
 		OreDictionary.registerOre(BAUXITE_DICT2, new ItemStack(OreCoreItems.bauxite, 1));
 		OreDictionary.registerOre(BAUXITE_DICT3, new ItemStack(OreCoreItems.bauxite, 1));
-		
+
 		OreDictionary.registerOre(ALUMINUM_DUST_DICT, OreCoreItems.aluminumDust);
 		OreDictionary.registerOre(ALUMINUM_DUST_DICT2, OreCoreItems.aluminumDust);
-		
+
 		OreDictionary.registerOre(ALUMINUM_NUGGET_DICT, OreCoreItems.aluminumNugget);
 		OreDictionary.registerOre(ALUMINUM_NUGGET_DICT2, OreCoreItems.aluminumNugget);
-		
+
 		OreDictionary.registerOre(ALUMINUM_INGOT_DICT, OreCoreItems.aluminumIngot);
 		OreDictionary.registerOre(ALUMINUM_INGOT_DICT2, OreCoreItems.aluminumIngot);
-		
+
 		OreDictionary.registerOre(ALUMINUM_BLOCK_DICT, OreCoreItems.aluminumBlock);
 		OreDictionary.registerOre(ALUMINUM_BLOCK_DICT2, OreCoreItems.aluminumBlock);
 
 		OreCoreRegistration.nuggetToIngotStandard(ALUMINUM_NUGGET_DICT, OreCoreItems.aluminumIngot);
 		OreCoreRegistration.nuggetToIngotStandard(ALUMINUM_NUGGET_DICT2, OreCoreItems.aluminumIngot);
-		
+
 		OreCoreRegistration.ingotToNuggetStandard(ALUMINUM_INGOT_DICT, OreCoreItems.aluminumNugget);
 		OreCoreRegistration.ingotToNuggetStandard(ALUMINUM_INGOT_DICT2, OreCoreItems.aluminumNugget);
-		
+
 		OreCoreRegistration.ingotToBlockStandard(ALUMINUM_INGOT_DICT, OreCoreItems.aluminumBlock);
 		OreCoreRegistration.ingotToBlockStandard(ALUMINUM_INGOT_DICT2, OreCoreItems.aluminumBlock);
-		
+
 		OreCoreRegistration.blockToIngotStandard(ALUMINUM_BLOCK_DICT, OreCoreItems.aluminumIngot);
 		OreCoreRegistration.blockToIngotStandard(ALUMINUM_BLOCK_DICT2, OreCoreItems.aluminumIngot);
 
 		OreCoreRegistration.addSmelting(OreCoreItems.aluminumDust, OreCoreItems.aluminumNugget, 3);
+		OreCoreRegistration.addSmelting(OreCoreItems.bauxite, OreCoreItems.aluminumIngot, 1);
+		OreCoreRegistration.addSmelting(OreCoreItems.bauxiteGravel, OreCoreItems.aluminumIngot, 1);
 	}
 
 }
