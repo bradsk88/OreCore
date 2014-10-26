@@ -258,7 +258,7 @@ public class OreCoreItems {
 		public static void addSmelting(Item oreIn, Item out, int numOut) {
 			GameRegistry.addSmelting(oreIn, new ItemStack(out, numOut), 0);
 		}
-
+		
 		public static void addSmelting(Block oreIn, Item out, int numOut) {
 			GameRegistry.addSmelting(oreIn, new ItemStack(out, numOut), 0);
 		}

@@ -17,13 +17,13 @@ public class CommonProxy {
 		Configuration config = new Configuration(e.getSuggestedConfigurationFile());
 		config.load();
 
+		OreCoreItems.init();
 		WORLD_GEN = new OreCoreWorldGen(config, e.getModLog());
 
 		config.save();
 	}
 
 	public void init(FMLInitializationEvent e) {
-		OreCoreItems.init();
 		GameRegistry.registerWorldGenerator(WORLD_GEN, 1);
 	}
 

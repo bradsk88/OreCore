@@ -13,8 +13,8 @@ public class Iron {
 	public static final String IRON_DUST_DICT = "dustIron";
 	public static final String IRON_NUGGET_DICT = "nuggetIron";
 	public static final String IRON_INGOT_DICT = "ingotIron";
-	public static final String IRON_GRAVEL_DICT = "graveliron";
-	public static final String IRON_INFERIOR_DICT = "oreironInferior";
+	public static final String IRON_GRAVEL_DICT = "gravelIron";
+	public static final String IRON_INFERIOR_DICT = "oreIronInferior";
 
 	private static final String IRON_DUST_NAME = "Iron.Dust";
 	private static final String IRON_NUGGET_NAME = "Iron.Nugget";

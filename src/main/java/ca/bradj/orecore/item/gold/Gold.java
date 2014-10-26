@@ -10,8 +10,8 @@ public class Gold {
 
 	public static final String GOLD_DUST_DICT = "dustGold";
 	public static final String GOLD_INGOT_DICT = "ingotGold";
-	public static final String GOLD_GRAVEL_DICT = "gravelgold";
-	public static final String GOLD_INFERIOR_DICT = "oregoldInferior";
+	public static final String GOLD_GRAVEL_DICT = "gravelGold";
+	public static final String GOLD_INFERIOR_DICT = "oreGoldInferior";
 
 	private static final String GOLD_DUST_NAME = "Gold.Dust";
 	private static final String GOLD_INFERIOR_NAME = "Inferior.Gold";
