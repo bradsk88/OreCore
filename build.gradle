@@ -1,3 +1,6 @@
+def modVersion='1.7.10-1.0.2-SNAPSHOT'
+def modName='OreCore'
+
 buildscript {
     repositories {
         mavenCentral()
@@ -15,11 +18,34 @@ buildscript {
     }
 }
 
+apply plugin: 'maven-publish'
+
+publishing {
+
+    publications {
+        maven(MavenPublication) {
+        	groupId 'ca.bradj'
+        	artifactId 'OreCore'
+        	version modVersion
+            from components.java
+            artifacts=['build/libs/OreCore-'+modVersion+'.jar']
+        }
+    }
+    repositories {
+        maven {
+            url "http://bradj.ca:8081/nexus/content/repositories/snapshots"
+            credentials {
+                username 'username'
+                password 'password'
+            }
+        }
+    }
+}
+
 apply plugin: 'forge'
 
-version="1.7.10-0.1.1"
-group= "ca.bradj.orecore" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName="OreCore"
+group= "ca.bradj.orecore"
+archivesBaseName=modName + '-' + modVersion
 
 minecraft {
     version="1.7.10-10.13.2.1230"
@@ -27,19 +53,6 @@ minecraft {
 }
 
 dependencies {
-    // you may put jars on which you depend on in ./libs
-    // or you may define them like so..
-    //compile "some.group:artifact:version:classifier"
-    //compile "some.group:artifact:version"
-      
-    // real examples
-    //compile 'com.mod-buildcraft:buildcraft:6.0.8:dev'  // adds buildcraft to the dev env
-    //compile 'com.googlecode.efficient-java-matrix-library:ejml:0.24' // adds ejml to the dev env
-
-    // for more info...
-    // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
-    // http://www.gradle.org/docs/current/userguide/dependency_management.html
-
 }
 
 processResources
