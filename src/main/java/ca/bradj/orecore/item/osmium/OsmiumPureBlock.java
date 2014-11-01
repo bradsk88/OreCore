@@ -1,11 +1,11 @@
 package ca.bradj.orecore.item.osmium;
 
-import ca.bradj.orecore.item.PureBlock;
+import ca.bradj.orecore.item.zinc.PureBlockCore;
 
-public class OsmiumPureBlock extends PureBlock {
+public class OsmiumPureBlock extends PureBlockCore {
 
-	public OsmiumPureBlock(int id) {
-		super(id, "osmiumBlock");
+	public OsmiumPureBlock() {
+		super("osmiumBlock");
 	}
 
 }

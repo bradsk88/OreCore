@@ -4,8 +4,8 @@ import ca.bradj.orecore.item.OreCoreItem;
 
 public class ManganeseNugget extends OreCoreItem {
 
-	public ManganeseNugget(int id) {
-		super(id, "manganeseNugget");
+	public ManganeseNugget() {
+		super("manganeseNugget");
 	}
 
 }

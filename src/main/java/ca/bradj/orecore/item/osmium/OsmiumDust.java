@@ -4,8 +4,8 @@ import ca.bradj.orecore.item.OreCoreItem;
 
 public class OsmiumDust extends OreCoreItem {
 
-	public OsmiumDust(int id) {
-		super(id, "osmiumDust");
+	public OsmiumDust() {
+		super("osmiumDust");
 	}
 
 }

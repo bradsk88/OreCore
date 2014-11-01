@@ -4,8 +4,8 @@ import ca.bradj.orecore.item.OreBlock;
 
 public class ZincBlock extends OreBlock {
 
-	public ZincBlock(int zincOreId) {
-		super(zincOreId, "zinc");
+	public ZincBlock() {
+		super("zinc");
 		setHardness(2.5f);
 		this.setHarvestLevel("pickaxe", 2);
 	}

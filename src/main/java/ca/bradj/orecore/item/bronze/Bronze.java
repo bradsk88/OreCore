@@ -1,11 +1,10 @@
 package ca.bradj.orecore.item.bronze;
 
 import net.minecraftforge.oredict.OreDictionary;
-import ca.bradj.orecore.item.IDs;
 import ca.bradj.orecore.item.OreCoreItems;
 import ca.bradj.orecore.item.OreCoreItems.OreCoreRegistration;
-import ca.bradj.orecore.item.copper.Copper;
-import ca.bradj.orecore.item.tin.Tin;
+import ca.bradj.orecoremin.item.copper.Copper;
+import ca.bradj.orecoremin.item.tin.Tin;
 
 public class Bronze {
 
@@ -21,10 +20,10 @@ public class Bronze {
 
 	public static void init() {
 
-		OreCoreItems.bronzeDust = OreCoreRegistration.registerItem(new BronzeDust(IDs.BRONZE_DUST_ID), BRONZE_DUST_NAME);
-		OreCoreItems.bronzeIngot = OreCoreRegistration.registerItem(new BronzeIngot(IDs.BRONZE_INGOT_ID), BRONZE_INGOT_NAME);
-		OreCoreItems.bronzeNugget = OreCoreRegistration.registerItem(new BronzeNugget(IDs.BRONZE_NUGGET_ID), BRONZE_NUGGET_NAME);
-		OreCoreItems.bronzeBlock = OreCoreRegistration.registerBlock(new BronzePureBlock(IDs.BRONZE_BLOCK_ID), BRONZE_BLOCK_NAME);
+		OreCoreItems.bronzeDust = OreCoreRegistration.registerItem(new BronzeDust(), BRONZE_DUST_NAME);
+		OreCoreItems.bronzeIngot = OreCoreRegistration.registerItem(new BronzeIngot(), BRONZE_INGOT_NAME);
+		OreCoreItems.bronzeNugget = OreCoreRegistration.registerItem(new BronzeNugget(), BRONZE_NUGGET_NAME);
+		OreCoreItems.bronzeBlock = OreCoreRegistration.registerBlock(new BronzePureBlock(), BRONZE_BLOCK_NAME);
 
 		OreDictionary.registerOre(BRONZE_DUST_DICT, OreCoreItems.bronzeDust);
 		OreDictionary.registerOre(BRONZE_NUGGET_DICT, OreCoreItems.bronzeNugget);

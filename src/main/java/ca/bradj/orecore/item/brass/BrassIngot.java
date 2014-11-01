@@ -4,8 +4,8 @@ import ca.bradj.orecore.item.OreCoreItem;
 
 public class BrassIngot extends OreCoreItem {
 
-	public BrassIngot(int id) {
-		super(id, "brassIngot");
+	public BrassIngot() {
+		super("brassIngot");
 	}
 
 }

@@ -1,11 +1,11 @@
 package ca.bradj.orecore.item.titanium;
 
-import ca.bradj.orecore.item.PureBlock;
+import ca.bradj.orecore.item.zinc.PureBlockCore;
 
-public class TitaniumPureBlock extends PureBlock {
+public class TitaniumPureBlock extends PureBlockCore {
 
-	public TitaniumPureBlock(int id) {
-		super(id, "titaniumBlock");
+	public TitaniumPureBlock() {
+		super("titaniumBlock");
 	}
 
 }

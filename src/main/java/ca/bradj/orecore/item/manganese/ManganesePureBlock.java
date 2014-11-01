@@ -1,11 +1,11 @@
 package ca.bradj.orecore.item.manganese;
 
-import ca.bradj.orecore.item.PureBlock;
+import ca.bradj.orecore.item.zinc.PureBlockCore;
 
-public class ManganesePureBlock extends PureBlock {
+public class ManganesePureBlock extends PureBlockCore {
 
-	public ManganesePureBlock(int id) {
-		super(id, "manganeseBlock");
+	public ManganesePureBlock() {
+		super("manganeseBlock");
 	}
 
 }

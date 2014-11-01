@@ -1,11 +1,11 @@
 package ca.bradj.orecore.item.lead;
 
-import ca.bradj.orecore.item.PureBlock;
+import ca.bradj.orecore.item.zinc.PureBlockCore;
 
-public class LeadPureBlock extends PureBlock {
+public class LeadPureBlock extends PureBlockCore {
 
-	public LeadPureBlock(int id) {
-		super(id, "leadBlock");
+	public LeadPureBlock() {
+		super("leadBlock");
 	}
 
 }

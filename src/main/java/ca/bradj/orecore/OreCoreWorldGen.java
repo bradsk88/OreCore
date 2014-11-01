@@ -13,7 +13,7 @@ import cpw.mods.fml.common.IWorldGenerator;
 
 public class OreCoreWorldGen implements IWorldGenerator {
 
-	static final int DEFAULT_OREGEN_VALUE = 15;
+	public static final int DEFAULT_OREGEN_VALUE = 15;
 
 	private Configuration config;
 	private Logger logger;
@@ -26,16 +26,6 @@ public class OreCoreWorldGen implements IWorldGenerator {
 				+ "that here.  Setting the value to 0 will stop the ore from generating entirely.  Setting the value to\n"
 				+ "something greater than "
 				+ DEFAULT_OREGEN_VALUE + " will make it more abundant.");
-		logOreGen(config, logger, "bauxite");
-		logOreGen(config, logger, "bauxiteGravel");
-		logOreGen(config, logger, "copper");
-		logOreGen(config, logger, "copperGravel");
-		logOreGen(config, logger, "copperInferior");
-		logOreGen(config, logger, "goldGravel");
-		logOreGen(config, logger, "goldInferior");
-		logOreGen(config, logger, "ironGravel");
-		logOreGen(config, logger, "ironInferior");
-		logOreGen(config, logger, "ironManganese");
 		logOreGen(config, logger, "nickel");
 		logOreGen(config, logger, "nickelGravel");
 		logOreGen(config, logger, "nickelInferior");
@@ -45,9 +35,6 @@ public class OreCoreWorldGen implements IWorldGenerator {
 		logOreGen(config, logger, "silver");
 		logOreGen(config, logger, "silverGravel");
 		logOreGen(config, logger, "silverInferior");
-		logOreGen(config, logger, "tin");
-		logOreGen(config, logger, "tinGravel");
-		logOreGen(config, logger, "tinInferior");
 		logOreGen(config, logger, "rutile");
 		logOreGen(config, logger, "rutileInferior");
 		logOreGen(config, logger, "ilmenite");

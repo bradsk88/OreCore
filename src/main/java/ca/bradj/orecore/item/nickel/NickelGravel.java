@@ -7,13 +7,13 @@ import net.minecraft.world.World;
 
 import com.google.common.collect.Lists;
 
-import ca.bradj.orecore.item.GravelBlock;
 import ca.bradj.orecore.item.OreCoreItems;
+import ca.bradj.orecore.item.GravelBlock;
 
 public class NickelGravel extends GravelBlock {
 
-	public NickelGravel(int id) {
-		super(id, "nickelGravel");
+	public NickelGravel() {
+		super("nickelGravel");
 		setHardness(1.5f);
 		this.setHarvestLevel("shovel", 2);
 	}

@@ -4,8 +4,8 @@ import ca.bradj.orecore.item.OreCoreItem;
 
 public class BrassDust extends OreCoreItem {
 
-	public BrassDust(int brassDustId) {
-		super(brassDustId, "brassDust");
+	public BrassDust() {
+		super("brassDust");
 	}
 
 }

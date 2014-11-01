@@ -7,13 +7,13 @@ import net.minecraft.world.World;
 
 import com.google.common.collect.Lists;
 
-import ca.bradj.orecore.item.GravelBlock;
 import ca.bradj.orecore.item.OreCoreItems;
+import ca.bradj.orecore.item.GravelBlock;
 
 public class ZincGravel extends GravelBlock {
 
-	public ZincGravel(int zincGravelId) {
-		super(zincGravelId, "zincGravel");
+	public ZincGravel() {
+		super("zincGravel");
 		setHardness(1.5f);
 		setHarvestLevel("shovel", 2);
 	}

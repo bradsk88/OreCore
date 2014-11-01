@@ -4,8 +4,8 @@ import ca.bradj.orecore.item.OreCoreItem;
 
 public class LeadNugget extends OreCoreItem {
 
-	public LeadNugget(int id) {
-		super(id, "leadNugget");
+	public LeadNugget() {
+		super("leadNugget");
 	}
 
 }

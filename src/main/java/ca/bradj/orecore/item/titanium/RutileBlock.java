@@ -4,8 +4,8 @@ import ca.bradj.orecore.item.GravelBlock;
 
 public class RutileBlock extends GravelBlock {
 
-	protected RutileBlock(int id) {
-		super(id, "rutile");
+	protected RutileBlock() {
+		super("rutile");
 		setHardness(3.0f);
 		setHarvestLevel("shovel", 1);
 	}

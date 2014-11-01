@@ -4,8 +4,8 @@ import ca.bradj.orecore.item.OreCoreItem;
 
 public class ZincIngot extends OreCoreItem {
 
-	public ZincIngot(int zincIngotId) {
-		super(zincIngotId, "zincIngot");
+	public ZincIngot() {
+		super("zincIngot");
 	}
 
 }

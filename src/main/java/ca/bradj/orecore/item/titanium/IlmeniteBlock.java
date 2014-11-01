@@ -4,8 +4,8 @@ import ca.bradj.orecore.item.OreBlock;
 
 public class IlmeniteBlock extends OreBlock {
 
-	public IlmeniteBlock(int id) {
-		super(id, "ilmenite");
+	public IlmeniteBlock() {
+		super("ilmenite");
 		setHardness(4.0f);
 		setHarvestLevel("pickaxe", 2);
 	}

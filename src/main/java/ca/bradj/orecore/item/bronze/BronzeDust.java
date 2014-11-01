@@ -4,8 +4,8 @@ import ca.bradj.orecore.item.OreCoreItem;
 
 public class BronzeDust extends OreCoreItem {
 
-	public BronzeDust(int id) {
-		super(id, "bronzeDust");
+	public BronzeDust() {
+		super("bronzeDust");
 	}
 
 }

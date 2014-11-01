@@ -4,8 +4,8 @@ import ca.bradj.orecore.item.OreBlock;
 
 public class SilverBlockInferior extends OreBlock {
 
-	public SilverBlockInferior(int id) {
-		super(id, "silverInferior");
+	public SilverBlockInferior() {
+		super("silverInferior");
 		setHardness(2.0f);
 		setHarvestLevel("pickaxe", 1);
 	}

@@ -4,8 +4,8 @@ import ca.bradj.orecore.item.OreCoreItem;
 
 public class NickelDust extends OreCoreItem {
 
-	public NickelDust(int id) {
-		super(id, "nickelDust");
+	public NickelDust() {
+		super("nickelDust");
 	}
 
 }

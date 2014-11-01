@@ -1,11 +1,11 @@
 package ca.bradj.orecore.item.bronze;
 
-import ca.bradj.orecore.item.PureBlock;
+import ca.bradj.orecore.item.zinc.PureBlockCore;
 
-public class BronzePureBlock extends PureBlock {
+public class BronzePureBlock extends PureBlockCore {
 
-	public BronzePureBlock(int id) {
-		super(id, "bronzeBlock");
+	public BronzePureBlock() {
+		super("bronzeBlock");
 	}
 
 }

@@ -1,7 +1,5 @@
 package ca.bradj.orecore;
 
-import java.util.logging.Logger;
-
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import ca.bradj.orecore.item.OreCoreItems;
@@ -16,24 +14,21 @@ import cpw.mods.fml.relauncher.SideOnly;
 
 @Mod(modid = OreCore.MODID, version = OreCore.VERSION)
 public class OreCore {
-	
+
 	@SidedProxy(clientSide="ca.bradj.orecore.ClientProxy", serverSide="ca.bradj.orecore.ServerProxy")
     public static CommonProxy proxy;
-	
-	@SuppressWarnings("unused")
-	private static final Logger LOGGER = Logger.getLogger("Minecraft");
-	
+
 	public static final String MODID = "OreCore";
-	public static final String VERSION = "0.1";
+	public static final String VERSION = "1.0.1";
 
 	public static CreativeTabs tabOreCore = new CreativeTabs("tabOreCore") {
 	    @Override
 	    @SideOnly(Side.CLIENT)
 	    public Item getTabIconItem() {
-	        return OreCoreItems.copperIngot;
+	        return OreCoreItems.osmiumIngot;
 	    }
 	};
-	
+
     /**
      * Run before anything else. Read your config, create blocks, items, etc, and
      * register them with the GameRegistry.
@@ -42,21 +37,21 @@ public class OreCore {
     public void preInit(FMLPreInitializationEvent e) {
         OreCore.proxy.preInit(e);
     }
-    
+
     /**
      * Do your mod setup. Build whatever data structures you care about. Register recipes.
      */
     @EventHandler
-    public void init(FMLInitializationEvent e) {
-    	OreCore.proxy.init(e);
+    public void init(@SuppressWarnings("unused") FMLInitializationEvent e) {
+    	OreCore.proxy.init();
     }
 
     /**
      * Handle interaction with other mods, complete your setup based on this.
      */
     @EventHandler
-    public void postInit(FMLPostInitializationEvent e) {
-    	OreCore.proxy.postInit(e);
+    public void postInit(@SuppressWarnings("unused") FMLPostInitializationEvent e) {
+    	OreCore.proxy.postInit();
     }
-    
+
 }

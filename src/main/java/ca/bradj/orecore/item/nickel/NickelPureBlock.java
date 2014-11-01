@@ -1,11 +1,11 @@
 package ca.bradj.orecore.item.nickel;
 
-import ca.bradj.orecore.item.PureBlock;
+import ca.bradj.orecore.item.zinc.PureBlockCore;
 
-public class NickelPureBlock extends PureBlock {
+public class NickelPureBlock extends PureBlockCore {
 
-	public NickelPureBlock(int id) {
-		super(id, "nickelBlock");
+	public NickelPureBlock() {
+		super("nickelBlock");
 	}
 
 }

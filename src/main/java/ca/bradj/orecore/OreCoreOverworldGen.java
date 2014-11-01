@@ -2,24 +2,20 @@ package ca.bradj.orecore;
 
 import java.util.Random;
 
-import org.apache.logging.log4j.Logger;
-
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.world.World;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.common.config.Property;
+
+import org.apache.logging.log4j.Logger;
+
 import ca.bradj.orecore.item.OreCoreItems;
-import ca.bradj.orecore.item.aluminum.Aluminum;
-import ca.bradj.orecore.item.copper.Copper;
-import ca.bradj.orecore.item.gold.Gold;
-import ca.bradj.orecore.item.iron.Iron;
 import ca.bradj.orecore.item.iron_manganese.IronManganese;
 import ca.bradj.orecore.item.nickel.Nickel;
 import ca.bradj.orecore.item.osmium.Osmium;
 import ca.bradj.orecore.item.silver.Silver;
-import ca.bradj.orecore.item.tin.Tin;
 import ca.bradj.orecore.item.titanium.Titanium;
 import ca.bradj.orecore.item.zinc.Zinc;
 
@@ -33,7 +29,7 @@ public class OreCoreOverworldGen {
 	private int x;
 	private int z;
 
-	public OreCoreOverworldGen(Configuration config, Logger logger, World world, Random random, int x, int z) {
+	public OreCoreOverworldGen(Configuration config, @SuppressWarnings("unused") Logger logger, World world, Random random, int x, int z) {
 		this.world = Preconditions.checkNotNull(world);
 		this.random = Preconditions.checkNotNull(random);
 		this.config = Preconditions.checkNotNull(config);
@@ -42,19 +38,6 @@ public class OreCoreOverworldGen {
 	}
 
 	public void generate() {
-
-		doGenerateOre(OreCoreItems.bauxite, 0, Aluminum.BAUXITE_TOP_LEVEL, Aluminum.BAUXITE_VEIN_SIZE, config, "bauxite");
-		doGenerateOre(OreCoreItems.bauxiteGravel, 0, Aluminum.BAUXITE_TOP_LEVEL, Aluminum.BAUXITE_GRAVEL_VEIN_SIZE, OreCoreItems.bauxite, config, "bauxiteGravel");
-
-		doGenerateOre(OreCoreItems.copper, 0, Copper.COPPER_TOP_LEVEL, Copper.COPPER_VEIN_SIZE, config, "copper");
-		doGenerateOre(OreCoreItems.copperGravel, 0, Copper.COPPER_GRAVEL_TOP_LEVEL, Copper.COPPER_GRAVEL_VEIN_SIZE, Blocks.gravel, config, "copperGravel");
-		doGenerateOre(OreCoreItems.copperInferior, 0, Copper.COPPER_INFERIOR_TOP_LEVEL, Copper.COPPER_INFERIOR_VEIN_SIZE, config, "copperInferior");
-
-		doGenerateOre(OreCoreItems.goldGravel, 0, Gold.GOLD_GRAVEL_TOP_LEVEL, Gold.GOLD_GRAVEL_VEIN_SIZE, Blocks.gravel, config, "goldGravel");
-		doGenerateOre(OreCoreItems.goldInferior, 0, Gold.GOLD_INFERIOR_TOP_LEVEL, Gold.GOLD_INFERIOR_VEIN_SIZE, config, "goldInferior");
-
-		doGenerateOre(OreCoreItems.ironGravel, 0, Iron.IRON_GRAVEL_TOP_LEVEL, Iron.IRON_GRAVEL_VEIN_SIZE, Blocks.gravel, config, "ironGravel");
-		doGenerateOre(OreCoreItems.ironInferior, 0, Iron.IRON_INFERIOR_TOP_LEVEL, Iron.IRON_INFERIOR_VEIN_SIZE, config, "ironInferior");
 
 		doGenerateOre(OreCoreItems.ironManganese, 0, IronManganese.IRON_MANGANESE_TOP_LEVEL, IronManganese.IRON_MANGANESE_VEIN_SIZE, config, "ironManganese");
 
@@ -69,10 +52,6 @@ public class OreCoreOverworldGen {
 		doGenerateOre(OreCoreItems.silver, 0, Silver.SILVER_TOP_LEVEL, Silver.SILVER_VEIN_SIZE, config, "silver");
 		doGenerateOre(OreCoreItems.silverGravel, 0, Silver.SILVER_GRAVEL_TOP_LEVEL, Silver.SILVER_GRAVEL_VEIN_SIZE, Blocks.gravel, config, "silverGravel");
 		doGenerateOre(OreCoreItems.silverInferior, 0, Silver.SILVER_INFERIOR_TOP_LEVEL, Silver.SILVER_INFERIOR_VEIN_SIZE, config, "silverInferior");
-
-		doGenerateOre(OreCoreItems.tin, 0, Tin.TIN_TOP_LEVEL, Tin.TIN_VEIN_SIZE, config, "tin");
-		doGenerateOre(OreCoreItems.tinGravel, 0, Tin.TIN_GRAVEL_TOP_LEVEL, Tin.TIN_GRAVEL_VEIN_SIZE, Blocks.gravel, config, "tinGravel");
-		doGenerateOre(OreCoreItems.tinInferior, 0, Tin.TIN_INFERIOR_TOP_LEVEL, Tin.TIN_INFERIOR_VEIN_SIZE, config, "tinInferior");
 
 		doGenerateOre(OreCoreItems.rutile, 0, Titanium.RUTILE_TOP_LEVEL, Titanium.RUTILE_VEIN_SIZE, Blocks.sand, config, "rutile");
 		doGenerateOre(OreCoreItems.rutileInferior, 0, Titanium.RUTILE_INFERIOR_TOP_LEVEL, Titanium.RUTILE_INFERIOR_VEIN_SIZE, Blocks.sand, config, "rutileInferior");

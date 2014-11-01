@@ -4,8 +4,8 @@ import ca.bradj.orecore.item.OreBlock;
 
 public class OsmiumBlockInferior extends OreBlock {
 
-	public OsmiumBlockInferior(int id) {
-		super(id, "osmiumInferior");
+	public OsmiumBlockInferior() {
+		super("osmiumInferior");
 		setHardness(2f);
 		this.setHarvestLevel("pickaxe", 1);
 	}
