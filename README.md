@@ -8,11 +8,15 @@ Every item in this mod is obtainable somehow in Vanilla Minecraft.  No machines 
 All metals are obtainable as dust by shoveling their gravel.  For example, iron dust is obtainable from iron gravel 
 ore.  Mind that, unless configured otherwise (TBD) it may be quite rare to come across these gravels.
 
+Forum Post
+=======
+http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2257628-orecore
+
 Releases
 =======
 
-0.1.2
-http://bradj.ca:8081/nexus/content/repositories/releases/ca/bradj/OreCore/1.7.10-0.1.2/OreCore-1.7.10-0.1.2.jar
+1.0.1
+http://bradj.ca:8081/nexus/content/repositories/releases/ca/bradj/OreCore/1.7.10-1.0.1/OreCore-1.7.10-1.0.1.jar
 
 Ores
 =======
