@@ -15,25 +15,27 @@ http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods
 Releases
 =======
 
-1.0.1
-http://bradj.ca:8081/nexus/content/repositories/releases/ca/bradj/OreCore/1.7.10-1.0.1/OreCore-1.7.10-1.0.1.jar
+2.1.0 (Obfuscated)
+http://bradj.ca:8081/nexus/service/local/repositories/releases/content/ca/bradj/OreCore/1.7.10-2.1.0/OreCore-1.7.10-2.1.0.jar
+2.1.1-SNAPSHOT (For Devs)
+http://bradj.ca:8081/nexus/service/local/repositories/snapshots/content/ca/bradj/OreCore/1.7.10-2.1.1-SNAPSHOT/OreCore-1.7.10-2.1.1-20141102.230517-1.jar
 
 Ores
 =======
--Aluminum  
+-Aluminum (_From OreCoreMin_)
 -Brass (obtained by combining copper dust and zinc dust)  
 -Bronze (obtained by combining copper dust and tin dust)  
--Copper  
--Copper II Carbonate (obtained from copper gravel)  
--Gold (dust, gravel, inferior ore)  
--Iron (dust, gravel, nuggets, inferior ore)  
+-Copper  (_From OreCoreMin_)
+-Copper II Carbonate (From OreCoreMin) (obtained from copper gravel)  
+-Gold (_From OreCoreMin_) (dust, gravel, inferior ore)  
+-Iron (_From OreCoreMin_) (dust, gravel, nuggets, inferior ore)  
 -Lead  
 -Manganese (obtained as a dust from mining Iron-Manganese Ore)  
 -Nickel  
 -Osmium  
 -Silver  
 -Steel (obtained by combining iron dust and manganese dust)  
--Tin  
+-Tin (_From OreCoreMin_)
 -Titanium (obtained by smelting rutile ore found on beaches or ilmenite ore found deep underground)  
 -Zinc  
 
