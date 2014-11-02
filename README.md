@@ -15,9 +15,9 @@ http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods
 Releases
 =======
 
-2.1.0 (Obfuscated)
+2.1.0 (Obfuscated)  
 http://bradj.ca:8081/nexus/service/local/repositories/releases/content/ca/bradj/OreCore/1.7.10-2.1.0/OreCore-1.7.10-2.1.0.jar  
-2.1.1-SNAPSHOT (For Devs)
+2.1.1-SNAPSHOT (For Devs)  
 http://bradj.ca:8081/nexus/service/local/repositories/snapshots/content/ca/bradj/OreCore/1.7.10-2.1.1-SNAPSHOT/OreCore-1.7.10-2.1.1-20141102.230517-1.jar  
 
 Ores
