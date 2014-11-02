@@ -1,4 +1,4 @@
-def modVersion='1.7.10-2.0.0'
+def modVersion='1.7.2-1.0.1-SNAPSHOT'
 def modName='OreCore'
 
 buildscript {
@@ -48,7 +48,7 @@ group= "ca.bradj.orecore"
 archivesBaseName=modName + '-' + modVersion
 
 minecraft {
-    version="1.7.10-10.13.2.1230"
+    version="1.7.2-10.12.2.1121"
     assetDir="eclipse/assets"
 }
 
@@ -64,7 +64,7 @@ repositories {
 }
 
 dependencies {
-	compile 'ca.bradj:OreCoreMin:1.7.10-1.0.0'
+	compile 'ca.bradj:OreCoreMin:1.7.2-1.0.0-dev'
 }
 
 processResources
