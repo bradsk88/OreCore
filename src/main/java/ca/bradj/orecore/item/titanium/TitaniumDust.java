@@ -1,6 +1,6 @@
 package ca.bradj.orecore.item.titanium;
 
-import ca.bradj.orecore.item.OreCoreItem;
+import ca.bradj.orecore.item.base.OreCoreItem;
 
 public class TitaniumDust extends OreCoreItem {
 

@@ -1,6 +1,6 @@
 package ca.bradj.orecore.item.lead;
 
-import ca.bradj.orecore.item.OreBlock;
+import ca.bradj.orecore.item.base.OreBlock;
 
 public class LeadBlock extends OreBlock {
 

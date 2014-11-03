@@ -1,12 +1,17 @@
 package ca.bradj.orecore.item.zinc;
 
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
 import ca.bradj.orecore.OreCore;
-import ca.bradj.orecoremin.item.PureBlock;
 
-public class PureBlockCore extends PureBlock {
+public class PureBlockCore extends Block {
 
-    public PureBlockCore(String name) {
-        super("orecore", name, OreCore.tabOreCore);
+    public PureBlockCore(String texture) {
+        super(Material.rock);
+        setHardness(3.0f);
+        setHarvestLevel("pickaxe", 1);
+        setBlockTextureName("orecore:" + texture);
+        setCreativeTab(OreCore.tabOreCore);
     }
 
 }

@@ -1,6 +1,6 @@
 package ca.bradj.orecore.item.silver;
 
-import ca.bradj.orecore.item.OreBlock;
+import ca.bradj.orecore.item.base.OreBlock;
 
 public class SilverBlock extends OreBlock {
 

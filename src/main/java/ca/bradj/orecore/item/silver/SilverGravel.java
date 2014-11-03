@@ -8,11 +8,11 @@ import net.minecraft.world.World;
 import com.google.common.collect.Lists;
 
 import ca.bradj.orecore.item.OreCoreItems;
-import ca.bradj.orecore.item.GravelBlock;
+import ca.bradj.orecore.item.base.GravelBlock;
 
 public class SilverGravel extends GravelBlock {
 
-	protected SilverGravel() {
+	public SilverGravel() {
 		super("silverGravel");
 		setHardness(2f);
 		setHarvestLevel("shovel", 2);
@@ -20,7 +20,7 @@ public class SilverGravel extends GravelBlock {
 
 	@Override
 	public ArrayList<ItemStack> getDrops(World world, int x, int y, int z, int metadata, int fortune) {
-		return Lists.newArrayList(new ItemStack(OreCoreItems.silverDust, 1));
+		return Lists.newArrayList(new ItemStack(OreCoreItems.silver().asDust(), 1));
 	}
 
 }

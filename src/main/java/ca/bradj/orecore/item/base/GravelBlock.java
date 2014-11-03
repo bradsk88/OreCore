@@ -1,4 +1,4 @@
-package ca.bradj.orecore.item;
+package ca.bradj.orecore.item.base;
 
 import net.minecraft.block.BlockFalling;
 import ca.bradj.orecore.OreCore;

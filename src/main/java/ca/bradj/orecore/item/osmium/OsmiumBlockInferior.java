@@ -1,6 +1,6 @@
 package ca.bradj.orecore.item.osmium;
 
-import ca.bradj.orecore.item.OreBlock;
+import ca.bradj.orecore.item.base.OreBlock;
 
 public class OsmiumBlockInferior extends OreBlock {
 

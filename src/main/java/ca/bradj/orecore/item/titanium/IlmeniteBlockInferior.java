@@ -1,6 +1,6 @@
 package ca.bradj.orecore.item.titanium;
 
-import ca.bradj.orecore.item.OreBlock;
+import ca.bradj.orecore.item.base.OreBlock;
 
 public class IlmeniteBlockInferior extends OreBlock {
 

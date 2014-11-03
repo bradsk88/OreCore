@@ -1,6 +1,6 @@
 package ca.bradj.orecore.item.zinc;
 
-import ca.bradj.orecore.item.OreBlock;
+import ca.bradj.orecore.item.base.OreBlock;
 
 public class ZincBlockInferior extends OreBlock {
 
