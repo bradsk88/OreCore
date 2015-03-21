@@ -37,13 +37,13 @@ public class Silver implements StandardElement {
 
     public static final DictionaryNames DICT = new DictionaryNames() {
         {
-            super.ORE = "oreSilver";
-            super.INFERIOR = "oreSilverInferior";
-            super.DUST = "dustSilver";
-            super.INGOT = "ingotSilver";
-            super.NUGGET = "nuggetSilver";
-            super.GRAVEL = "gravelSilver";
-            super.PURE_BLOCK = "blockSilver";
+            super.ORE.set("oreSilver");
+            super.INFERIOR.set("oreSilverInferior");
+            super.DUST.set("dustSilver");
+            super.INGOT.set("ingotSilver");
+            super.NUGGET.set("nuggetSilver");
+            super.GRAVEL.set("gravelSilver");
+            super.PURE_BLOCK.set("blockSilver");
         }
     };
 
@@ -86,6 +86,5 @@ public class Silver implements StandardElement {
 	@Override public Item asNugget() { return OreCoreItemsReg.silverNugget; }
 	@Override public OreBlock asOre() { return OreCoreItemsReg.silver; }
 	@Override public Block asPureBlock() { return OreCoreItemsReg.silverBlock; }
-
 
 }

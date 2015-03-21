@@ -37,13 +37,13 @@ public class Zinc implements StandardElement {
 
     public static final DictionaryNames DICT = new DictionaryNames() {
         {
-            super.ORE = "oreZinc";
-            super.INFERIOR = "oreZincInferior";
-            super.DUST = "dustZinc";
-            super.INGOT = "ingotZinc";
-            super.NUGGET = "nuggetZinc";
-            super.GRAVEL = "gravelZinc";
-            super.PURE_BLOCK = "blockZinc";
+            super.ORE.set("oreZinc");
+            super.INFERIOR.set("oreZincInferior");
+            super.DUST.set("dustZinc");
+            super.INGOT.set("ingotZinc");
+            super.NUGGET.set("nuggetZinc");
+            super.GRAVEL.set("gravelZinc");
+            super.PURE_BLOCK.set("blockZinc");
         }
     };
 

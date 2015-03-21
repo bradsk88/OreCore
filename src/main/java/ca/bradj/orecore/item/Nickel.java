@@ -28,13 +28,13 @@ public class Nickel implements StandardElement {
 
     public static final DictionaryNames DICT = new DictionaryNames() {
         {
-            super.ORE = "oreNickel";
-            super.INFERIOR = "oreNickelInferior";
-            super.DUST = "dustNickel";
-            super.INGOT = "ingotNickel";
-            super.NUGGET = "nuggetNickel";
-            super.GRAVEL = "gravelNickel";
-            super.PURE_BLOCK = "blockNickel";
+            super.ORE.set("oreNickel");
+            super.INFERIOR.set("oreNickelInferior");
+            super.DUST.set("dustNickel");
+            super.INGOT.set("ingotNickel");
+            super.NUGGET.set("nuggetNickel");
+            super.GRAVEL.set("gravelNickel");
+            super.PURE_BLOCK.set("blockNickel");
         }
     };
 

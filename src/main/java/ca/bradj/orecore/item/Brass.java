@@ -1,6 +1,9 @@
 package ca.bradj.orecore.item;
 
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
+import net.minecraftforge.oredict.ShapelessOreRecipe;
 import ca.bradj.forge.OreCoreRegistration;
 import ca.bradj.orecore.item.brass.BrassDust;
 import ca.bradj.orecore.item.brass.BrassIngot;
@@ -33,12 +36,13 @@ public class Brass {
     }
 
     public static void init() {
-        OreCoreRegistration.addShapelessRecipe(OreCoreItemsReg.brassDust, 2, Copper.DICT.DUST, Zinc.DICT.DUST);
+        ShapelessOreRecipe recipe = new ShapelessOreRecipe(new ItemStack(OreCoreItemsReg.brassDust, 2), Copper.DICT.DUST.get(), Zinc.DICT.DUST.get());
+        GameRegistry.addRecipe(recipe);
 
-        OreCoreRegistration.nuggetToIngotStandard(BRASS_NUGGET_DICT, OreCoreItemsReg.brassIngot);
-        OreCoreRegistration.ingotToNuggetStandard(BRASS_INGOT_DICT, OreCoreItemsReg.brassNugget);
-        OreCoreRegistration.ingotToBlockStandard(BRASS_INGOT_DICT, OreCoreItemsReg.brassBlock);
-        OreCoreRegistration.blockToIngotStandard(BRASS_BLOCK_DICT, OreCoreItemsReg.brassIngot);
+        OreCoreRegistration.nuggetToIngotStandard(OreCoreItemsReg.brassNugget, BRASS_NUGGET_DICT, OreCoreItemsReg.brassIngot);
+        OreCoreRegistration.ingotToNuggetStandard(OreCoreItemsReg.brassIngot, BRASS_INGOT_DICT, OreCoreItemsReg.brassNugget);
+        OreCoreRegistration.ingotToBlockStandard(OreCoreItemsReg.brassIngot, BRASS_INGOT_DICT, OreCoreItemsReg.brassBlock);
+        OreCoreRegistration.blockToIngotStandard(OreCoreItemsReg.brassBlock, BRASS_BLOCK_DICT, OreCoreItemsReg.brassIngot);
 
         OreCoreRegistration.addSmelting(OreCoreItemsReg.brassDust, OreCoreItemsReg.brassIngot, 1);
     }

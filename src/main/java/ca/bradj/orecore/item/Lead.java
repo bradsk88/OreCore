@@ -28,13 +28,13 @@ public class Lead implements StandardElement {
 
     public static final DictionaryNames DICT = new DictionaryNames() {
         {
-            super.ORE = "oreLead";
-            super.INFERIOR = "oreLeadInferior";
-            super.DUST = "dustLead";
-            super.INGOT = "ingotLead";
-            super.NUGGET = "nuggetLead";
-            super.GRAVEL = "gravelLead";
-            super.PURE_BLOCK = "blockLead";
+            super.ORE.set("oreLead");
+            super.INFERIOR.set("oreLeadInferior");
+            super.DUST.set("dustLead");
+            super.INGOT.set("ingotLead");
+            super.NUGGET.set("nuggetLead");
+            super.GRAVEL.set("gravelLead");
+            super.PURE_BLOCK.set("blockLead");
         }
     };
 
@@ -86,6 +86,5 @@ public class Lead implements StandardElement {
 	@Override public Item asNugget() { return OreCoreItemsReg.leadNugget; }
 	@Override public OreBlock asOre() { return OreCoreItemsReg.lead; }
 	@Override public Block asPureBlock() { return OreCoreItemsReg.leadBlock; }
-
 
 }

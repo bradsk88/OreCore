@@ -2,7 +2,9 @@ package ca.bradj.orecore.item;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
+import net.minecraftforge.oredict.ShapelessOreRecipe;
 import ca.bradj.forge.OreCoreRegistration;
 import ca.bradj.forge.StandardForgeable;
 import ca.bradj.orecore.item.steel.SteelDust;
@@ -10,6 +12,7 @@ import ca.bradj.orecore.item.steel.SteelIngot;
 import ca.bradj.orecore.item.steel.SteelNugget;
 import ca.bradj.orecore.item.steel.SteelPureBlock;
 import ca.bradj.orecoremin.item.Iron;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 public class Steel implements StandardForgeable {
 
@@ -36,12 +39,15 @@ public class Steel implements StandardForgeable {
     }
 
     public static void init() {
-        OreCoreRegistration.addShapelessRecipe(OreCoreItemsReg.steelDust, 2, Iron.IRON_DUST_DICT, Manganese.DUST_DICT);
 
-        OreCoreRegistration.nuggetToIngotStandard(STEEL_NUGGET_DICT, OreCoreItemsReg.steelIngot);
-        OreCoreRegistration.ingotToNuggetStandard(STEEL_INGOT_DICT, OreCoreItemsReg.steelNugget);
-        OreCoreRegistration.ingotToBlockStandard(STEEL_INGOT_DICT, OreCoreItemsReg.steelBlock);
-        OreCoreRegistration.blockToIngotStandard(STEEL_BLOCK_DICT, OreCoreItemsReg.steelIngot);
+        ShapelessOreRecipe recipe = new ShapelessOreRecipe(new ItemStack(OreCoreItemsReg.steelDust, 2), Iron.IRON_DUST_DICT,
+                Manganese.DICT.DUST.get());
+        GameRegistry.addRecipe(recipe);
+
+        OreCoreRegistration.nuggetToIngotStandard(OreCoreItemsReg.steelNugget, STEEL_NUGGET_DICT, OreCoreItemsReg.steelIngot);
+        OreCoreRegistration.ingotToNuggetStandard(OreCoreItemsReg.steelIngot, STEEL_INGOT_DICT, OreCoreItemsReg.steelNugget);
+        OreCoreRegistration.ingotToBlockStandard(OreCoreItemsReg.steelIngot, STEEL_INGOT_DICT, OreCoreItemsReg.steelBlock);
+        OreCoreRegistration.blockToIngotStandard(OreCoreItemsReg.steelBlock, STEEL_BLOCK_DICT, OreCoreItemsReg.steelIngot);
 
         OreCoreRegistration.addSmelting(OreCoreItemsReg.steelDust, OreCoreItemsReg.steelIngot, 1);
     }

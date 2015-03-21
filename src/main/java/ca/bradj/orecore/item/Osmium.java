@@ -36,13 +36,13 @@ public class Osmium implements StandardElement {
 
     private static final DictionaryNames DICT = new DictionaryNames() {
         {
-            this.DUST = "dustOsmium";
-            this.GRAVEL = "gravelOsmium";
-            this.INFERIOR = "oreOsmiumInferior";
-            this.INGOT = "ingotOsmium";
-            this.NUGGET = "nuggetOsmium";
-            this.ORE = "oreOsmium";
-            this.PURE_BLOCK = "blockOsmium";
+            this.DUST.set("dustOsmium");
+            this.GRAVEL.set("gravelOsmium");
+            this.INFERIOR.set("oreOsmiumInferior");
+            this.INGOT.set("ingotOsmium");
+            this.NUGGET.set("nuggetOsmium");
+            this.ORE.set("oreOsmium");
+            this.PURE_BLOCK.set("blockOsmium");
         }
     };
 

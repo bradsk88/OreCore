@@ -1,6 +1,9 @@
 package ca.bradj.orecore.item;
 
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
+import net.minecraftforge.oredict.ShapelessOreRecipe;
 import ca.bradj.forge.OreCoreRegistration;
 import ca.bradj.orecore.item.bronze.BronzeDust;
 import ca.bradj.orecore.item.bronze.BronzeIngot;
@@ -35,13 +38,15 @@ public class Bronze {
 
     public static void init() {
 
-        OreCoreRegistration.nuggetToIngotStandard(BRONZE_NUGGET_DICT, OreCoreItemsReg.bronzeIngot);
-        OreCoreRegistration.ingotToNuggetStandard(BRONZE_INGOT_DICT, OreCoreItemsReg.bronzeNugget);
-        OreCoreRegistration.blockToIngotStandard(BRONZE_BLOCK_DICT, OreCoreItemsReg.bronzeIngot);
-        OreCoreRegistration.ingotToBlockStandard(BRONZE_INGOT_DICT, OreCoreItemsReg.bronzeBlock);
+        OreCoreRegistration.nuggetToIngotStandard(OreCoreItemsReg.bronzeNugget, BRONZE_NUGGET_DICT, OreCoreItemsReg.bronzeIngot);
+        OreCoreRegistration.ingotToNuggetStandard(OreCoreItemsReg.bronzeIngot, BRONZE_INGOT_DICT, OreCoreItemsReg.bronzeNugget);
+        OreCoreRegistration.blockToIngotStandard(OreCoreItemsReg.bronzeBlock, BRONZE_BLOCK_DICT, OreCoreItemsReg.bronzeIngot);
+        OreCoreRegistration.ingotToBlockStandard(OreCoreItemsReg.bronzeIngot, BRONZE_INGOT_DICT, OreCoreItemsReg.bronzeBlock);
 
         OreCoreRegistration.addSmelting(OreCoreItemsReg.bronzeDust, OreCoreItemsReg.bronzeIngot, 1);
-        OreCoreRegistration.addShapelessRecipe(OreCoreItemsReg.bronzeDust, 2, Copper.DICT.DUST, Tin.DICT.DUST);
+
+        ShapelessOreRecipe recipe = new ShapelessOreRecipe(new ItemStack(OreCoreItemsReg.bronzeDust, 2), Copper.DICT.DUST.get(), Tin.DICT.DUST.get());
+        GameRegistry.addRecipe(recipe);
     }
 
 }

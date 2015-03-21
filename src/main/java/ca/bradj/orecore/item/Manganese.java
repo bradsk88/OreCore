@@ -3,8 +3,10 @@ package ca.bradj.orecore.item;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.oredict.OreDictionary;
+import ca.bradj.forge.DictionaryNames;
 import ca.bradj.forge.OreCoreRegistration;
 import ca.bradj.forge.StandardForgeable;
+import ca.bradj.forge.StandardForgeableRegistrations;
 import ca.bradj.orecore.item.manganese.ManganeseDust;
 import ca.bradj.orecore.item.manganese.ManganeseIngot;
 import ca.bradj.orecore.item.manganese.ManganeseNugget;
@@ -14,15 +16,19 @@ public class Manganese implements StandardForgeable {
 
     private static final String IM_DICT = "oreIronManganese";
 
-    public static final String DUST_DICT = "dustManganese";
-    public static final String INGOT_DICT = "ingotManganese";
-    public static final String NUGGET_DICT = "nuggetManganese";
-    public static final String BLOCK_DICT = "blockManganese";
-
     private static final String MANGANESE_DUST_NAME = "Manganese.Dust";
     private static final String MANGANESE_NUGGET_NAME = "Manganese.Nugget";
     private static final String MANGANESE_INGOT_NAME = "Manganese.Ingot";
     private static final String MANGANESE_BLOCK_NAME = "Manganese.Block";
+
+    public static final DictionaryNames DICT = new DictionaryNames() {
+        {
+            this.DUST.set("dustManganese");
+            this.INGOT.set("ingotManganese");
+            this.NUGGET.set("nuggetManganese");
+            this.PURE_BLOCK.set("blockManganese");
+        }
+    };
 
     private static Manganese INSTANCE;
 
@@ -40,18 +46,11 @@ public class Manganese implements StandardForgeable {
         OreCoreItemsReg.manganeseBlock = OreCoreRegistration.registerBlock(new ManganesePureBlock(), MANGANESE_BLOCK_NAME);
 
         OreDictionary.registerOre(IM_DICT, OreCoreItemsReg.ironManganese);
-        OreDictionary.registerOre(DUST_DICT, OreCoreItemsReg.manganeseDust);
-        OreDictionary.registerOre(INGOT_DICT, OreCoreItemsReg.manganeseIngot);
-        OreDictionary.registerOre(NUGGET_DICT, OreCoreItemsReg.manganeseNugget);
-        OreDictionary.registerOre(BLOCK_DICT, OreCoreItemsReg.manganeseBlock);
+        StandardForgeableRegistrations.initDictionary(getInstance(), DICT);
     }
 
     public static void init() {
-        OreCoreRegistration.nuggetToIngotStandard(NUGGET_DICT, OreCoreItemsReg.manganeseIngot);
-        OreCoreRegistration.ingotToNuggetStandard(INGOT_DICT, OreCoreItemsReg.manganeseNugget);
-        OreCoreRegistration.ingotToBlockStandard(INGOT_DICT, OreCoreItemsReg.manganeseBlock);
-        OreCoreRegistration.blockToIngotStandard(BLOCK_DICT, OreCoreItemsReg.manganeseIngot);
-
+        StandardForgeableRegistrations.initRecipes(getInstance(), DICT);
         OreCoreRegistration.addSmelting(OreCoreItemsReg.manganeseDust, OreCoreItemsReg.manganeseIngot, 1);
     }
 
