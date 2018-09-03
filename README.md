@@ -1,7 +1,7 @@
 OreCore
 =======
 
-A minecraft mod which ONLY provides ores - hopefully to be used as a standard
+A minecraft mod which ONLY provides ores
 
 Every item in this mod is obtainable somehow in Vanilla Minecraft.  No machines should be necessary.
 
